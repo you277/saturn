@@ -17,8 +17,8 @@ function fetch() {
 fetch types.sql
 fetch rooms.sql
 fetch courses.sql
-fetch teachers_depts.sql
 fetch classes_sched_students.sql
+fetch teachers_depts.sql
 
 echo "OK"
 
