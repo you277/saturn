@@ -30,7 +30,7 @@ for (let i = 0; i < numTeachers; i++) {
     classInserts.push(`INSERT INTO classes (id,room_id,course_id) VALUES (${classId},${roomId},${courseId});`)
     classesByPeriod[period - 1].push(classId)
 
-    scheduleInserts.push(`INSERT INTO schedules (id,p${period}) VALUES (${teacherId},${classId});`)
+    scheduleInserts.push(`INSERT INTO schedules (id,pd${period}) VALUES (${teacherId},${classId});`)
 
 
     // if (teacherSchedules[teacherId]) {
@@ -75,5 +75,5 @@ console.log([
     scheduleInserts.join("\n"),
     studentInserts.join("\n")
 ]. join("\n"))
-console.log(classesByPeriod)
+//console.log(classesByPeriod)
 // console.log(classPeriods)
