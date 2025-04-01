@@ -1,3 +1,7 @@
+/*
+    creates courses
+*/
+
 let input = `1|Anatomy
 3|Biology
 3|Environmental
