@@ -1,3 +1,7 @@
+/*
+    creates teachers and their assignments
+*/
+
 function parseName(full) {
 	let segments = []
 	for (let s of full.split(" ")) {
