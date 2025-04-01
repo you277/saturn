@@ -1,3 +1,7 @@
+/*
+    creates rooms
+*/
+
 let inserts = []
 let floorSections = ["N","W","E","S","C"]
 
