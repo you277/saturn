@@ -1,3 +1,6 @@
+/*
+    creates classes, students, schedules, assignments, and grades
+*/
 
 const numCourses = 99
 const numRooms = 800
@@ -7,15 +10,21 @@ const numTeachers = 129
 let classInserts = []
 let studentInserts = []
 let scheduleInserts = []
+let assignmentInserts = []
+let gradeInserts = []
 
 let teacherSchedules = []
 let classPeriods = []
 let taken = {}
 
+let courseClasses = {}
+
 let classesByPeriod = [
     [], [], [], [], [],
     [], [], [], [], []
 ]
+
+let curAssignmentId = 0
 
 for (let i = 0; i < numTeachers; i++) {
     let teacherId = i + 1
@@ -30,31 +39,24 @@ for (let i = 0; i < numTeachers; i++) {
     classInserts.push(`INSERT INTO classes (id,room_id,course_id) VALUES (${classId},${roomId},${courseId});`)
     classesByPeriod[period - 1].push(classId)
 
+    if (!courseClasses[courseId]) {
+        courseClasses[courseId] = []
+    }
+    courseClasses[courseId].push(classId)
+
     scheduleInserts.push(`INSERT INTO schedules (id,pd${period}) VALUES (${teacherId},${classId});`)
-
-
-    // if (teacherSchedules[teacherId]) {
-    //     teacherSchedules[teacherId] = {}
-    // }
-    // teacherSchedules[teacherId][period] = classId
-
-    // classPeriods.push({
-    //     classId: classId,
-    //     period: period,
-    //     roomId: roomId
-    // })
 }
 
-// for (let teacherId of Object.keys(teacherSchedules)) {
-//     let sched = teacherSchedules[teacherId]
-//     let periods = []
-//     let classIds = []
-//     for (let period of Object.keys(sched)) {
-//         periods.push(periods, `p${period}`)
-//         classIds.push(sched[period])
-//     }
-//     scheduleInserts.push(`INSERT INTO schedules (id,${periods.join(",")}) VALUES (${teacherId},${classIds.join(",")});`)
-// }
+function addAssignment(classId, assignmentType) {
+    curAssignmentId++
+    assignmentInserts.push(`INSERT INTO assignments (id,class_id,name,type) VALUES (${curAssignmentId},${classId},'',${assignmentType});`)
+}
+
+for (let courseId of Object.keys(courseClasses)) {
+    let classIds = courseClasses[courseId]
+    let classId = classIds[Math.floor(Math.random()*classIds.length)]
+    addAssignment(classId, Math.ceil(Math.random()*2))
+}
 
 // 5000 students
 for (let i = 1; i <= 5000; i++) {
@@ -72,8 +74,9 @@ for (let i = 1; i <= 5000; i++) {
 
 console.log([
     classInserts.join("\n"),
+    assignmentInserts.join("\n"),
     scheduleInserts.join("\n"),
-    studentInserts.join("\n")
+    studentInserts.join("\n"),
+    gradeInserts.join("\n")
 ]. join("\n"))
-//console.log(classesByPeriod)
-// console.log(classPeriods)
+
