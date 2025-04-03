@@ -2,6 +2,8 @@
     creates classes, students, schedules, assignments, and grades
 */
 
+const fs = require("fs")
+
 const numCourses = 99
 const numRooms = 800
 const periods = 10
@@ -67,7 +69,12 @@ function addAssignment(classId, assignmentType) {
 for (let courseId of Object.keys(courseClasses)) {
     let classIds = courseClasses[courseId]
     let classId = classIds[Math.floor(Math.random()*classIds.length)]
-    addAssignment(classId, Math.ceil(Math.random()*2))
+    for (let i = 0; i < 12; i++) {
+        addAssignment(classId, 1)
+    }
+    for (let i = 0; i < 3; i++) {
+        addAssignment(classId, 2)
+    }
 }
 
 // 5000 students
@@ -92,11 +99,8 @@ for (let studentId = 1; studentId <= 5000; studentId++) {
     scheduleInserts.push(`INSERT INTO schedules (id,${keys.join(",")}) VALUES (${scheduleId},${classIds.join(",")});`)
 }
 
-console.log([
-    classInserts.join("\n"),
-    assignmentInserts.join("\n"),
-    scheduleInserts.join("\n"),
-    studentInserts.join("\n"),
-    gradeInserts.join("\n")
-]. join("\n"))
-
+fs.writeFileSync("data/classes.sql", classInserts.join("\n"))
+fs.writeFileSync("data/assignments.sql", assignmentInserts.join("\n"))
+fs.writeFileSync("data/schedules.sql", scheduleInserts.join("\n"))
+fs.writeFileSync("data/students.sql", studentInserts.join("\n"))
+fs.writeFileSync("data/grades.sql", gradeInserts.join("\n"))
