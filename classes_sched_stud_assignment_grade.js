@@ -24,6 +24,10 @@ let classesByPeriod = [
     [], [], [], [], []
 ]
 
+let assignments = {
+    // [classId]: [assignmentId]
+}
+
 let curAssignmentId = 0
 
 for (let i = 0; i < numTeachers; i++) {
@@ -36,6 +40,7 @@ for (let i = 0; i < numTeachers; i++) {
         roomId = Math.ceil(Math.random()*numRooms)
         period = Math.ceil(Math.random()*periods)
     }
+    taken[`${roomId}-${period}`] = true
     classInserts.push(`INSERT INTO classes (id,room_id,course_id) VALUES (${classId},${roomId},${courseId});`)
     classesByPeriod[period - 1].push(classId)
 
@@ -49,7 +54,14 @@ for (let i = 0; i < numTeachers; i++) {
 
 function addAssignment(classId, assignmentType) {
     curAssignmentId++
-    assignmentInserts.push(`INSERT INTO assignments (id,class_id,name,type) VALUES (${curAssignmentId},${classId},'',${assignmentType});`)
+    let name = `assignment_${curAssignmentId}`
+    assignmentInserts.push(`INSERT INTO assignments (id,class_id,name,type) VALUES (${curAssignmentId},${classId},'${name}',${assignmentType});`)
+    let list = assignments[classId]
+    if (!list) {
+        list = []
+        assignments[classId] = list
+    }
+    list.push(curAssignmentId)
 }
 
 for (let courseId of Object.keys(courseClasses)) {
@@ -59,16 +71,24 @@ for (let courseId of Object.keys(courseClasses)) {
 }
 
 // 5000 students
-for (let i = 1; i <= 5000; i++) {
-    let scheduleId = numTeachers + i
+for (let studentId = 1; studentId <= 5000; studentId++) {
+    let scheduleId = numTeachers + studentId
     let keys = []
     let classIds = []
     for (let i = 0; i < 10; i++) {
         let classes = classesByPeriod[i]
-        classIds.push(classes[Math.floor(Math.random()*classes.length)])
+        let classId = classes[Math.floor(Math.random()*classes.length)]
+        classIds.push(classId)
         keys.push(`pd${i + 1}`)
+
+        if (assignments[classId]) {
+            for (let assignmentId of assignments[classId]) {
+                let grade = 75 + Math.round(Math.random()*25)
+                gradeInserts.push(`INSERT INTO grades (assignment_id,student_id,grade) VALUES (${assignmentId},${studentId},${grade});`)
+            }
+        }
     }
-    studentInserts.push(`INSERT INTO students (id,first_name,last_name,schedule_id) VALUES (${i},'John${i}','Doe${i}',${scheduleId});`)
+    studentInserts.push(`INSERT INTO students (id,first_name,last_name,schedule_id) VALUES (${studentId},'John${studentId}','Doe${studentId}',${scheduleId});`)
     scheduleInserts.push(`INSERT INTO schedules (id,${keys.join(",")}) VALUES (${scheduleId},${classIds.join(",")});`)
 }
 
