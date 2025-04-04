@@ -5,7 +5,7 @@
 const fs = require("fs")
 
 const numCourses = 99
-const numRooms = 800
+const numRooms = 720
 const periods = 10
 const numTeachers = 129
 
@@ -15,8 +15,6 @@ let scheduleInserts = []
 let assignmentInserts = []
 let gradeInserts = []
 
-let teacherSchedules = []
-let classPeriods = []
 let taken = {}
 
 let courseClasses = {}
