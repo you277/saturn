@@ -17,7 +17,19 @@ function fetch() {
 fetch types.sql
 fetch rooms.sql
 fetch courses.sql
-fetch classes_sched_students.sql
+
+fetch classes.sql
+fetch assignments.sql
+fetch schedules.sql
+fetch students.sql
+
+fetch grades/1.sql
+fetch grades/2.sql
+fetch grades/3.sql
+fetch grades/4.sql
+fetch grades/5.sql
+fetch grades/6.sql
+
 fetch teachers_depts.sql
 
 echo "OK"
