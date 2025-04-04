@@ -18,6 +18,8 @@ function trim(str) {
 	return str.match(/^\s*(.+)\s*$/)[1]
 }
 
+let killTheseOnes = ["Administration - Supervisors"]
+
 let seen = {}
 let teacherNames = []
 let people = []
@@ -28,6 +30,9 @@ for (let category of document.getElementsByClassName("staff-category")) {
 	let categoryName = header.getElementsByTagName("h1")[0].textContent
 	if (!categoryName) continue
 	categoryName = trim(categoryName)
+	if (killTheseOnes.includes(categoryName)) {
+		continue
+	}
 	for (let staff of category.getElementsByClassName("staff-categoryStaffMember")) {
 		let wrapper = staff.getElementsByClassName("staffPhotoWrapperRound")[1]
 		let nameTag = wrapper.getElementsByTagName("dt")[0]
