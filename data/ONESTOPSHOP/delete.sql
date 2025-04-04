@@ -1,0 +1,11 @@
+DELETE FROM grades;
+DELETE FROM students;
+DELETE FROM teachers;
+DELETE FROM schedules;
+DELETE FROM assignments;
+DELETE FROM assignment_types;
+DELETE FROM classes;
+DELETE FROM rooms;
+DELETE FROM courses;
+DELETE FROM course_types;
+DELETE FROM departments;
