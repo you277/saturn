@@ -922,6 +922,8 @@ INSERT INTO rooms (id,name) VALUES (715,'8E19');
 INSERT INTO rooms (id,name) VALUES (716,'8S19');
 INSERT INTO rooms (id,name) VALUES (717,'8N20');
 INSERT INTO rooms (id,name) VALUES (718,'8W20');
+INSERT INTO rooms (id,name) VALUES (719,'8E20');
+INSERT INTO rooms (id,name) VALUES (720,'8S20');
 
 INSERT INTO classes (id,room_id,course_id) VALUES (1,544,1);
 INSERT INTO classes (id,room_id,course_id) VALUES (2,353,2);
@@ -1052,5 +1054,3 @@ INSERT INTO classes (id,room_id,course_id) VALUES (126,202,27);
 INSERT INTO classes (id,room_id,course_id) VALUES (127,6,28);
 INSERT INTO classes (id,room_id,course_id) VALUES (128,377,29);
 INSERT INTO classes (id,room_id,course_id) VALUES (129,301,30);
-INSERT INTO rooms (id,name) VALUES (719,'8E20');
-INSERT INTO rooms (id,name) VALUES (720,'8S20');
