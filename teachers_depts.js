@@ -1,6 +1,7 @@
 /*
     creates teachers and their assignments
 */
+// run this on the staff page
 
 function parseName(full) {
 	let segments = []
