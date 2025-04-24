@@ -29,6 +29,8 @@ fetch grades/3.sql
 fetch grades/4.sql
 fetch grades/5.sql
 fetch grades/6.sql
+fetch grades/7.sql
+fetch grades/8.sql
 
 fetch teachers_depts.sql
 
