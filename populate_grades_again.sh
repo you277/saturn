@@ -1,3 +1,7 @@
+#!/bin/bash
+
+# because i messed up the initial grades count
+
 file_name=".fix_data.sql"
 user=""
 pw=""
