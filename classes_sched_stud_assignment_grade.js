@@ -8,6 +8,7 @@ const numCourses = 99
 const numRooms = 720
 const periods = 10
 const numTeachers = 129
+const gradeSplit = 100000
 
 let classInserts = []
 let studentInserts = []
@@ -66,12 +67,14 @@ function addAssignment(classId, assignmentType) {
 
 for (let courseId of Object.keys(courseClasses)) {
     let classIds = courseClasses[courseId]
-    let classId = classIds[Math.floor(Math.random()*classIds.length)]
-    for (let i = 0; i < 12; i++) {
-        addAssignment(classId, 1)
-    }
-    for (let i = 0; i < 3; i++) {
-        addAssignment(classId, 2)
+    // let classId = classIds[Math.floor(Math.random()*classIds.length)]
+    for (let classId of classIds) {
+        for (let i = 0; i < 12; i++) {
+            addAssignment(classId, 1)
+        }
+        for (let i = 0; i < 3; i++) {
+            addAssignment(classId, 2)
+        }
     }
 }
 
@@ -101,4 +104,12 @@ fs.writeFileSync("data/classes.sql", classInserts.join("\n"))
 fs.writeFileSync("data/assignments.sql", assignmentInserts.join("\n"))
 fs.writeFileSync("data/schedules.sql", scheduleInserts.join("\n"))
 fs.writeFileSync("data/students.sql", studentInserts.join("\n"))
-fs.writeFileSync("data/grades.sql", gradeInserts.join("\n"))
+
+
+let i = 1
+while (true) {
+    let joins = gradeInserts.splice(0, gradeSplit)
+    if (joins.length == 0) break
+    fs.writeFileSync(`data/grades/${i}.sql`, joins.join("\n"))
+    i++
+}
