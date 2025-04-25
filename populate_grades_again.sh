@@ -29,7 +29,7 @@ write grades/3.sql
 write grades/4.sql
 write grades/5.sql
 write grades/6.sql
-wrote grades/7.sql
+write grades/7.sql
 write grades/8.sql
 
 rm "$file_name"
