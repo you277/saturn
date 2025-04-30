@@ -1,129 +1,325 @@
-INSERT INTO classes (id,room_id,course_id) VALUES (1,133,1);
-INSERT INTO classes (id,room_id,course_id) VALUES (2,455,2);
-INSERT INTO classes (id,room_id,course_id) VALUES (3,321,3);
-INSERT INTO classes (id,room_id,course_id) VALUES (4,668,4);
-INSERT INTO classes (id,room_id,course_id) VALUES (5,654,5);
-INSERT INTO classes (id,room_id,course_id) VALUES (6,302,6);
-INSERT INTO classes (id,room_id,course_id) VALUES (7,267,7);
-INSERT INTO classes (id,room_id,course_id) VALUES (8,118,8);
-INSERT INTO classes (id,room_id,course_id) VALUES (9,305,9);
-INSERT INTO classes (id,room_id,course_id) VALUES (10,643,10);
-INSERT INTO classes (id,room_id,course_id) VALUES (11,551,11);
-INSERT INTO classes (id,room_id,course_id) VALUES (12,400,12);
-INSERT INTO classes (id,room_id,course_id) VALUES (13,441,13);
-INSERT INTO classes (id,room_id,course_id) VALUES (14,674,14);
-INSERT INTO classes (id,room_id,course_id) VALUES (15,602,15);
-INSERT INTO classes (id,room_id,course_id) VALUES (16,644,16);
-INSERT INTO classes (id,room_id,course_id) VALUES (17,35,17);
-INSERT INTO classes (id,room_id,course_id) VALUES (18,142,18);
-INSERT INTO classes (id,room_id,course_id) VALUES (19,200,19);
-INSERT INTO classes (id,room_id,course_id) VALUES (20,8,20);
-INSERT INTO classes (id,room_id,course_id) VALUES (21,663,21);
-INSERT INTO classes (id,room_id,course_id) VALUES (22,511,22);
-INSERT INTO classes (id,room_id,course_id) VALUES (23,211,23);
-INSERT INTO classes (id,room_id,course_id) VALUES (24,318,24);
-INSERT INTO classes (id,room_id,course_id) VALUES (25,104,25);
-INSERT INTO classes (id,room_id,course_id) VALUES (26,215,26);
-INSERT INTO classes (id,room_id,course_id) VALUES (27,386,27);
-INSERT INTO classes (id,room_id,course_id) VALUES (28,250,28);
-INSERT INTO classes (id,room_id,course_id) VALUES (29,59,29);
-INSERT INTO classes (id,room_id,course_id) VALUES (30,136,30);
-INSERT INTO classes (id,room_id,course_id) VALUES (31,313,31);
-INSERT INTO classes (id,room_id,course_id) VALUES (32,37,32);
-INSERT INTO classes (id,room_id,course_id) VALUES (33,583,33);
-INSERT INTO classes (id,room_id,course_id) VALUES (34,329,34);
-INSERT INTO classes (id,room_id,course_id) VALUES (35,437,35);
-INSERT INTO classes (id,room_id,course_id) VALUES (36,140,36);
-INSERT INTO classes (id,room_id,course_id) VALUES (37,543,37);
-INSERT INTO classes (id,room_id,course_id) VALUES (38,617,38);
-INSERT INTO classes (id,room_id,course_id) VALUES (39,254,39);
-INSERT INTO classes (id,room_id,course_id) VALUES (40,169,40);
-INSERT INTO classes (id,room_id,course_id) VALUES (41,306,41);
-INSERT INTO classes (id,room_id,course_id) VALUES (42,224,42);
-INSERT INTO classes (id,room_id,course_id) VALUES (43,210,43);
-INSERT INTO classes (id,room_id,course_id) VALUES (44,311,44);
-INSERT INTO classes (id,room_id,course_id) VALUES (45,360,45);
-INSERT INTO classes (id,room_id,course_id) VALUES (46,576,46);
-INSERT INTO classes (id,room_id,course_id) VALUES (47,51,47);
-INSERT INTO classes (id,room_id,course_id) VALUES (48,292,48);
-INSERT INTO classes (id,room_id,course_id) VALUES (49,527,49);
-INSERT INTO classes (id,room_id,course_id) VALUES (50,207,50);
-INSERT INTO classes (id,room_id,course_id) VALUES (51,267,51);
-INSERT INTO classes (id,room_id,course_id) VALUES (52,414,52);
-INSERT INTO classes (id,room_id,course_id) VALUES (53,269,53);
-INSERT INTO classes (id,room_id,course_id) VALUES (54,385,54);
-INSERT INTO classes (id,room_id,course_id) VALUES (55,392,55);
-INSERT INTO classes (id,room_id,course_id) VALUES (56,337,56);
-INSERT INTO classes (id,room_id,course_id) VALUES (57,367,57);
-INSERT INTO classes (id,room_id,course_id) VALUES (58,349,58);
-INSERT INTO classes (id,room_id,course_id) VALUES (59,373,59);
-INSERT INTO classes (id,room_id,course_id) VALUES (60,601,60);
-INSERT INTO classes (id,room_id,course_id) VALUES (61,462,61);
-INSERT INTO classes (id,room_id,course_id) VALUES (62,674,62);
-INSERT INTO classes (id,room_id,course_id) VALUES (63,38,63);
-INSERT INTO classes (id,room_id,course_id) VALUES (64,246,64);
-INSERT INTO classes (id,room_id,course_id) VALUES (65,133,65);
-INSERT INTO classes (id,room_id,course_id) VALUES (66,308,66);
-INSERT INTO classes (id,room_id,course_id) VALUES (67,81,67);
-INSERT INTO classes (id,room_id,course_id) VALUES (68,30,68);
-INSERT INTO classes (id,room_id,course_id) VALUES (69,407,69);
-INSERT INTO classes (id,room_id,course_id) VALUES (70,703,70);
-INSERT INTO classes (id,room_id,course_id) VALUES (71,675,71);
-INSERT INTO classes (id,room_id,course_id) VALUES (72,183,72);
-INSERT INTO classes (id,room_id,course_id) VALUES (73,717,73);
-INSERT INTO classes (id,room_id,course_id) VALUES (74,49,74);
-INSERT INTO classes (id,room_id,course_id) VALUES (75,537,75);
-INSERT INTO classes (id,room_id,course_id) VALUES (76,561,76);
-INSERT INTO classes (id,room_id,course_id) VALUES (77,349,77);
-INSERT INTO classes (id,room_id,course_id) VALUES (78,312,78);
-INSERT INTO classes (id,room_id,course_id) VALUES (79,363,79);
-INSERT INTO classes (id,room_id,course_id) VALUES (80,392,80);
-INSERT INTO classes (id,room_id,course_id) VALUES (81,375,81);
-INSERT INTO classes (id,room_id,course_id) VALUES (82,342,82);
-INSERT INTO classes (id,room_id,course_id) VALUES (83,165,83);
-INSERT INTO classes (id,room_id,course_id) VALUES (84,452,84);
-INSERT INTO classes (id,room_id,course_id) VALUES (85,198,85);
-INSERT INTO classes (id,room_id,course_id) VALUES (86,351,86);
-INSERT INTO classes (id,room_id,course_id) VALUES (87,702,87);
-INSERT INTO classes (id,room_id,course_id) VALUES (88,388,88);
-INSERT INTO classes (id,room_id,course_id) VALUES (89,153,89);
-INSERT INTO classes (id,room_id,course_id) VALUES (90,309,90);
-INSERT INTO classes (id,room_id,course_id) VALUES (91,539,91);
-INSERT INTO classes (id,room_id,course_id) VALUES (92,152,92);
-INSERT INTO classes (id,room_id,course_id) VALUES (93,712,93);
-INSERT INTO classes (id,room_id,course_id) VALUES (94,338,94);
-INSERT INTO classes (id,room_id,course_id) VALUES (95,655,95);
-INSERT INTO classes (id,room_id,course_id) VALUES (96,644,96);
-INSERT INTO classes (id,room_id,course_id) VALUES (97,422,97);
-INSERT INTO classes (id,room_id,course_id) VALUES (98,423,98);
-INSERT INTO classes (id,room_id,course_id) VALUES (99,583,99);
-INSERT INTO classes (id,room_id,course_id) VALUES (100,100,1);
-INSERT INTO classes (id,room_id,course_id) VALUES (101,477,2);
-INSERT INTO classes (id,room_id,course_id) VALUES (102,14,3);
-INSERT INTO classes (id,room_id,course_id) VALUES (103,232,4);
-INSERT INTO classes (id,room_id,course_id) VALUES (104,199,5);
-INSERT INTO classes (id,room_id,course_id) VALUES (105,642,6);
-INSERT INTO classes (id,room_id,course_id) VALUES (106,253,7);
-INSERT INTO classes (id,room_id,course_id) VALUES (107,365,8);
-INSERT INTO classes (id,room_id,course_id) VALUES (108,490,9);
-INSERT INTO classes (id,room_id,course_id) VALUES (109,475,10);
-INSERT INTO classes (id,room_id,course_id) VALUES (110,245,11);
-INSERT INTO classes (id,room_id,course_id) VALUES (111,71,12);
-INSERT INTO classes (id,room_id,course_id) VALUES (112,278,13);
-INSERT INTO classes (id,room_id,course_id) VALUES (113,246,14);
-INSERT INTO classes (id,room_id,course_id) VALUES (114,31,15);
-INSERT INTO classes (id,room_id,course_id) VALUES (115,303,16);
-INSERT INTO classes (id,room_id,course_id) VALUES (116,628,17);
-INSERT INTO classes (id,room_id,course_id) VALUES (117,69,18);
-INSERT INTO classes (id,room_id,course_id) VALUES (118,295,19);
-INSERT INTO classes (id,room_id,course_id) VALUES (119,413,20);
-INSERT INTO classes (id,room_id,course_id) VALUES (120,353,21);
-INSERT INTO classes (id,room_id,course_id) VALUES (121,256,22);
-INSERT INTO classes (id,room_id,course_id) VALUES (122,312,23);
-INSERT INTO classes (id,room_id,course_id) VALUES (123,122,24);
-INSERT INTO classes (id,room_id,course_id) VALUES (124,38,25);
-INSERT INTO classes (id,room_id,course_id) VALUES (125,615,26);
-INSERT INTO classes (id,room_id,course_id) VALUES (126,520,27);
-INSERT INTO classes (id,room_id,course_id) VALUES (127,362,28);
-INSERT INTO classes (id,room_id,course_id) VALUES (128,684,29);
-INSERT INTO classes (id,room_id,course_id) VALUES (129,265,30);
+INSERT INTO classes (id,room_id,course_id) VALUES
+(1,230,1),
+(2,246,2),
+(3,468,3),
+(4,147,4),
+(5,573,5),
+(6,230,6),
+(7,164,7),
+(8,303,8),
+(9,510,9),
+(10,619,10),
+(11,473,11),
+(12,429,12),
+(13,315,13),
+(14,396,14),
+(15,580,15),
+(16,687,16),
+(17,692,17),
+(18,145,18),
+(19,664,19),
+(20,43,20),
+(21,460,21),
+(22,22,22),
+(23,597,23),
+(24,435,24),
+(25,149,25),
+(26,702,26),
+(27,551,27),
+(28,339,28),
+(29,627,29),
+(30,231,30),
+(31,185,31),
+(32,349,32),
+(33,715,33),
+(34,259,34),
+(35,82,35),
+(36,554,36),
+(37,360,37),
+(38,497,38),
+(39,350,39),
+(40,319,40),
+(41,682,41),
+(42,244,42),
+(43,621,43),
+(44,483,44),
+(45,157,45),
+(46,87,46),
+(47,318,47),
+(48,525,48),
+(49,695,49),
+(50,281,50),
+(51,560,51),
+(52,117,52),
+(53,654,53),
+(54,160,54),
+(55,593,55),
+(56,414,56),
+(57,419,57),
+(58,563,58),
+(59,168,59),
+(60,30,60),
+(61,704,61),
+(62,513,62),
+(63,634,63),
+(64,636,64),
+(65,604,65),
+(66,694,66),
+(67,35,67),
+(68,617,68),
+(69,224,69),
+(70,695,70),
+(71,576,71),
+(72,574,72),
+(73,236,73),
+(74,486,74),
+(75,97,75),
+(76,405,76),
+(77,209,77),
+(78,237,78),
+(79,695,79),
+(80,15,80),
+(81,394,81),
+(82,491,82),
+(83,337,83),
+(84,703,84),
+(85,462,85),
+(86,22,86),
+(87,575,87),
+(88,427,88),
+(89,605,89),
+(90,542,90),
+(91,473,91),
+(92,551,92),
+(93,700,93),
+(94,534,94),
+(95,526,95),
+(96,497,96),
+(97,81,97),
+(98,576,98),
+(99,625,99),
+(100,582,1),
+(101,12,2),
+(102,619,3),
+(103,25,4),
+(104,239,5),
+(105,691,6),
+(106,537,7),
+(107,407,8),
+(108,131,9),
+(109,102,10),
+(110,116,11),
+(111,539,12),
+(112,425,13),
+(113,59,14),
+(114,399,15),
+(115,713,16),
+(116,408,17),
+(117,173,18),
+(118,39,19),
+(119,412,20),
+(120,719,21),
+(121,140,22),
+(122,621,23),
+(123,310,24),
+(124,450,25),
+(125,204,26),
+(126,330,27),
+(127,166,28),
+(128,715,29),
+(129,564,30),
+(130,340,31),
+(131,170,32),
+(132,343,33),
+(133,364,34),
+(134,347,35),
+(135,261,36),
+(136,80,37),
+(137,400,38),
+(138,125,39),
+(139,238,40),
+(140,662,41),
+(141,592,42),
+(142,495,43),
+(143,140,44),
+(144,357,45),
+(145,429,46),
+(146,72,47),
+(147,221,48),
+(148,294,49),
+(149,535,50),
+(150,242,51),
+(151,484,52),
+(152,142,53),
+(153,318,54),
+(154,314,55),
+(155,113,56),
+(156,702,57),
+(157,436,58),
+(158,418,59),
+(159,63,60),
+(160,686,61),
+(161,693,62),
+(162,334,63),
+(163,421,64),
+(164,53,65),
+(165,109,66),
+(166,36,67),
+(167,45,68),
+(168,414,69),
+(169,503,70),
+(170,614,71),
+(171,637,72),
+(172,655,73),
+(173,522,74),
+(174,208,75),
+(175,236,76),
+(176,496,77),
+(177,421,78),
+(178,703,79),
+(179,40,80),
+(180,305,81),
+(181,66,82),
+(182,199,83),
+(183,341,84),
+(184,292,85),
+(185,451,86),
+(186,333,87),
+(187,314,88),
+(188,256,89),
+(189,303,90),
+(190,632,91),
+(191,363,92),
+(192,595,93),
+(193,337,94),
+(194,293,95),
+(195,641,96),
+(196,253,97),
+(197,444,98),
+(198,15,99),
+(199,179,1),
+(200,455,2),
+(201,198,3),
+(202,589,4),
+(203,541,5),
+(204,461,6),
+(205,720,7),
+(206,553,8),
+(207,563,9),
+(208,632,10),
+(209,153,11),
+(210,104,12),
+(211,343,13),
+(212,414,14),
+(213,490,15),
+(214,297,16),
+(215,205,17),
+(216,651,18),
+(217,403,19),
+(218,519,20),
+(219,473,21),
+(220,203,22),
+(221,543,23),
+(222,130,24),
+(223,407,25),
+(224,224,26),
+(225,126,27),
+(226,435,28),
+(227,187,29),
+(228,434,30),
+(229,562,31),
+(230,65,32),
+(231,242,33),
+(232,667,34),
+(233,386,35),
+(234,79,36),
+(235,20,37),
+(236,579,38),
+(237,424,39),
+(238,603,40),
+(239,586,41),
+(240,139,42),
+(241,302,43),
+(242,666,44),
+(243,11,45),
+(244,516,46),
+(245,437,47),
+(246,326,48),
+(247,110,49),
+(248,201,50),
+(249,46,51),
+(250,204,52),
+(251,335,53),
+(252,514,54),
+(253,573,55),
+(254,68,56),
+(255,225,57),
+(256,468,58),
+(257,520,59),
+(258,291,60),
+(259,705,61),
+(260,425,62),
+(261,273,63),
+(262,536,64),
+(263,607,65),
+(264,165,66),
+(265,710,67),
+(266,427,68),
+(267,699,69),
+(268,141,70),
+(269,124,71),
+(270,618,72),
+(271,458,73),
+(272,620,74),
+(273,359,75),
+(274,611,76),
+(275,74,77),
+(276,358,78),
+(277,30,79),
+(278,110,80),
+(279,712,81),
+(280,236,82),
+(281,169,83),
+(282,489,84),
+(283,320,85),
+(284,335,86),
+(285,107,87),
+(286,225,88),
+(287,351,89),
+(288,536,90),
+(289,301,91),
+(290,413,92),
+(291,141,93),
+(292,662,94),
+(293,522,95),
+(294,277,96),
+(295,322,97),
+(296,580,98),
+(297,170,99),
+(298,689,1),
+(299,288,2),
+(300,720,3),
+(301,658,4),
+(302,235,5),
+(303,316,6),
+(304,7,7),
+(305,445,8),
+(306,229,9),
+(307,207,10),
+(308,31,11),
+(309,433,12),
+(310,325,13),
+(311,538,14),
+(312,95,15),
+(313,30,16),
+(314,139,17),
+(315,26,18),
+(316,663,19),
+(317,354,20),
+(318,401,21),
+(319,176,22),
+(320,166,23),
+(321,325,24),
+(322,596,25),
+(323,201,26),
+(324,557,27);

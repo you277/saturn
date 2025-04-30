@@ -1,1935 +1,4861 @@
-INSERT INTO assignments (id,class_id,name,type) VALUES (1,1,'assignment_1',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (2,1,'assignment_2',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (3,1,'assignment_3',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (4,1,'assignment_4',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (5,1,'assignment_5',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (6,1,'assignment_6',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (7,1,'assignment_7',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (8,1,'assignment_8',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (9,1,'assignment_9',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (10,1,'assignment_10',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (11,1,'assignment_11',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (12,1,'assignment_12',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (13,1,'assignment_13',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (14,1,'assignment_14',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (15,1,'assignment_15',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (16,100,'assignment_16',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (17,100,'assignment_17',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (18,100,'assignment_18',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (19,100,'assignment_19',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (20,100,'assignment_20',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (21,100,'assignment_21',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (22,100,'assignment_22',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (23,100,'assignment_23',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (24,100,'assignment_24',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (25,100,'assignment_25',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (26,100,'assignment_26',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (27,100,'assignment_27',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (28,100,'assignment_28',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (29,100,'assignment_29',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (30,100,'assignment_30',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (31,2,'assignment_31',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (32,2,'assignment_32',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (33,2,'assignment_33',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (34,2,'assignment_34',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (35,2,'assignment_35',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (36,2,'assignment_36',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (37,2,'assignment_37',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (38,2,'assignment_38',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (39,2,'assignment_39',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (40,2,'assignment_40',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (41,2,'assignment_41',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (42,2,'assignment_42',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (43,2,'assignment_43',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (44,2,'assignment_44',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (45,2,'assignment_45',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (46,101,'assignment_46',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (47,101,'assignment_47',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (48,101,'assignment_48',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (49,101,'assignment_49',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (50,101,'assignment_50',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (51,101,'assignment_51',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (52,101,'assignment_52',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (53,101,'assignment_53',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (54,101,'assignment_54',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (55,101,'assignment_55',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (56,101,'assignment_56',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (57,101,'assignment_57',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (58,101,'assignment_58',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (59,101,'assignment_59',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (60,101,'assignment_60',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (61,3,'assignment_61',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (62,3,'assignment_62',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (63,3,'assignment_63',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (64,3,'assignment_64',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (65,3,'assignment_65',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (66,3,'assignment_66',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (67,3,'assignment_67',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (68,3,'assignment_68',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (69,3,'assignment_69',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (70,3,'assignment_70',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (71,3,'assignment_71',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (72,3,'assignment_72',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (73,3,'assignment_73',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (74,3,'assignment_74',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (75,3,'assignment_75',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (76,102,'assignment_76',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (77,102,'assignment_77',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (78,102,'assignment_78',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (79,102,'assignment_79',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (80,102,'assignment_80',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (81,102,'assignment_81',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (82,102,'assignment_82',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (83,102,'assignment_83',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (84,102,'assignment_84',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (85,102,'assignment_85',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (86,102,'assignment_86',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (87,102,'assignment_87',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (88,102,'assignment_88',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (89,102,'assignment_89',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (90,102,'assignment_90',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (91,4,'assignment_91',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (92,4,'assignment_92',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (93,4,'assignment_93',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (94,4,'assignment_94',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (95,4,'assignment_95',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (96,4,'assignment_96',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (97,4,'assignment_97',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (98,4,'assignment_98',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (99,4,'assignment_99',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (100,4,'assignment_100',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (101,4,'assignment_101',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (102,4,'assignment_102',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (103,4,'assignment_103',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (104,4,'assignment_104',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (105,4,'assignment_105',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (106,103,'assignment_106',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (107,103,'assignment_107',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (108,103,'assignment_108',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (109,103,'assignment_109',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (110,103,'assignment_110',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (111,103,'assignment_111',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (112,103,'assignment_112',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (113,103,'assignment_113',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (114,103,'assignment_114',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (115,103,'assignment_115',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (116,103,'assignment_116',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (117,103,'assignment_117',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (118,103,'assignment_118',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (119,103,'assignment_119',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (120,103,'assignment_120',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (121,5,'assignment_121',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (122,5,'assignment_122',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (123,5,'assignment_123',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (124,5,'assignment_124',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (125,5,'assignment_125',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (126,5,'assignment_126',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (127,5,'assignment_127',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (128,5,'assignment_128',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (129,5,'assignment_129',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (130,5,'assignment_130',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (131,5,'assignment_131',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (132,5,'assignment_132',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (133,5,'assignment_133',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (134,5,'assignment_134',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (135,5,'assignment_135',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (136,104,'assignment_136',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (137,104,'assignment_137',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (138,104,'assignment_138',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (139,104,'assignment_139',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (140,104,'assignment_140',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (141,104,'assignment_141',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (142,104,'assignment_142',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (143,104,'assignment_143',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (144,104,'assignment_144',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (145,104,'assignment_145',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (146,104,'assignment_146',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (147,104,'assignment_147',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (148,104,'assignment_148',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (149,104,'assignment_149',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (150,104,'assignment_150',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (151,6,'assignment_151',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (152,6,'assignment_152',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (153,6,'assignment_153',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (154,6,'assignment_154',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (155,6,'assignment_155',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (156,6,'assignment_156',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (157,6,'assignment_157',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (158,6,'assignment_158',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (159,6,'assignment_159',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (160,6,'assignment_160',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (161,6,'assignment_161',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (162,6,'assignment_162',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (163,6,'assignment_163',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (164,6,'assignment_164',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (165,6,'assignment_165',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (166,105,'assignment_166',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (167,105,'assignment_167',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (168,105,'assignment_168',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (169,105,'assignment_169',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (170,105,'assignment_170',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (171,105,'assignment_171',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (172,105,'assignment_172',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (173,105,'assignment_173',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (174,105,'assignment_174',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (175,105,'assignment_175',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (176,105,'assignment_176',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (177,105,'assignment_177',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (178,105,'assignment_178',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (179,105,'assignment_179',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (180,105,'assignment_180',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (181,7,'assignment_181',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (182,7,'assignment_182',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (183,7,'assignment_183',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (184,7,'assignment_184',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (185,7,'assignment_185',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (186,7,'assignment_186',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (187,7,'assignment_187',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (188,7,'assignment_188',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (189,7,'assignment_189',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (190,7,'assignment_190',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (191,7,'assignment_191',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (192,7,'assignment_192',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (193,7,'assignment_193',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (194,7,'assignment_194',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (195,7,'assignment_195',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (196,106,'assignment_196',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (197,106,'assignment_197',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (198,106,'assignment_198',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (199,106,'assignment_199',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (200,106,'assignment_200',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (201,106,'assignment_201',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (202,106,'assignment_202',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (203,106,'assignment_203',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (204,106,'assignment_204',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (205,106,'assignment_205',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (206,106,'assignment_206',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (207,106,'assignment_207',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (208,106,'assignment_208',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (209,106,'assignment_209',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (210,106,'assignment_210',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (211,8,'assignment_211',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (212,8,'assignment_212',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (213,8,'assignment_213',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (214,8,'assignment_214',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (215,8,'assignment_215',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (216,8,'assignment_216',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (217,8,'assignment_217',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (218,8,'assignment_218',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (219,8,'assignment_219',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (220,8,'assignment_220',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (221,8,'assignment_221',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (222,8,'assignment_222',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (223,8,'assignment_223',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (224,8,'assignment_224',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (225,8,'assignment_225',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (226,107,'assignment_226',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (227,107,'assignment_227',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (228,107,'assignment_228',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (229,107,'assignment_229',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (230,107,'assignment_230',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (231,107,'assignment_231',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (232,107,'assignment_232',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (233,107,'assignment_233',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (234,107,'assignment_234',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (235,107,'assignment_235',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (236,107,'assignment_236',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (237,107,'assignment_237',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (238,107,'assignment_238',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (239,107,'assignment_239',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (240,107,'assignment_240',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (241,9,'assignment_241',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (242,9,'assignment_242',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (243,9,'assignment_243',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (244,9,'assignment_244',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (245,9,'assignment_245',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (246,9,'assignment_246',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (247,9,'assignment_247',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (248,9,'assignment_248',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (249,9,'assignment_249',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (250,9,'assignment_250',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (251,9,'assignment_251',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (252,9,'assignment_252',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (253,9,'assignment_253',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (254,9,'assignment_254',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (255,9,'assignment_255',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (256,108,'assignment_256',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (257,108,'assignment_257',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (258,108,'assignment_258',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (259,108,'assignment_259',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (260,108,'assignment_260',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (261,108,'assignment_261',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (262,108,'assignment_262',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (263,108,'assignment_263',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (264,108,'assignment_264',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (265,108,'assignment_265',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (266,108,'assignment_266',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (267,108,'assignment_267',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (268,108,'assignment_268',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (269,108,'assignment_269',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (270,108,'assignment_270',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (271,10,'assignment_271',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (272,10,'assignment_272',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (273,10,'assignment_273',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (274,10,'assignment_274',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (275,10,'assignment_275',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (276,10,'assignment_276',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (277,10,'assignment_277',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (278,10,'assignment_278',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (279,10,'assignment_279',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (280,10,'assignment_280',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (281,10,'assignment_281',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (282,10,'assignment_282',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (283,10,'assignment_283',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (284,10,'assignment_284',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (285,10,'assignment_285',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (286,109,'assignment_286',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (287,109,'assignment_287',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (288,109,'assignment_288',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (289,109,'assignment_289',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (290,109,'assignment_290',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (291,109,'assignment_291',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (292,109,'assignment_292',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (293,109,'assignment_293',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (294,109,'assignment_294',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (295,109,'assignment_295',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (296,109,'assignment_296',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (297,109,'assignment_297',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (298,109,'assignment_298',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (299,109,'assignment_299',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (300,109,'assignment_300',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (301,11,'assignment_301',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (302,11,'assignment_302',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (303,11,'assignment_303',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (304,11,'assignment_304',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (305,11,'assignment_305',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (306,11,'assignment_306',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (307,11,'assignment_307',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (308,11,'assignment_308',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (309,11,'assignment_309',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (310,11,'assignment_310',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (311,11,'assignment_311',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (312,11,'assignment_312',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (313,11,'assignment_313',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (314,11,'assignment_314',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (315,11,'assignment_315',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (316,110,'assignment_316',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (317,110,'assignment_317',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (318,110,'assignment_318',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (319,110,'assignment_319',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (320,110,'assignment_320',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (321,110,'assignment_321',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (322,110,'assignment_322',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (323,110,'assignment_323',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (324,110,'assignment_324',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (325,110,'assignment_325',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (326,110,'assignment_326',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (327,110,'assignment_327',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (328,110,'assignment_328',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (329,110,'assignment_329',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (330,110,'assignment_330',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (331,12,'assignment_331',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (332,12,'assignment_332',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (333,12,'assignment_333',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (334,12,'assignment_334',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (335,12,'assignment_335',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (336,12,'assignment_336',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (337,12,'assignment_337',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (338,12,'assignment_338',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (339,12,'assignment_339',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (340,12,'assignment_340',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (341,12,'assignment_341',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (342,12,'assignment_342',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (343,12,'assignment_343',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (344,12,'assignment_344',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (345,12,'assignment_345',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (346,111,'assignment_346',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (347,111,'assignment_347',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (348,111,'assignment_348',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (349,111,'assignment_349',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (350,111,'assignment_350',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (351,111,'assignment_351',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (352,111,'assignment_352',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (353,111,'assignment_353',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (354,111,'assignment_354',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (355,111,'assignment_355',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (356,111,'assignment_356',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (357,111,'assignment_357',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (358,111,'assignment_358',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (359,111,'assignment_359',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (360,111,'assignment_360',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (361,13,'assignment_361',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (362,13,'assignment_362',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (363,13,'assignment_363',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (364,13,'assignment_364',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (365,13,'assignment_365',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (366,13,'assignment_366',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (367,13,'assignment_367',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (368,13,'assignment_368',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (369,13,'assignment_369',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (370,13,'assignment_370',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (371,13,'assignment_371',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (372,13,'assignment_372',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (373,13,'assignment_373',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (374,13,'assignment_374',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (375,13,'assignment_375',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (376,112,'assignment_376',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (377,112,'assignment_377',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (378,112,'assignment_378',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (379,112,'assignment_379',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (380,112,'assignment_380',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (381,112,'assignment_381',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (382,112,'assignment_382',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (383,112,'assignment_383',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (384,112,'assignment_384',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (385,112,'assignment_385',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (386,112,'assignment_386',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (387,112,'assignment_387',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (388,112,'assignment_388',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (389,112,'assignment_389',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (390,112,'assignment_390',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (391,14,'assignment_391',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (392,14,'assignment_392',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (393,14,'assignment_393',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (394,14,'assignment_394',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (395,14,'assignment_395',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (396,14,'assignment_396',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (397,14,'assignment_397',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (398,14,'assignment_398',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (399,14,'assignment_399',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (400,14,'assignment_400',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (401,14,'assignment_401',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (402,14,'assignment_402',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (403,14,'assignment_403',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (404,14,'assignment_404',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (405,14,'assignment_405',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (406,113,'assignment_406',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (407,113,'assignment_407',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (408,113,'assignment_408',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (409,113,'assignment_409',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (410,113,'assignment_410',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (411,113,'assignment_411',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (412,113,'assignment_412',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (413,113,'assignment_413',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (414,113,'assignment_414',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (415,113,'assignment_415',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (416,113,'assignment_416',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (417,113,'assignment_417',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (418,113,'assignment_418',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (419,113,'assignment_419',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (420,113,'assignment_420',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (421,15,'assignment_421',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (422,15,'assignment_422',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (423,15,'assignment_423',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (424,15,'assignment_424',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (425,15,'assignment_425',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (426,15,'assignment_426',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (427,15,'assignment_427',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (428,15,'assignment_428',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (429,15,'assignment_429',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (430,15,'assignment_430',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (431,15,'assignment_431',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (432,15,'assignment_432',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (433,15,'assignment_433',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (434,15,'assignment_434',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (435,15,'assignment_435',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (436,114,'assignment_436',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (437,114,'assignment_437',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (438,114,'assignment_438',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (439,114,'assignment_439',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (440,114,'assignment_440',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (441,114,'assignment_441',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (442,114,'assignment_442',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (443,114,'assignment_443',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (444,114,'assignment_444',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (445,114,'assignment_445',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (446,114,'assignment_446',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (447,114,'assignment_447',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (448,114,'assignment_448',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (449,114,'assignment_449',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (450,114,'assignment_450',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (451,16,'assignment_451',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (452,16,'assignment_452',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (453,16,'assignment_453',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (454,16,'assignment_454',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (455,16,'assignment_455',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (456,16,'assignment_456',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (457,16,'assignment_457',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (458,16,'assignment_458',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (459,16,'assignment_459',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (460,16,'assignment_460',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (461,16,'assignment_461',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (462,16,'assignment_462',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (463,16,'assignment_463',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (464,16,'assignment_464',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (465,16,'assignment_465',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (466,115,'assignment_466',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (467,115,'assignment_467',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (468,115,'assignment_468',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (469,115,'assignment_469',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (470,115,'assignment_470',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (471,115,'assignment_471',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (472,115,'assignment_472',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (473,115,'assignment_473',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (474,115,'assignment_474',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (475,115,'assignment_475',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (476,115,'assignment_476',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (477,115,'assignment_477',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (478,115,'assignment_478',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (479,115,'assignment_479',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (480,115,'assignment_480',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (481,17,'assignment_481',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (482,17,'assignment_482',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (483,17,'assignment_483',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (484,17,'assignment_484',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (485,17,'assignment_485',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (486,17,'assignment_486',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (487,17,'assignment_487',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (488,17,'assignment_488',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (489,17,'assignment_489',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (490,17,'assignment_490',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (491,17,'assignment_491',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (492,17,'assignment_492',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (493,17,'assignment_493',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (494,17,'assignment_494',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (495,17,'assignment_495',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (496,116,'assignment_496',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (497,116,'assignment_497',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (498,116,'assignment_498',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (499,116,'assignment_499',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (500,116,'assignment_500',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (501,116,'assignment_501',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (502,116,'assignment_502',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (503,116,'assignment_503',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (504,116,'assignment_504',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (505,116,'assignment_505',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (506,116,'assignment_506',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (507,116,'assignment_507',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (508,116,'assignment_508',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (509,116,'assignment_509',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (510,116,'assignment_510',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (511,18,'assignment_511',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (512,18,'assignment_512',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (513,18,'assignment_513',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (514,18,'assignment_514',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (515,18,'assignment_515',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (516,18,'assignment_516',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (517,18,'assignment_517',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (518,18,'assignment_518',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (519,18,'assignment_519',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (520,18,'assignment_520',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (521,18,'assignment_521',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (522,18,'assignment_522',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (523,18,'assignment_523',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (524,18,'assignment_524',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (525,18,'assignment_525',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (526,117,'assignment_526',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (527,117,'assignment_527',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (528,117,'assignment_528',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (529,117,'assignment_529',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (530,117,'assignment_530',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (531,117,'assignment_531',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (532,117,'assignment_532',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (533,117,'assignment_533',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (534,117,'assignment_534',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (535,117,'assignment_535',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (536,117,'assignment_536',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (537,117,'assignment_537',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (538,117,'assignment_538',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (539,117,'assignment_539',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (540,117,'assignment_540',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (541,19,'assignment_541',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (542,19,'assignment_542',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (543,19,'assignment_543',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (544,19,'assignment_544',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (545,19,'assignment_545',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (546,19,'assignment_546',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (547,19,'assignment_547',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (548,19,'assignment_548',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (549,19,'assignment_549',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (550,19,'assignment_550',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (551,19,'assignment_551',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (552,19,'assignment_552',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (553,19,'assignment_553',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (554,19,'assignment_554',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (555,19,'assignment_555',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (556,118,'assignment_556',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (557,118,'assignment_557',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (558,118,'assignment_558',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (559,118,'assignment_559',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (560,118,'assignment_560',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (561,118,'assignment_561',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (562,118,'assignment_562',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (563,118,'assignment_563',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (564,118,'assignment_564',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (565,118,'assignment_565',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (566,118,'assignment_566',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (567,118,'assignment_567',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (568,118,'assignment_568',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (569,118,'assignment_569',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (570,118,'assignment_570',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (571,20,'assignment_571',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (572,20,'assignment_572',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (573,20,'assignment_573',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (574,20,'assignment_574',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (575,20,'assignment_575',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (576,20,'assignment_576',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (577,20,'assignment_577',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (578,20,'assignment_578',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (579,20,'assignment_579',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (580,20,'assignment_580',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (581,20,'assignment_581',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (582,20,'assignment_582',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (583,20,'assignment_583',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (584,20,'assignment_584',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (585,20,'assignment_585',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (586,119,'assignment_586',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (587,119,'assignment_587',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (588,119,'assignment_588',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (589,119,'assignment_589',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (590,119,'assignment_590',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (591,119,'assignment_591',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (592,119,'assignment_592',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (593,119,'assignment_593',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (594,119,'assignment_594',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (595,119,'assignment_595',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (596,119,'assignment_596',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (597,119,'assignment_597',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (598,119,'assignment_598',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (599,119,'assignment_599',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (600,119,'assignment_600',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (601,21,'assignment_601',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (602,21,'assignment_602',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (603,21,'assignment_603',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (604,21,'assignment_604',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (605,21,'assignment_605',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (606,21,'assignment_606',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (607,21,'assignment_607',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (608,21,'assignment_608',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (609,21,'assignment_609',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (610,21,'assignment_610',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (611,21,'assignment_611',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (612,21,'assignment_612',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (613,21,'assignment_613',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (614,21,'assignment_614',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (615,21,'assignment_615',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (616,120,'assignment_616',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (617,120,'assignment_617',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (618,120,'assignment_618',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (619,120,'assignment_619',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (620,120,'assignment_620',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (621,120,'assignment_621',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (622,120,'assignment_622',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (623,120,'assignment_623',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (624,120,'assignment_624',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (625,120,'assignment_625',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (626,120,'assignment_626',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (627,120,'assignment_627',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (628,120,'assignment_628',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (629,120,'assignment_629',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (630,120,'assignment_630',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (631,22,'assignment_631',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (632,22,'assignment_632',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (633,22,'assignment_633',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (634,22,'assignment_634',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (635,22,'assignment_635',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (636,22,'assignment_636',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (637,22,'assignment_637',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (638,22,'assignment_638',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (639,22,'assignment_639',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (640,22,'assignment_640',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (641,22,'assignment_641',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (642,22,'assignment_642',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (643,22,'assignment_643',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (644,22,'assignment_644',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (645,22,'assignment_645',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (646,121,'assignment_646',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (647,121,'assignment_647',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (648,121,'assignment_648',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (649,121,'assignment_649',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (650,121,'assignment_650',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (651,121,'assignment_651',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (652,121,'assignment_652',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (653,121,'assignment_653',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (654,121,'assignment_654',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (655,121,'assignment_655',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (656,121,'assignment_656',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (657,121,'assignment_657',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (658,121,'assignment_658',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (659,121,'assignment_659',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (660,121,'assignment_660',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (661,23,'assignment_661',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (662,23,'assignment_662',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (663,23,'assignment_663',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (664,23,'assignment_664',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (665,23,'assignment_665',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (666,23,'assignment_666',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (667,23,'assignment_667',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (668,23,'assignment_668',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (669,23,'assignment_669',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (670,23,'assignment_670',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (671,23,'assignment_671',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (672,23,'assignment_672',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (673,23,'assignment_673',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (674,23,'assignment_674',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (675,23,'assignment_675',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (676,122,'assignment_676',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (677,122,'assignment_677',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (678,122,'assignment_678',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (679,122,'assignment_679',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (680,122,'assignment_680',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (681,122,'assignment_681',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (682,122,'assignment_682',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (683,122,'assignment_683',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (684,122,'assignment_684',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (685,122,'assignment_685',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (686,122,'assignment_686',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (687,122,'assignment_687',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (688,122,'assignment_688',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (689,122,'assignment_689',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (690,122,'assignment_690',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (691,24,'assignment_691',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (692,24,'assignment_692',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (693,24,'assignment_693',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (694,24,'assignment_694',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (695,24,'assignment_695',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (696,24,'assignment_696',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (697,24,'assignment_697',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (698,24,'assignment_698',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (699,24,'assignment_699',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (700,24,'assignment_700',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (701,24,'assignment_701',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (702,24,'assignment_702',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (703,24,'assignment_703',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (704,24,'assignment_704',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (705,24,'assignment_705',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (706,123,'assignment_706',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (707,123,'assignment_707',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (708,123,'assignment_708',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (709,123,'assignment_709',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (710,123,'assignment_710',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (711,123,'assignment_711',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (712,123,'assignment_712',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (713,123,'assignment_713',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (714,123,'assignment_714',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (715,123,'assignment_715',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (716,123,'assignment_716',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (717,123,'assignment_717',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (718,123,'assignment_718',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (719,123,'assignment_719',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (720,123,'assignment_720',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (721,25,'assignment_721',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (722,25,'assignment_722',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (723,25,'assignment_723',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (724,25,'assignment_724',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (725,25,'assignment_725',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (726,25,'assignment_726',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (727,25,'assignment_727',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (728,25,'assignment_728',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (729,25,'assignment_729',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (730,25,'assignment_730',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (731,25,'assignment_731',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (732,25,'assignment_732',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (733,25,'assignment_733',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (734,25,'assignment_734',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (735,25,'assignment_735',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (736,124,'assignment_736',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (737,124,'assignment_737',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (738,124,'assignment_738',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (739,124,'assignment_739',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (740,124,'assignment_740',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (741,124,'assignment_741',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (742,124,'assignment_742',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (743,124,'assignment_743',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (744,124,'assignment_744',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (745,124,'assignment_745',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (746,124,'assignment_746',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (747,124,'assignment_747',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (748,124,'assignment_748',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (749,124,'assignment_749',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (750,124,'assignment_750',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (751,26,'assignment_751',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (752,26,'assignment_752',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (753,26,'assignment_753',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (754,26,'assignment_754',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (755,26,'assignment_755',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (756,26,'assignment_756',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (757,26,'assignment_757',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (758,26,'assignment_758',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (759,26,'assignment_759',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (760,26,'assignment_760',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (761,26,'assignment_761',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (762,26,'assignment_762',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (763,26,'assignment_763',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (764,26,'assignment_764',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (765,26,'assignment_765',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (766,125,'assignment_766',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (767,125,'assignment_767',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (768,125,'assignment_768',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (769,125,'assignment_769',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (770,125,'assignment_770',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (771,125,'assignment_771',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (772,125,'assignment_772',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (773,125,'assignment_773',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (774,125,'assignment_774',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (775,125,'assignment_775',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (776,125,'assignment_776',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (777,125,'assignment_777',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (778,125,'assignment_778',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (779,125,'assignment_779',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (780,125,'assignment_780',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (781,27,'assignment_781',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (782,27,'assignment_782',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (783,27,'assignment_783',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (784,27,'assignment_784',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (785,27,'assignment_785',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (786,27,'assignment_786',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (787,27,'assignment_787',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (788,27,'assignment_788',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (789,27,'assignment_789',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (790,27,'assignment_790',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (791,27,'assignment_791',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (792,27,'assignment_792',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (793,27,'assignment_793',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (794,27,'assignment_794',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (795,27,'assignment_795',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (796,126,'assignment_796',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (797,126,'assignment_797',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (798,126,'assignment_798',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (799,126,'assignment_799',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (800,126,'assignment_800',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (801,126,'assignment_801',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (802,126,'assignment_802',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (803,126,'assignment_803',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (804,126,'assignment_804',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (805,126,'assignment_805',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (806,126,'assignment_806',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (807,126,'assignment_807',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (808,126,'assignment_808',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (809,126,'assignment_809',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (810,126,'assignment_810',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (811,28,'assignment_811',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (812,28,'assignment_812',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (813,28,'assignment_813',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (814,28,'assignment_814',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (815,28,'assignment_815',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (816,28,'assignment_816',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (817,28,'assignment_817',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (818,28,'assignment_818',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (819,28,'assignment_819',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (820,28,'assignment_820',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (821,28,'assignment_821',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (822,28,'assignment_822',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (823,28,'assignment_823',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (824,28,'assignment_824',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (825,28,'assignment_825',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (826,127,'assignment_826',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (827,127,'assignment_827',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (828,127,'assignment_828',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (829,127,'assignment_829',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (830,127,'assignment_830',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (831,127,'assignment_831',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (832,127,'assignment_832',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (833,127,'assignment_833',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (834,127,'assignment_834',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (835,127,'assignment_835',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (836,127,'assignment_836',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (837,127,'assignment_837',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (838,127,'assignment_838',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (839,127,'assignment_839',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (840,127,'assignment_840',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (841,29,'assignment_841',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (842,29,'assignment_842',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (843,29,'assignment_843',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (844,29,'assignment_844',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (845,29,'assignment_845',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (846,29,'assignment_846',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (847,29,'assignment_847',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (848,29,'assignment_848',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (849,29,'assignment_849',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (850,29,'assignment_850',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (851,29,'assignment_851',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (852,29,'assignment_852',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (853,29,'assignment_853',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (854,29,'assignment_854',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (855,29,'assignment_855',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (856,128,'assignment_856',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (857,128,'assignment_857',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (858,128,'assignment_858',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (859,128,'assignment_859',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (860,128,'assignment_860',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (861,128,'assignment_861',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (862,128,'assignment_862',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (863,128,'assignment_863',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (864,128,'assignment_864',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (865,128,'assignment_865',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (866,128,'assignment_866',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (867,128,'assignment_867',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (868,128,'assignment_868',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (869,128,'assignment_869',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (870,128,'assignment_870',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (871,30,'assignment_871',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (872,30,'assignment_872',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (873,30,'assignment_873',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (874,30,'assignment_874',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (875,30,'assignment_875',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (876,30,'assignment_876',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (877,30,'assignment_877',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (878,30,'assignment_878',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (879,30,'assignment_879',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (880,30,'assignment_880',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (881,30,'assignment_881',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (882,30,'assignment_882',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (883,30,'assignment_883',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (884,30,'assignment_884',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (885,30,'assignment_885',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (886,129,'assignment_886',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (887,129,'assignment_887',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (888,129,'assignment_888',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (889,129,'assignment_889',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (890,129,'assignment_890',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (891,129,'assignment_891',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (892,129,'assignment_892',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (893,129,'assignment_893',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (894,129,'assignment_894',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (895,129,'assignment_895',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (896,129,'assignment_896',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (897,129,'assignment_897',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (898,129,'assignment_898',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (899,129,'assignment_899',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (900,129,'assignment_900',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (901,31,'assignment_901',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (902,31,'assignment_902',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (903,31,'assignment_903',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (904,31,'assignment_904',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (905,31,'assignment_905',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (906,31,'assignment_906',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (907,31,'assignment_907',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (908,31,'assignment_908',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (909,31,'assignment_909',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (910,31,'assignment_910',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (911,31,'assignment_911',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (912,31,'assignment_912',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (913,31,'assignment_913',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (914,31,'assignment_914',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (915,31,'assignment_915',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (916,32,'assignment_916',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (917,32,'assignment_917',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (918,32,'assignment_918',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (919,32,'assignment_919',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (920,32,'assignment_920',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (921,32,'assignment_921',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (922,32,'assignment_922',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (923,32,'assignment_923',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (924,32,'assignment_924',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (925,32,'assignment_925',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (926,32,'assignment_926',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (927,32,'assignment_927',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (928,32,'assignment_928',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (929,32,'assignment_929',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (930,32,'assignment_930',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (931,33,'assignment_931',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (932,33,'assignment_932',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (933,33,'assignment_933',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (934,33,'assignment_934',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (935,33,'assignment_935',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (936,33,'assignment_936',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (937,33,'assignment_937',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (938,33,'assignment_938',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (939,33,'assignment_939',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (940,33,'assignment_940',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (941,33,'assignment_941',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (942,33,'assignment_942',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (943,33,'assignment_943',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (944,33,'assignment_944',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (945,33,'assignment_945',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (946,34,'assignment_946',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (947,34,'assignment_947',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (948,34,'assignment_948',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (949,34,'assignment_949',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (950,34,'assignment_950',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (951,34,'assignment_951',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (952,34,'assignment_952',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (953,34,'assignment_953',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (954,34,'assignment_954',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (955,34,'assignment_955',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (956,34,'assignment_956',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (957,34,'assignment_957',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (958,34,'assignment_958',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (959,34,'assignment_959',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (960,34,'assignment_960',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (961,35,'assignment_961',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (962,35,'assignment_962',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (963,35,'assignment_963',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (964,35,'assignment_964',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (965,35,'assignment_965',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (966,35,'assignment_966',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (967,35,'assignment_967',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (968,35,'assignment_968',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (969,35,'assignment_969',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (970,35,'assignment_970',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (971,35,'assignment_971',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (972,35,'assignment_972',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (973,35,'assignment_973',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (974,35,'assignment_974',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (975,35,'assignment_975',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (976,36,'assignment_976',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (977,36,'assignment_977',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (978,36,'assignment_978',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (979,36,'assignment_979',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (980,36,'assignment_980',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (981,36,'assignment_981',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (982,36,'assignment_982',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (983,36,'assignment_983',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (984,36,'assignment_984',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (985,36,'assignment_985',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (986,36,'assignment_986',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (987,36,'assignment_987',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (988,36,'assignment_988',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (989,36,'assignment_989',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (990,36,'assignment_990',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (991,37,'assignment_991',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (992,37,'assignment_992',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (993,37,'assignment_993',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (994,37,'assignment_994',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (995,37,'assignment_995',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (996,37,'assignment_996',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (997,37,'assignment_997',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (998,37,'assignment_998',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (999,37,'assignment_999',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1000,37,'assignment_1000',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1001,37,'assignment_1001',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1002,37,'assignment_1002',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1003,37,'assignment_1003',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1004,37,'assignment_1004',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1005,37,'assignment_1005',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1006,38,'assignment_1006',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1007,38,'assignment_1007',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1008,38,'assignment_1008',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1009,38,'assignment_1009',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1010,38,'assignment_1010',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1011,38,'assignment_1011',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1012,38,'assignment_1012',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1013,38,'assignment_1013',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1014,38,'assignment_1014',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1015,38,'assignment_1015',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1016,38,'assignment_1016',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1017,38,'assignment_1017',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1018,38,'assignment_1018',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1019,38,'assignment_1019',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1020,38,'assignment_1020',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1021,39,'assignment_1021',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1022,39,'assignment_1022',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1023,39,'assignment_1023',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1024,39,'assignment_1024',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1025,39,'assignment_1025',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1026,39,'assignment_1026',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1027,39,'assignment_1027',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1028,39,'assignment_1028',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1029,39,'assignment_1029',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1030,39,'assignment_1030',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1031,39,'assignment_1031',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1032,39,'assignment_1032',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1033,39,'assignment_1033',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1034,39,'assignment_1034',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1035,39,'assignment_1035',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1036,40,'assignment_1036',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1037,40,'assignment_1037',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1038,40,'assignment_1038',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1039,40,'assignment_1039',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1040,40,'assignment_1040',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1041,40,'assignment_1041',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1042,40,'assignment_1042',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1043,40,'assignment_1043',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1044,40,'assignment_1044',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1045,40,'assignment_1045',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1046,40,'assignment_1046',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1047,40,'assignment_1047',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1048,40,'assignment_1048',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1049,40,'assignment_1049',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1050,40,'assignment_1050',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1051,41,'assignment_1051',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1052,41,'assignment_1052',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1053,41,'assignment_1053',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1054,41,'assignment_1054',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1055,41,'assignment_1055',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1056,41,'assignment_1056',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1057,41,'assignment_1057',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1058,41,'assignment_1058',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1059,41,'assignment_1059',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1060,41,'assignment_1060',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1061,41,'assignment_1061',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1062,41,'assignment_1062',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1063,41,'assignment_1063',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1064,41,'assignment_1064',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1065,41,'assignment_1065',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1066,42,'assignment_1066',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1067,42,'assignment_1067',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1068,42,'assignment_1068',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1069,42,'assignment_1069',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1070,42,'assignment_1070',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1071,42,'assignment_1071',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1072,42,'assignment_1072',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1073,42,'assignment_1073',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1074,42,'assignment_1074',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1075,42,'assignment_1075',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1076,42,'assignment_1076',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1077,42,'assignment_1077',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1078,42,'assignment_1078',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1079,42,'assignment_1079',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1080,42,'assignment_1080',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1081,43,'assignment_1081',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1082,43,'assignment_1082',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1083,43,'assignment_1083',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1084,43,'assignment_1084',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1085,43,'assignment_1085',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1086,43,'assignment_1086',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1087,43,'assignment_1087',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1088,43,'assignment_1088',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1089,43,'assignment_1089',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1090,43,'assignment_1090',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1091,43,'assignment_1091',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1092,43,'assignment_1092',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1093,43,'assignment_1093',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1094,43,'assignment_1094',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1095,43,'assignment_1095',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1096,44,'assignment_1096',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1097,44,'assignment_1097',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1098,44,'assignment_1098',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1099,44,'assignment_1099',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1100,44,'assignment_1100',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1101,44,'assignment_1101',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1102,44,'assignment_1102',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1103,44,'assignment_1103',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1104,44,'assignment_1104',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1105,44,'assignment_1105',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1106,44,'assignment_1106',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1107,44,'assignment_1107',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1108,44,'assignment_1108',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1109,44,'assignment_1109',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1110,44,'assignment_1110',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1111,45,'assignment_1111',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1112,45,'assignment_1112',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1113,45,'assignment_1113',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1114,45,'assignment_1114',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1115,45,'assignment_1115',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1116,45,'assignment_1116',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1117,45,'assignment_1117',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1118,45,'assignment_1118',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1119,45,'assignment_1119',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1120,45,'assignment_1120',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1121,45,'assignment_1121',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1122,45,'assignment_1122',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1123,45,'assignment_1123',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1124,45,'assignment_1124',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1125,45,'assignment_1125',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1126,46,'assignment_1126',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1127,46,'assignment_1127',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1128,46,'assignment_1128',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1129,46,'assignment_1129',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1130,46,'assignment_1130',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1131,46,'assignment_1131',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1132,46,'assignment_1132',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1133,46,'assignment_1133',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1134,46,'assignment_1134',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1135,46,'assignment_1135',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1136,46,'assignment_1136',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1137,46,'assignment_1137',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1138,46,'assignment_1138',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1139,46,'assignment_1139',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1140,46,'assignment_1140',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1141,47,'assignment_1141',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1142,47,'assignment_1142',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1143,47,'assignment_1143',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1144,47,'assignment_1144',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1145,47,'assignment_1145',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1146,47,'assignment_1146',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1147,47,'assignment_1147',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1148,47,'assignment_1148',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1149,47,'assignment_1149',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1150,47,'assignment_1150',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1151,47,'assignment_1151',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1152,47,'assignment_1152',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1153,47,'assignment_1153',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1154,47,'assignment_1154',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1155,47,'assignment_1155',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1156,48,'assignment_1156',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1157,48,'assignment_1157',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1158,48,'assignment_1158',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1159,48,'assignment_1159',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1160,48,'assignment_1160',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1161,48,'assignment_1161',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1162,48,'assignment_1162',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1163,48,'assignment_1163',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1164,48,'assignment_1164',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1165,48,'assignment_1165',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1166,48,'assignment_1166',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1167,48,'assignment_1167',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1168,48,'assignment_1168',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1169,48,'assignment_1169',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1170,48,'assignment_1170',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1171,49,'assignment_1171',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1172,49,'assignment_1172',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1173,49,'assignment_1173',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1174,49,'assignment_1174',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1175,49,'assignment_1175',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1176,49,'assignment_1176',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1177,49,'assignment_1177',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1178,49,'assignment_1178',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1179,49,'assignment_1179',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1180,49,'assignment_1180',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1181,49,'assignment_1181',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1182,49,'assignment_1182',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1183,49,'assignment_1183',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1184,49,'assignment_1184',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1185,49,'assignment_1185',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1186,50,'assignment_1186',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1187,50,'assignment_1187',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1188,50,'assignment_1188',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1189,50,'assignment_1189',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1190,50,'assignment_1190',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1191,50,'assignment_1191',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1192,50,'assignment_1192',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1193,50,'assignment_1193',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1194,50,'assignment_1194',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1195,50,'assignment_1195',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1196,50,'assignment_1196',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1197,50,'assignment_1197',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1198,50,'assignment_1198',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1199,50,'assignment_1199',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1200,50,'assignment_1200',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1201,51,'assignment_1201',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1202,51,'assignment_1202',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1203,51,'assignment_1203',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1204,51,'assignment_1204',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1205,51,'assignment_1205',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1206,51,'assignment_1206',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1207,51,'assignment_1207',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1208,51,'assignment_1208',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1209,51,'assignment_1209',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1210,51,'assignment_1210',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1211,51,'assignment_1211',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1212,51,'assignment_1212',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1213,51,'assignment_1213',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1214,51,'assignment_1214',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1215,51,'assignment_1215',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1216,52,'assignment_1216',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1217,52,'assignment_1217',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1218,52,'assignment_1218',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1219,52,'assignment_1219',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1220,52,'assignment_1220',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1221,52,'assignment_1221',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1222,52,'assignment_1222',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1223,52,'assignment_1223',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1224,52,'assignment_1224',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1225,52,'assignment_1225',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1226,52,'assignment_1226',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1227,52,'assignment_1227',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1228,52,'assignment_1228',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1229,52,'assignment_1229',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1230,52,'assignment_1230',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1231,53,'assignment_1231',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1232,53,'assignment_1232',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1233,53,'assignment_1233',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1234,53,'assignment_1234',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1235,53,'assignment_1235',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1236,53,'assignment_1236',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1237,53,'assignment_1237',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1238,53,'assignment_1238',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1239,53,'assignment_1239',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1240,53,'assignment_1240',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1241,53,'assignment_1241',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1242,53,'assignment_1242',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1243,53,'assignment_1243',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1244,53,'assignment_1244',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1245,53,'assignment_1245',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1246,54,'assignment_1246',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1247,54,'assignment_1247',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1248,54,'assignment_1248',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1249,54,'assignment_1249',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1250,54,'assignment_1250',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1251,54,'assignment_1251',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1252,54,'assignment_1252',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1253,54,'assignment_1253',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1254,54,'assignment_1254',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1255,54,'assignment_1255',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1256,54,'assignment_1256',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1257,54,'assignment_1257',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1258,54,'assignment_1258',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1259,54,'assignment_1259',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1260,54,'assignment_1260',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1261,55,'assignment_1261',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1262,55,'assignment_1262',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1263,55,'assignment_1263',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1264,55,'assignment_1264',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1265,55,'assignment_1265',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1266,55,'assignment_1266',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1267,55,'assignment_1267',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1268,55,'assignment_1268',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1269,55,'assignment_1269',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1270,55,'assignment_1270',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1271,55,'assignment_1271',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1272,55,'assignment_1272',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1273,55,'assignment_1273',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1274,55,'assignment_1274',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1275,55,'assignment_1275',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1276,56,'assignment_1276',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1277,56,'assignment_1277',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1278,56,'assignment_1278',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1279,56,'assignment_1279',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1280,56,'assignment_1280',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1281,56,'assignment_1281',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1282,56,'assignment_1282',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1283,56,'assignment_1283',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1284,56,'assignment_1284',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1285,56,'assignment_1285',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1286,56,'assignment_1286',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1287,56,'assignment_1287',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1288,56,'assignment_1288',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1289,56,'assignment_1289',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1290,56,'assignment_1290',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1291,57,'assignment_1291',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1292,57,'assignment_1292',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1293,57,'assignment_1293',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1294,57,'assignment_1294',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1295,57,'assignment_1295',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1296,57,'assignment_1296',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1297,57,'assignment_1297',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1298,57,'assignment_1298',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1299,57,'assignment_1299',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1300,57,'assignment_1300',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1301,57,'assignment_1301',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1302,57,'assignment_1302',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1303,57,'assignment_1303',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1304,57,'assignment_1304',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1305,57,'assignment_1305',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1306,58,'assignment_1306',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1307,58,'assignment_1307',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1308,58,'assignment_1308',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1309,58,'assignment_1309',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1310,58,'assignment_1310',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1311,58,'assignment_1311',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1312,58,'assignment_1312',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1313,58,'assignment_1313',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1314,58,'assignment_1314',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1315,58,'assignment_1315',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1316,58,'assignment_1316',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1317,58,'assignment_1317',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1318,58,'assignment_1318',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1319,58,'assignment_1319',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1320,58,'assignment_1320',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1321,59,'assignment_1321',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1322,59,'assignment_1322',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1323,59,'assignment_1323',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1324,59,'assignment_1324',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1325,59,'assignment_1325',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1326,59,'assignment_1326',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1327,59,'assignment_1327',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1328,59,'assignment_1328',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1329,59,'assignment_1329',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1330,59,'assignment_1330',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1331,59,'assignment_1331',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1332,59,'assignment_1332',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1333,59,'assignment_1333',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1334,59,'assignment_1334',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1335,59,'assignment_1335',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1336,60,'assignment_1336',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1337,60,'assignment_1337',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1338,60,'assignment_1338',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1339,60,'assignment_1339',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1340,60,'assignment_1340',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1341,60,'assignment_1341',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1342,60,'assignment_1342',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1343,60,'assignment_1343',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1344,60,'assignment_1344',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1345,60,'assignment_1345',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1346,60,'assignment_1346',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1347,60,'assignment_1347',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1348,60,'assignment_1348',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1349,60,'assignment_1349',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1350,60,'assignment_1350',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1351,61,'assignment_1351',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1352,61,'assignment_1352',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1353,61,'assignment_1353',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1354,61,'assignment_1354',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1355,61,'assignment_1355',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1356,61,'assignment_1356',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1357,61,'assignment_1357',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1358,61,'assignment_1358',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1359,61,'assignment_1359',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1360,61,'assignment_1360',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1361,61,'assignment_1361',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1362,61,'assignment_1362',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1363,61,'assignment_1363',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1364,61,'assignment_1364',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1365,61,'assignment_1365',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1366,62,'assignment_1366',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1367,62,'assignment_1367',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1368,62,'assignment_1368',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1369,62,'assignment_1369',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1370,62,'assignment_1370',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1371,62,'assignment_1371',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1372,62,'assignment_1372',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1373,62,'assignment_1373',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1374,62,'assignment_1374',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1375,62,'assignment_1375',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1376,62,'assignment_1376',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1377,62,'assignment_1377',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1378,62,'assignment_1378',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1379,62,'assignment_1379',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1380,62,'assignment_1380',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1381,63,'assignment_1381',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1382,63,'assignment_1382',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1383,63,'assignment_1383',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1384,63,'assignment_1384',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1385,63,'assignment_1385',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1386,63,'assignment_1386',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1387,63,'assignment_1387',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1388,63,'assignment_1388',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1389,63,'assignment_1389',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1390,63,'assignment_1390',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1391,63,'assignment_1391',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1392,63,'assignment_1392',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1393,63,'assignment_1393',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1394,63,'assignment_1394',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1395,63,'assignment_1395',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1396,64,'assignment_1396',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1397,64,'assignment_1397',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1398,64,'assignment_1398',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1399,64,'assignment_1399',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1400,64,'assignment_1400',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1401,64,'assignment_1401',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1402,64,'assignment_1402',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1403,64,'assignment_1403',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1404,64,'assignment_1404',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1405,64,'assignment_1405',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1406,64,'assignment_1406',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1407,64,'assignment_1407',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1408,64,'assignment_1408',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1409,64,'assignment_1409',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1410,64,'assignment_1410',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1411,65,'assignment_1411',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1412,65,'assignment_1412',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1413,65,'assignment_1413',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1414,65,'assignment_1414',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1415,65,'assignment_1415',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1416,65,'assignment_1416',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1417,65,'assignment_1417',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1418,65,'assignment_1418',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1419,65,'assignment_1419',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1420,65,'assignment_1420',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1421,65,'assignment_1421',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1422,65,'assignment_1422',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1423,65,'assignment_1423',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1424,65,'assignment_1424',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1425,65,'assignment_1425',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1426,66,'assignment_1426',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1427,66,'assignment_1427',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1428,66,'assignment_1428',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1429,66,'assignment_1429',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1430,66,'assignment_1430',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1431,66,'assignment_1431',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1432,66,'assignment_1432',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1433,66,'assignment_1433',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1434,66,'assignment_1434',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1435,66,'assignment_1435',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1436,66,'assignment_1436',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1437,66,'assignment_1437',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1438,66,'assignment_1438',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1439,66,'assignment_1439',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1440,66,'assignment_1440',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1441,67,'assignment_1441',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1442,67,'assignment_1442',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1443,67,'assignment_1443',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1444,67,'assignment_1444',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1445,67,'assignment_1445',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1446,67,'assignment_1446',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1447,67,'assignment_1447',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1448,67,'assignment_1448',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1449,67,'assignment_1449',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1450,67,'assignment_1450',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1451,67,'assignment_1451',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1452,67,'assignment_1452',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1453,67,'assignment_1453',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1454,67,'assignment_1454',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1455,67,'assignment_1455',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1456,68,'assignment_1456',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1457,68,'assignment_1457',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1458,68,'assignment_1458',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1459,68,'assignment_1459',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1460,68,'assignment_1460',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1461,68,'assignment_1461',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1462,68,'assignment_1462',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1463,68,'assignment_1463',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1464,68,'assignment_1464',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1465,68,'assignment_1465',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1466,68,'assignment_1466',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1467,68,'assignment_1467',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1468,68,'assignment_1468',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1469,68,'assignment_1469',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1470,68,'assignment_1470',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1471,69,'assignment_1471',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1472,69,'assignment_1472',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1473,69,'assignment_1473',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1474,69,'assignment_1474',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1475,69,'assignment_1475',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1476,69,'assignment_1476',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1477,69,'assignment_1477',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1478,69,'assignment_1478',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1479,69,'assignment_1479',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1480,69,'assignment_1480',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1481,69,'assignment_1481',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1482,69,'assignment_1482',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1483,69,'assignment_1483',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1484,69,'assignment_1484',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1485,69,'assignment_1485',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1486,70,'assignment_1486',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1487,70,'assignment_1487',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1488,70,'assignment_1488',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1489,70,'assignment_1489',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1490,70,'assignment_1490',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1491,70,'assignment_1491',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1492,70,'assignment_1492',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1493,70,'assignment_1493',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1494,70,'assignment_1494',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1495,70,'assignment_1495',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1496,70,'assignment_1496',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1497,70,'assignment_1497',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1498,70,'assignment_1498',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1499,70,'assignment_1499',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1500,70,'assignment_1500',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1501,71,'assignment_1501',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1502,71,'assignment_1502',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1503,71,'assignment_1503',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1504,71,'assignment_1504',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1505,71,'assignment_1505',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1506,71,'assignment_1506',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1507,71,'assignment_1507',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1508,71,'assignment_1508',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1509,71,'assignment_1509',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1510,71,'assignment_1510',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1511,71,'assignment_1511',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1512,71,'assignment_1512',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1513,71,'assignment_1513',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1514,71,'assignment_1514',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1515,71,'assignment_1515',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1516,72,'assignment_1516',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1517,72,'assignment_1517',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1518,72,'assignment_1518',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1519,72,'assignment_1519',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1520,72,'assignment_1520',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1521,72,'assignment_1521',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1522,72,'assignment_1522',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1523,72,'assignment_1523',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1524,72,'assignment_1524',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1525,72,'assignment_1525',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1526,72,'assignment_1526',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1527,72,'assignment_1527',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1528,72,'assignment_1528',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1529,72,'assignment_1529',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1530,72,'assignment_1530',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1531,73,'assignment_1531',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1532,73,'assignment_1532',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1533,73,'assignment_1533',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1534,73,'assignment_1534',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1535,73,'assignment_1535',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1536,73,'assignment_1536',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1537,73,'assignment_1537',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1538,73,'assignment_1538',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1539,73,'assignment_1539',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1540,73,'assignment_1540',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1541,73,'assignment_1541',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1542,73,'assignment_1542',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1543,73,'assignment_1543',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1544,73,'assignment_1544',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1545,73,'assignment_1545',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1546,74,'assignment_1546',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1547,74,'assignment_1547',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1548,74,'assignment_1548',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1549,74,'assignment_1549',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1550,74,'assignment_1550',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1551,74,'assignment_1551',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1552,74,'assignment_1552',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1553,74,'assignment_1553',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1554,74,'assignment_1554',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1555,74,'assignment_1555',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1556,74,'assignment_1556',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1557,74,'assignment_1557',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1558,74,'assignment_1558',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1559,74,'assignment_1559',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1560,74,'assignment_1560',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1561,75,'assignment_1561',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1562,75,'assignment_1562',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1563,75,'assignment_1563',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1564,75,'assignment_1564',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1565,75,'assignment_1565',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1566,75,'assignment_1566',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1567,75,'assignment_1567',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1568,75,'assignment_1568',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1569,75,'assignment_1569',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1570,75,'assignment_1570',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1571,75,'assignment_1571',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1572,75,'assignment_1572',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1573,75,'assignment_1573',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1574,75,'assignment_1574',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1575,75,'assignment_1575',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1576,76,'assignment_1576',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1577,76,'assignment_1577',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1578,76,'assignment_1578',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1579,76,'assignment_1579',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1580,76,'assignment_1580',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1581,76,'assignment_1581',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1582,76,'assignment_1582',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1583,76,'assignment_1583',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1584,76,'assignment_1584',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1585,76,'assignment_1585',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1586,76,'assignment_1586',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1587,76,'assignment_1587',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1588,76,'assignment_1588',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1589,76,'assignment_1589',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1590,76,'assignment_1590',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1591,77,'assignment_1591',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1592,77,'assignment_1592',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1593,77,'assignment_1593',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1594,77,'assignment_1594',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1595,77,'assignment_1595',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1596,77,'assignment_1596',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1597,77,'assignment_1597',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1598,77,'assignment_1598',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1599,77,'assignment_1599',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1600,77,'assignment_1600',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1601,77,'assignment_1601',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1602,77,'assignment_1602',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1603,77,'assignment_1603',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1604,77,'assignment_1604',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1605,77,'assignment_1605',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1606,78,'assignment_1606',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1607,78,'assignment_1607',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1608,78,'assignment_1608',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1609,78,'assignment_1609',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1610,78,'assignment_1610',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1611,78,'assignment_1611',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1612,78,'assignment_1612',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1613,78,'assignment_1613',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1614,78,'assignment_1614',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1615,78,'assignment_1615',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1616,78,'assignment_1616',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1617,78,'assignment_1617',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1618,78,'assignment_1618',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1619,78,'assignment_1619',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1620,78,'assignment_1620',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1621,79,'assignment_1621',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1622,79,'assignment_1622',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1623,79,'assignment_1623',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1624,79,'assignment_1624',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1625,79,'assignment_1625',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1626,79,'assignment_1626',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1627,79,'assignment_1627',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1628,79,'assignment_1628',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1629,79,'assignment_1629',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1630,79,'assignment_1630',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1631,79,'assignment_1631',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1632,79,'assignment_1632',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1633,79,'assignment_1633',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1634,79,'assignment_1634',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1635,79,'assignment_1635',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1636,80,'assignment_1636',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1637,80,'assignment_1637',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1638,80,'assignment_1638',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1639,80,'assignment_1639',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1640,80,'assignment_1640',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1641,80,'assignment_1641',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1642,80,'assignment_1642',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1643,80,'assignment_1643',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1644,80,'assignment_1644',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1645,80,'assignment_1645',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1646,80,'assignment_1646',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1647,80,'assignment_1647',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1648,80,'assignment_1648',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1649,80,'assignment_1649',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1650,80,'assignment_1650',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1651,81,'assignment_1651',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1652,81,'assignment_1652',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1653,81,'assignment_1653',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1654,81,'assignment_1654',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1655,81,'assignment_1655',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1656,81,'assignment_1656',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1657,81,'assignment_1657',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1658,81,'assignment_1658',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1659,81,'assignment_1659',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1660,81,'assignment_1660',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1661,81,'assignment_1661',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1662,81,'assignment_1662',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1663,81,'assignment_1663',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1664,81,'assignment_1664',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1665,81,'assignment_1665',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1666,82,'assignment_1666',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1667,82,'assignment_1667',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1668,82,'assignment_1668',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1669,82,'assignment_1669',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1670,82,'assignment_1670',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1671,82,'assignment_1671',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1672,82,'assignment_1672',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1673,82,'assignment_1673',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1674,82,'assignment_1674',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1675,82,'assignment_1675',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1676,82,'assignment_1676',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1677,82,'assignment_1677',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1678,82,'assignment_1678',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1679,82,'assignment_1679',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1680,82,'assignment_1680',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1681,83,'assignment_1681',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1682,83,'assignment_1682',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1683,83,'assignment_1683',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1684,83,'assignment_1684',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1685,83,'assignment_1685',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1686,83,'assignment_1686',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1687,83,'assignment_1687',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1688,83,'assignment_1688',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1689,83,'assignment_1689',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1690,83,'assignment_1690',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1691,83,'assignment_1691',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1692,83,'assignment_1692',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1693,83,'assignment_1693',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1694,83,'assignment_1694',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1695,83,'assignment_1695',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1696,84,'assignment_1696',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1697,84,'assignment_1697',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1698,84,'assignment_1698',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1699,84,'assignment_1699',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1700,84,'assignment_1700',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1701,84,'assignment_1701',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1702,84,'assignment_1702',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1703,84,'assignment_1703',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1704,84,'assignment_1704',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1705,84,'assignment_1705',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1706,84,'assignment_1706',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1707,84,'assignment_1707',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1708,84,'assignment_1708',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1709,84,'assignment_1709',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1710,84,'assignment_1710',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1711,85,'assignment_1711',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1712,85,'assignment_1712',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1713,85,'assignment_1713',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1714,85,'assignment_1714',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1715,85,'assignment_1715',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1716,85,'assignment_1716',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1717,85,'assignment_1717',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1718,85,'assignment_1718',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1719,85,'assignment_1719',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1720,85,'assignment_1720',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1721,85,'assignment_1721',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1722,85,'assignment_1722',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1723,85,'assignment_1723',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1724,85,'assignment_1724',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1725,85,'assignment_1725',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1726,86,'assignment_1726',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1727,86,'assignment_1727',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1728,86,'assignment_1728',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1729,86,'assignment_1729',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1730,86,'assignment_1730',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1731,86,'assignment_1731',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1732,86,'assignment_1732',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1733,86,'assignment_1733',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1734,86,'assignment_1734',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1735,86,'assignment_1735',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1736,86,'assignment_1736',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1737,86,'assignment_1737',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1738,86,'assignment_1738',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1739,86,'assignment_1739',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1740,86,'assignment_1740',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1741,87,'assignment_1741',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1742,87,'assignment_1742',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1743,87,'assignment_1743',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1744,87,'assignment_1744',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1745,87,'assignment_1745',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1746,87,'assignment_1746',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1747,87,'assignment_1747',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1748,87,'assignment_1748',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1749,87,'assignment_1749',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1750,87,'assignment_1750',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1751,87,'assignment_1751',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1752,87,'assignment_1752',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1753,87,'assignment_1753',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1754,87,'assignment_1754',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1755,87,'assignment_1755',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1756,88,'assignment_1756',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1757,88,'assignment_1757',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1758,88,'assignment_1758',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1759,88,'assignment_1759',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1760,88,'assignment_1760',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1761,88,'assignment_1761',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1762,88,'assignment_1762',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1763,88,'assignment_1763',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1764,88,'assignment_1764',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1765,88,'assignment_1765',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1766,88,'assignment_1766',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1767,88,'assignment_1767',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1768,88,'assignment_1768',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1769,88,'assignment_1769',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1770,88,'assignment_1770',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1771,89,'assignment_1771',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1772,89,'assignment_1772',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1773,89,'assignment_1773',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1774,89,'assignment_1774',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1775,89,'assignment_1775',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1776,89,'assignment_1776',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1777,89,'assignment_1777',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1778,89,'assignment_1778',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1779,89,'assignment_1779',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1780,89,'assignment_1780',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1781,89,'assignment_1781',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1782,89,'assignment_1782',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1783,89,'assignment_1783',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1784,89,'assignment_1784',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1785,89,'assignment_1785',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1786,90,'assignment_1786',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1787,90,'assignment_1787',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1788,90,'assignment_1788',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1789,90,'assignment_1789',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1790,90,'assignment_1790',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1791,90,'assignment_1791',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1792,90,'assignment_1792',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1793,90,'assignment_1793',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1794,90,'assignment_1794',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1795,90,'assignment_1795',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1796,90,'assignment_1796',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1797,90,'assignment_1797',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1798,90,'assignment_1798',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1799,90,'assignment_1799',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1800,90,'assignment_1800',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1801,91,'assignment_1801',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1802,91,'assignment_1802',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1803,91,'assignment_1803',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1804,91,'assignment_1804',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1805,91,'assignment_1805',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1806,91,'assignment_1806',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1807,91,'assignment_1807',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1808,91,'assignment_1808',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1809,91,'assignment_1809',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1810,91,'assignment_1810',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1811,91,'assignment_1811',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1812,91,'assignment_1812',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1813,91,'assignment_1813',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1814,91,'assignment_1814',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1815,91,'assignment_1815',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1816,92,'assignment_1816',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1817,92,'assignment_1817',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1818,92,'assignment_1818',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1819,92,'assignment_1819',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1820,92,'assignment_1820',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1821,92,'assignment_1821',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1822,92,'assignment_1822',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1823,92,'assignment_1823',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1824,92,'assignment_1824',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1825,92,'assignment_1825',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1826,92,'assignment_1826',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1827,92,'assignment_1827',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1828,92,'assignment_1828',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1829,92,'assignment_1829',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1830,92,'assignment_1830',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1831,93,'assignment_1831',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1832,93,'assignment_1832',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1833,93,'assignment_1833',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1834,93,'assignment_1834',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1835,93,'assignment_1835',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1836,93,'assignment_1836',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1837,93,'assignment_1837',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1838,93,'assignment_1838',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1839,93,'assignment_1839',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1840,93,'assignment_1840',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1841,93,'assignment_1841',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1842,93,'assignment_1842',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1843,93,'assignment_1843',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1844,93,'assignment_1844',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1845,93,'assignment_1845',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1846,94,'assignment_1846',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1847,94,'assignment_1847',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1848,94,'assignment_1848',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1849,94,'assignment_1849',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1850,94,'assignment_1850',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1851,94,'assignment_1851',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1852,94,'assignment_1852',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1853,94,'assignment_1853',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1854,94,'assignment_1854',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1855,94,'assignment_1855',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1856,94,'assignment_1856',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1857,94,'assignment_1857',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1858,94,'assignment_1858',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1859,94,'assignment_1859',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1860,94,'assignment_1860',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1861,95,'assignment_1861',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1862,95,'assignment_1862',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1863,95,'assignment_1863',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1864,95,'assignment_1864',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1865,95,'assignment_1865',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1866,95,'assignment_1866',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1867,95,'assignment_1867',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1868,95,'assignment_1868',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1869,95,'assignment_1869',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1870,95,'assignment_1870',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1871,95,'assignment_1871',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1872,95,'assignment_1872',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1873,95,'assignment_1873',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1874,95,'assignment_1874',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1875,95,'assignment_1875',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1876,96,'assignment_1876',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1877,96,'assignment_1877',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1878,96,'assignment_1878',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1879,96,'assignment_1879',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1880,96,'assignment_1880',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1881,96,'assignment_1881',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1882,96,'assignment_1882',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1883,96,'assignment_1883',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1884,96,'assignment_1884',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1885,96,'assignment_1885',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1886,96,'assignment_1886',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1887,96,'assignment_1887',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1888,96,'assignment_1888',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1889,96,'assignment_1889',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1890,96,'assignment_1890',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1891,97,'assignment_1891',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1892,97,'assignment_1892',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1893,97,'assignment_1893',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1894,97,'assignment_1894',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1895,97,'assignment_1895',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1896,97,'assignment_1896',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1897,97,'assignment_1897',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1898,97,'assignment_1898',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1899,97,'assignment_1899',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1900,97,'assignment_1900',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1901,97,'assignment_1901',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1902,97,'assignment_1902',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1903,97,'assignment_1903',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1904,97,'assignment_1904',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1905,97,'assignment_1905',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1906,98,'assignment_1906',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1907,98,'assignment_1907',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1908,98,'assignment_1908',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1909,98,'assignment_1909',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1910,98,'assignment_1910',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1911,98,'assignment_1911',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1912,98,'assignment_1912',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1913,98,'assignment_1913',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1914,98,'assignment_1914',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1915,98,'assignment_1915',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1916,98,'assignment_1916',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1917,98,'assignment_1917',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1918,98,'assignment_1918',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1919,98,'assignment_1919',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1920,98,'assignment_1920',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1921,99,'assignment_1921',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1922,99,'assignment_1922',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1923,99,'assignment_1923',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1924,99,'assignment_1924',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1925,99,'assignment_1925',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1926,99,'assignment_1926',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1927,99,'assignment_1927',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1928,99,'assignment_1928',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1929,99,'assignment_1929',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1930,99,'assignment_1930',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1931,99,'assignment_1931',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1932,99,'assignment_1932',1);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1933,99,'assignment_1933',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1934,99,'assignment_1934',2);
-INSERT INTO assignments (id,class_id,name,type) VALUES (1935,99,'assignment_1935',2);
+INSERT INTO assignments (id,class_id,name,type) VALUES
+(1,1,'assignment_1',1),
+(2,1,'assignment_2',1),
+(3,1,'assignment_3',1),
+(4,1,'assignment_4',1),
+(5,1,'assignment_5',1),
+(6,1,'assignment_6',1),
+(7,1,'assignment_7',1),
+(8,1,'assignment_8',1),
+(9,1,'assignment_9',1),
+(10,1,'assignment_10',1),
+(11,1,'assignment_11',1),
+(12,1,'assignment_12',1),
+(13,1,'assignment_13',2),
+(14,1,'assignment_14',2),
+(15,1,'assignment_15',2),
+(16,100,'assignment_16',1),
+(17,100,'assignment_17',1),
+(18,100,'assignment_18',1),
+(19,100,'assignment_19',1),
+(20,100,'assignment_20',1),
+(21,100,'assignment_21',1),
+(22,100,'assignment_22',1),
+(23,100,'assignment_23',1),
+(24,100,'assignment_24',1),
+(25,100,'assignment_25',1),
+(26,100,'assignment_26',1),
+(27,100,'assignment_27',1),
+(28,100,'assignment_28',2),
+(29,100,'assignment_29',2),
+(30,100,'assignment_30',2),
+(31,199,'assignment_31',1),
+(32,199,'assignment_32',1),
+(33,199,'assignment_33',1),
+(34,199,'assignment_34',1),
+(35,199,'assignment_35',1),
+(36,199,'assignment_36',1),
+(37,199,'assignment_37',1),
+(38,199,'assignment_38',1),
+(39,199,'assignment_39',1),
+(40,199,'assignment_40',1),
+(41,199,'assignment_41',1),
+(42,199,'assignment_42',1),
+(43,199,'assignment_43',2),
+(44,199,'assignment_44',2),
+(45,199,'assignment_45',2),
+(46,298,'assignment_46',1),
+(47,298,'assignment_47',1),
+(48,298,'assignment_48',1),
+(49,298,'assignment_49',1),
+(50,298,'assignment_50',1),
+(51,298,'assignment_51',1),
+(52,298,'assignment_52',1),
+(53,298,'assignment_53',1),
+(54,298,'assignment_54',1),
+(55,298,'assignment_55',1),
+(56,298,'assignment_56',1),
+(57,298,'assignment_57',1),
+(58,298,'assignment_58',2),
+(59,298,'assignment_59',2),
+(60,298,'assignment_60',2),
+(61,2,'assignment_61',1),
+(62,2,'assignment_62',1),
+(63,2,'assignment_63',1),
+(64,2,'assignment_64',1),
+(65,2,'assignment_65',1),
+(66,2,'assignment_66',1),
+(67,2,'assignment_67',1),
+(68,2,'assignment_68',1),
+(69,2,'assignment_69',1),
+(70,2,'assignment_70',1),
+(71,2,'assignment_71',1),
+(72,2,'assignment_72',1),
+(73,2,'assignment_73',2),
+(74,2,'assignment_74',2),
+(75,2,'assignment_75',2),
+(76,101,'assignment_76',1),
+(77,101,'assignment_77',1),
+(78,101,'assignment_78',1),
+(79,101,'assignment_79',1),
+(80,101,'assignment_80',1),
+(81,101,'assignment_81',1),
+(82,101,'assignment_82',1),
+(83,101,'assignment_83',1),
+(84,101,'assignment_84',1),
+(85,101,'assignment_85',1),
+(86,101,'assignment_86',1),
+(87,101,'assignment_87',1),
+(88,101,'assignment_88',2),
+(89,101,'assignment_89',2),
+(90,101,'assignment_90',2),
+(91,200,'assignment_91',1),
+(92,200,'assignment_92',1),
+(93,200,'assignment_93',1),
+(94,200,'assignment_94',1),
+(95,200,'assignment_95',1),
+(96,200,'assignment_96',1),
+(97,200,'assignment_97',1),
+(98,200,'assignment_98',1),
+(99,200,'assignment_99',1),
+(100,200,'assignment_100',1),
+(101,200,'assignment_101',1),
+(102,200,'assignment_102',1),
+(103,200,'assignment_103',2),
+(104,200,'assignment_104',2),
+(105,200,'assignment_105',2),
+(106,299,'assignment_106',1),
+(107,299,'assignment_107',1),
+(108,299,'assignment_108',1),
+(109,299,'assignment_109',1),
+(110,299,'assignment_110',1),
+(111,299,'assignment_111',1),
+(112,299,'assignment_112',1),
+(113,299,'assignment_113',1),
+(114,299,'assignment_114',1),
+(115,299,'assignment_115',1),
+(116,299,'assignment_116',1),
+(117,299,'assignment_117',1),
+(118,299,'assignment_118',2),
+(119,299,'assignment_119',2),
+(120,299,'assignment_120',2),
+(121,3,'assignment_121',1),
+(122,3,'assignment_122',1),
+(123,3,'assignment_123',1),
+(124,3,'assignment_124',1),
+(125,3,'assignment_125',1),
+(126,3,'assignment_126',1),
+(127,3,'assignment_127',1),
+(128,3,'assignment_128',1),
+(129,3,'assignment_129',1),
+(130,3,'assignment_130',1),
+(131,3,'assignment_131',1),
+(132,3,'assignment_132',1),
+(133,3,'assignment_133',2),
+(134,3,'assignment_134',2),
+(135,3,'assignment_135',2),
+(136,102,'assignment_136',1),
+(137,102,'assignment_137',1),
+(138,102,'assignment_138',1),
+(139,102,'assignment_139',1),
+(140,102,'assignment_140',1),
+(141,102,'assignment_141',1),
+(142,102,'assignment_142',1),
+(143,102,'assignment_143',1),
+(144,102,'assignment_144',1),
+(145,102,'assignment_145',1),
+(146,102,'assignment_146',1),
+(147,102,'assignment_147',1),
+(148,102,'assignment_148',2),
+(149,102,'assignment_149',2),
+(150,102,'assignment_150',2),
+(151,201,'assignment_151',1),
+(152,201,'assignment_152',1),
+(153,201,'assignment_153',1),
+(154,201,'assignment_154',1),
+(155,201,'assignment_155',1),
+(156,201,'assignment_156',1),
+(157,201,'assignment_157',1),
+(158,201,'assignment_158',1),
+(159,201,'assignment_159',1),
+(160,201,'assignment_160',1),
+(161,201,'assignment_161',1),
+(162,201,'assignment_162',1),
+(163,201,'assignment_163',2),
+(164,201,'assignment_164',2),
+(165,201,'assignment_165',2),
+(166,300,'assignment_166',1),
+(167,300,'assignment_167',1),
+(168,300,'assignment_168',1),
+(169,300,'assignment_169',1),
+(170,300,'assignment_170',1),
+(171,300,'assignment_171',1),
+(172,300,'assignment_172',1),
+(173,300,'assignment_173',1),
+(174,300,'assignment_174',1),
+(175,300,'assignment_175',1),
+(176,300,'assignment_176',1),
+(177,300,'assignment_177',1),
+(178,300,'assignment_178',2),
+(179,300,'assignment_179',2),
+(180,300,'assignment_180',2),
+(181,4,'assignment_181',1),
+(182,4,'assignment_182',1),
+(183,4,'assignment_183',1),
+(184,4,'assignment_184',1),
+(185,4,'assignment_185',1),
+(186,4,'assignment_186',1),
+(187,4,'assignment_187',1),
+(188,4,'assignment_188',1),
+(189,4,'assignment_189',1),
+(190,4,'assignment_190',1),
+(191,4,'assignment_191',1),
+(192,4,'assignment_192',1),
+(193,4,'assignment_193',2),
+(194,4,'assignment_194',2),
+(195,4,'assignment_195',2),
+(196,103,'assignment_196',1),
+(197,103,'assignment_197',1),
+(198,103,'assignment_198',1),
+(199,103,'assignment_199',1),
+(200,103,'assignment_200',1),
+(201,103,'assignment_201',1),
+(202,103,'assignment_202',1),
+(203,103,'assignment_203',1),
+(204,103,'assignment_204',1),
+(205,103,'assignment_205',1),
+(206,103,'assignment_206',1),
+(207,103,'assignment_207',1),
+(208,103,'assignment_208',2),
+(209,103,'assignment_209',2),
+(210,103,'assignment_210',2),
+(211,202,'assignment_211',1),
+(212,202,'assignment_212',1),
+(213,202,'assignment_213',1),
+(214,202,'assignment_214',1),
+(215,202,'assignment_215',1),
+(216,202,'assignment_216',1),
+(217,202,'assignment_217',1),
+(218,202,'assignment_218',1),
+(219,202,'assignment_219',1),
+(220,202,'assignment_220',1),
+(221,202,'assignment_221',1),
+(222,202,'assignment_222',1),
+(223,202,'assignment_223',2),
+(224,202,'assignment_224',2),
+(225,202,'assignment_225',2),
+(226,301,'assignment_226',1),
+(227,301,'assignment_227',1),
+(228,301,'assignment_228',1),
+(229,301,'assignment_229',1),
+(230,301,'assignment_230',1),
+(231,301,'assignment_231',1),
+(232,301,'assignment_232',1),
+(233,301,'assignment_233',1),
+(234,301,'assignment_234',1),
+(235,301,'assignment_235',1),
+(236,301,'assignment_236',1),
+(237,301,'assignment_237',1),
+(238,301,'assignment_238',2),
+(239,301,'assignment_239',2),
+(240,301,'assignment_240',2),
+(241,5,'assignment_241',1),
+(242,5,'assignment_242',1),
+(243,5,'assignment_243',1),
+(244,5,'assignment_244',1),
+(245,5,'assignment_245',1),
+(246,5,'assignment_246',1),
+(247,5,'assignment_247',1),
+(248,5,'assignment_248',1),
+(249,5,'assignment_249',1),
+(250,5,'assignment_250',1),
+(251,5,'assignment_251',1),
+(252,5,'assignment_252',1),
+(253,5,'assignment_253',2),
+(254,5,'assignment_254',2),
+(255,5,'assignment_255',2),
+(256,104,'assignment_256',1),
+(257,104,'assignment_257',1),
+(258,104,'assignment_258',1),
+(259,104,'assignment_259',1),
+(260,104,'assignment_260',1),
+(261,104,'assignment_261',1),
+(262,104,'assignment_262',1),
+(263,104,'assignment_263',1),
+(264,104,'assignment_264',1),
+(265,104,'assignment_265',1),
+(266,104,'assignment_266',1),
+(267,104,'assignment_267',1),
+(268,104,'assignment_268',2),
+(269,104,'assignment_269',2),
+(270,104,'assignment_270',2),
+(271,203,'assignment_271',1),
+(272,203,'assignment_272',1),
+(273,203,'assignment_273',1),
+(274,203,'assignment_274',1),
+(275,203,'assignment_275',1),
+(276,203,'assignment_276',1),
+(277,203,'assignment_277',1),
+(278,203,'assignment_278',1),
+(279,203,'assignment_279',1),
+(280,203,'assignment_280',1),
+(281,203,'assignment_281',1),
+(282,203,'assignment_282',1),
+(283,203,'assignment_283',2),
+(284,203,'assignment_284',2),
+(285,203,'assignment_285',2),
+(286,302,'assignment_286',1),
+(287,302,'assignment_287',1),
+(288,302,'assignment_288',1),
+(289,302,'assignment_289',1),
+(290,302,'assignment_290',1),
+(291,302,'assignment_291',1),
+(292,302,'assignment_292',1),
+(293,302,'assignment_293',1),
+(294,302,'assignment_294',1),
+(295,302,'assignment_295',1),
+(296,302,'assignment_296',1),
+(297,302,'assignment_297',1),
+(298,302,'assignment_298',2),
+(299,302,'assignment_299',2),
+(300,302,'assignment_300',2),
+(301,6,'assignment_301',1),
+(302,6,'assignment_302',1),
+(303,6,'assignment_303',1),
+(304,6,'assignment_304',1),
+(305,6,'assignment_305',1),
+(306,6,'assignment_306',1),
+(307,6,'assignment_307',1),
+(308,6,'assignment_308',1),
+(309,6,'assignment_309',1),
+(310,6,'assignment_310',1),
+(311,6,'assignment_311',1),
+(312,6,'assignment_312',1),
+(313,6,'assignment_313',2),
+(314,6,'assignment_314',2),
+(315,6,'assignment_315',2),
+(316,105,'assignment_316',1),
+(317,105,'assignment_317',1),
+(318,105,'assignment_318',1),
+(319,105,'assignment_319',1),
+(320,105,'assignment_320',1),
+(321,105,'assignment_321',1),
+(322,105,'assignment_322',1),
+(323,105,'assignment_323',1),
+(324,105,'assignment_324',1),
+(325,105,'assignment_325',1),
+(326,105,'assignment_326',1),
+(327,105,'assignment_327',1),
+(328,105,'assignment_328',2),
+(329,105,'assignment_329',2),
+(330,105,'assignment_330',2),
+(331,204,'assignment_331',1),
+(332,204,'assignment_332',1),
+(333,204,'assignment_333',1),
+(334,204,'assignment_334',1),
+(335,204,'assignment_335',1),
+(336,204,'assignment_336',1),
+(337,204,'assignment_337',1),
+(338,204,'assignment_338',1),
+(339,204,'assignment_339',1),
+(340,204,'assignment_340',1),
+(341,204,'assignment_341',1),
+(342,204,'assignment_342',1),
+(343,204,'assignment_343',2),
+(344,204,'assignment_344',2),
+(345,204,'assignment_345',2),
+(346,303,'assignment_346',1),
+(347,303,'assignment_347',1),
+(348,303,'assignment_348',1),
+(349,303,'assignment_349',1),
+(350,303,'assignment_350',1),
+(351,303,'assignment_351',1),
+(352,303,'assignment_352',1),
+(353,303,'assignment_353',1),
+(354,303,'assignment_354',1),
+(355,303,'assignment_355',1),
+(356,303,'assignment_356',1),
+(357,303,'assignment_357',1),
+(358,303,'assignment_358',2),
+(359,303,'assignment_359',2),
+(360,303,'assignment_360',2),
+(361,7,'assignment_361',1),
+(362,7,'assignment_362',1),
+(363,7,'assignment_363',1),
+(364,7,'assignment_364',1),
+(365,7,'assignment_365',1),
+(366,7,'assignment_366',1),
+(367,7,'assignment_367',1),
+(368,7,'assignment_368',1),
+(369,7,'assignment_369',1),
+(370,7,'assignment_370',1),
+(371,7,'assignment_371',1),
+(372,7,'assignment_372',1),
+(373,7,'assignment_373',2),
+(374,7,'assignment_374',2),
+(375,7,'assignment_375',2),
+(376,106,'assignment_376',1),
+(377,106,'assignment_377',1),
+(378,106,'assignment_378',1),
+(379,106,'assignment_379',1),
+(380,106,'assignment_380',1),
+(381,106,'assignment_381',1),
+(382,106,'assignment_382',1),
+(383,106,'assignment_383',1),
+(384,106,'assignment_384',1),
+(385,106,'assignment_385',1),
+(386,106,'assignment_386',1),
+(387,106,'assignment_387',1),
+(388,106,'assignment_388',2),
+(389,106,'assignment_389',2),
+(390,106,'assignment_390',2),
+(391,205,'assignment_391',1),
+(392,205,'assignment_392',1),
+(393,205,'assignment_393',1),
+(394,205,'assignment_394',1),
+(395,205,'assignment_395',1),
+(396,205,'assignment_396',1),
+(397,205,'assignment_397',1),
+(398,205,'assignment_398',1),
+(399,205,'assignment_399',1),
+(400,205,'assignment_400',1),
+(401,205,'assignment_401',1),
+(402,205,'assignment_402',1),
+(403,205,'assignment_403',2),
+(404,205,'assignment_404',2),
+(405,205,'assignment_405',2),
+(406,304,'assignment_406',1),
+(407,304,'assignment_407',1),
+(408,304,'assignment_408',1),
+(409,304,'assignment_409',1),
+(410,304,'assignment_410',1),
+(411,304,'assignment_411',1),
+(412,304,'assignment_412',1),
+(413,304,'assignment_413',1),
+(414,304,'assignment_414',1),
+(415,304,'assignment_415',1),
+(416,304,'assignment_416',1),
+(417,304,'assignment_417',1),
+(418,304,'assignment_418',2),
+(419,304,'assignment_419',2),
+(420,304,'assignment_420',2),
+(421,8,'assignment_421',1),
+(422,8,'assignment_422',1),
+(423,8,'assignment_423',1),
+(424,8,'assignment_424',1),
+(425,8,'assignment_425',1),
+(426,8,'assignment_426',1),
+(427,8,'assignment_427',1),
+(428,8,'assignment_428',1),
+(429,8,'assignment_429',1),
+(430,8,'assignment_430',1),
+(431,8,'assignment_431',1),
+(432,8,'assignment_432',1),
+(433,8,'assignment_433',2),
+(434,8,'assignment_434',2),
+(435,8,'assignment_435',2),
+(436,107,'assignment_436',1),
+(437,107,'assignment_437',1),
+(438,107,'assignment_438',1),
+(439,107,'assignment_439',1),
+(440,107,'assignment_440',1),
+(441,107,'assignment_441',1),
+(442,107,'assignment_442',1),
+(443,107,'assignment_443',1),
+(444,107,'assignment_444',1),
+(445,107,'assignment_445',1),
+(446,107,'assignment_446',1),
+(447,107,'assignment_447',1),
+(448,107,'assignment_448',2),
+(449,107,'assignment_449',2),
+(450,107,'assignment_450',2),
+(451,206,'assignment_451',1),
+(452,206,'assignment_452',1),
+(453,206,'assignment_453',1),
+(454,206,'assignment_454',1),
+(455,206,'assignment_455',1),
+(456,206,'assignment_456',1),
+(457,206,'assignment_457',1),
+(458,206,'assignment_458',1),
+(459,206,'assignment_459',1),
+(460,206,'assignment_460',1),
+(461,206,'assignment_461',1),
+(462,206,'assignment_462',1),
+(463,206,'assignment_463',2),
+(464,206,'assignment_464',2),
+(465,206,'assignment_465',2),
+(466,305,'assignment_466',1),
+(467,305,'assignment_467',1),
+(468,305,'assignment_468',1),
+(469,305,'assignment_469',1),
+(470,305,'assignment_470',1),
+(471,305,'assignment_471',1),
+(472,305,'assignment_472',1),
+(473,305,'assignment_473',1),
+(474,305,'assignment_474',1),
+(475,305,'assignment_475',1),
+(476,305,'assignment_476',1),
+(477,305,'assignment_477',1),
+(478,305,'assignment_478',2),
+(479,305,'assignment_479',2),
+(480,305,'assignment_480',2),
+(481,9,'assignment_481',1),
+(482,9,'assignment_482',1),
+(483,9,'assignment_483',1),
+(484,9,'assignment_484',1),
+(485,9,'assignment_485',1),
+(486,9,'assignment_486',1),
+(487,9,'assignment_487',1),
+(488,9,'assignment_488',1),
+(489,9,'assignment_489',1),
+(490,9,'assignment_490',1),
+(491,9,'assignment_491',1),
+(492,9,'assignment_492',1),
+(493,9,'assignment_493',2),
+(494,9,'assignment_494',2),
+(495,9,'assignment_495',2),
+(496,108,'assignment_496',1),
+(497,108,'assignment_497',1),
+(498,108,'assignment_498',1),
+(499,108,'assignment_499',1),
+(500,108,'assignment_500',1),
+(501,108,'assignment_501',1),
+(502,108,'assignment_502',1),
+(503,108,'assignment_503',1),
+(504,108,'assignment_504',1),
+(505,108,'assignment_505',1),
+(506,108,'assignment_506',1),
+(507,108,'assignment_507',1),
+(508,108,'assignment_508',2),
+(509,108,'assignment_509',2),
+(510,108,'assignment_510',2),
+(511,207,'assignment_511',1),
+(512,207,'assignment_512',1),
+(513,207,'assignment_513',1),
+(514,207,'assignment_514',1),
+(515,207,'assignment_515',1),
+(516,207,'assignment_516',1),
+(517,207,'assignment_517',1),
+(518,207,'assignment_518',1),
+(519,207,'assignment_519',1),
+(520,207,'assignment_520',1),
+(521,207,'assignment_521',1),
+(522,207,'assignment_522',1),
+(523,207,'assignment_523',2),
+(524,207,'assignment_524',2),
+(525,207,'assignment_525',2),
+(526,306,'assignment_526',1),
+(527,306,'assignment_527',1),
+(528,306,'assignment_528',1),
+(529,306,'assignment_529',1),
+(530,306,'assignment_530',1),
+(531,306,'assignment_531',1),
+(532,306,'assignment_532',1),
+(533,306,'assignment_533',1),
+(534,306,'assignment_534',1),
+(535,306,'assignment_535',1),
+(536,306,'assignment_536',1),
+(537,306,'assignment_537',1),
+(538,306,'assignment_538',2),
+(539,306,'assignment_539',2),
+(540,306,'assignment_540',2),
+(541,10,'assignment_541',1),
+(542,10,'assignment_542',1),
+(543,10,'assignment_543',1),
+(544,10,'assignment_544',1),
+(545,10,'assignment_545',1),
+(546,10,'assignment_546',1),
+(547,10,'assignment_547',1),
+(548,10,'assignment_548',1),
+(549,10,'assignment_549',1),
+(550,10,'assignment_550',1),
+(551,10,'assignment_551',1),
+(552,10,'assignment_552',1),
+(553,10,'assignment_553',2),
+(554,10,'assignment_554',2),
+(555,10,'assignment_555',2),
+(556,109,'assignment_556',1),
+(557,109,'assignment_557',1),
+(558,109,'assignment_558',1),
+(559,109,'assignment_559',1),
+(560,109,'assignment_560',1),
+(561,109,'assignment_561',1),
+(562,109,'assignment_562',1),
+(563,109,'assignment_563',1),
+(564,109,'assignment_564',1),
+(565,109,'assignment_565',1),
+(566,109,'assignment_566',1),
+(567,109,'assignment_567',1),
+(568,109,'assignment_568',2),
+(569,109,'assignment_569',2),
+(570,109,'assignment_570',2),
+(571,208,'assignment_571',1),
+(572,208,'assignment_572',1),
+(573,208,'assignment_573',1),
+(574,208,'assignment_574',1),
+(575,208,'assignment_575',1),
+(576,208,'assignment_576',1),
+(577,208,'assignment_577',1),
+(578,208,'assignment_578',1),
+(579,208,'assignment_579',1),
+(580,208,'assignment_580',1),
+(581,208,'assignment_581',1),
+(582,208,'assignment_582',1),
+(583,208,'assignment_583',2),
+(584,208,'assignment_584',2),
+(585,208,'assignment_585',2),
+(586,307,'assignment_586',1),
+(587,307,'assignment_587',1),
+(588,307,'assignment_588',1),
+(589,307,'assignment_589',1),
+(590,307,'assignment_590',1),
+(591,307,'assignment_591',1),
+(592,307,'assignment_592',1),
+(593,307,'assignment_593',1),
+(594,307,'assignment_594',1),
+(595,307,'assignment_595',1),
+(596,307,'assignment_596',1),
+(597,307,'assignment_597',1),
+(598,307,'assignment_598',2),
+(599,307,'assignment_599',2),
+(600,307,'assignment_600',2),
+(601,11,'assignment_601',1),
+(602,11,'assignment_602',1),
+(603,11,'assignment_603',1),
+(604,11,'assignment_604',1),
+(605,11,'assignment_605',1),
+(606,11,'assignment_606',1),
+(607,11,'assignment_607',1),
+(608,11,'assignment_608',1),
+(609,11,'assignment_609',1),
+(610,11,'assignment_610',1),
+(611,11,'assignment_611',1),
+(612,11,'assignment_612',1),
+(613,11,'assignment_613',2),
+(614,11,'assignment_614',2),
+(615,11,'assignment_615',2),
+(616,110,'assignment_616',1),
+(617,110,'assignment_617',1),
+(618,110,'assignment_618',1),
+(619,110,'assignment_619',1),
+(620,110,'assignment_620',1),
+(621,110,'assignment_621',1),
+(622,110,'assignment_622',1),
+(623,110,'assignment_623',1),
+(624,110,'assignment_624',1),
+(625,110,'assignment_625',1),
+(626,110,'assignment_626',1),
+(627,110,'assignment_627',1),
+(628,110,'assignment_628',2),
+(629,110,'assignment_629',2),
+(630,110,'assignment_630',2),
+(631,209,'assignment_631',1),
+(632,209,'assignment_632',1),
+(633,209,'assignment_633',1),
+(634,209,'assignment_634',1),
+(635,209,'assignment_635',1),
+(636,209,'assignment_636',1),
+(637,209,'assignment_637',1),
+(638,209,'assignment_638',1),
+(639,209,'assignment_639',1),
+(640,209,'assignment_640',1),
+(641,209,'assignment_641',1),
+(642,209,'assignment_642',1),
+(643,209,'assignment_643',2),
+(644,209,'assignment_644',2),
+(645,209,'assignment_645',2),
+(646,308,'assignment_646',1),
+(647,308,'assignment_647',1),
+(648,308,'assignment_648',1),
+(649,308,'assignment_649',1),
+(650,308,'assignment_650',1),
+(651,308,'assignment_651',1),
+(652,308,'assignment_652',1),
+(653,308,'assignment_653',1),
+(654,308,'assignment_654',1),
+(655,308,'assignment_655',1),
+(656,308,'assignment_656',1),
+(657,308,'assignment_657',1),
+(658,308,'assignment_658',2),
+(659,308,'assignment_659',2),
+(660,308,'assignment_660',2),
+(661,12,'assignment_661',1),
+(662,12,'assignment_662',1),
+(663,12,'assignment_663',1),
+(664,12,'assignment_664',1),
+(665,12,'assignment_665',1),
+(666,12,'assignment_666',1),
+(667,12,'assignment_667',1),
+(668,12,'assignment_668',1),
+(669,12,'assignment_669',1),
+(670,12,'assignment_670',1),
+(671,12,'assignment_671',1),
+(672,12,'assignment_672',1),
+(673,12,'assignment_673',2),
+(674,12,'assignment_674',2),
+(675,12,'assignment_675',2),
+(676,111,'assignment_676',1),
+(677,111,'assignment_677',1),
+(678,111,'assignment_678',1),
+(679,111,'assignment_679',1),
+(680,111,'assignment_680',1),
+(681,111,'assignment_681',1),
+(682,111,'assignment_682',1),
+(683,111,'assignment_683',1),
+(684,111,'assignment_684',1),
+(685,111,'assignment_685',1),
+(686,111,'assignment_686',1),
+(687,111,'assignment_687',1),
+(688,111,'assignment_688',2),
+(689,111,'assignment_689',2),
+(690,111,'assignment_690',2),
+(691,210,'assignment_691',1),
+(692,210,'assignment_692',1),
+(693,210,'assignment_693',1),
+(694,210,'assignment_694',1),
+(695,210,'assignment_695',1),
+(696,210,'assignment_696',1),
+(697,210,'assignment_697',1),
+(698,210,'assignment_698',1),
+(699,210,'assignment_699',1),
+(700,210,'assignment_700',1),
+(701,210,'assignment_701',1),
+(702,210,'assignment_702',1),
+(703,210,'assignment_703',2),
+(704,210,'assignment_704',2),
+(705,210,'assignment_705',2),
+(706,309,'assignment_706',1),
+(707,309,'assignment_707',1),
+(708,309,'assignment_708',1),
+(709,309,'assignment_709',1),
+(710,309,'assignment_710',1),
+(711,309,'assignment_711',1),
+(712,309,'assignment_712',1),
+(713,309,'assignment_713',1),
+(714,309,'assignment_714',1),
+(715,309,'assignment_715',1),
+(716,309,'assignment_716',1),
+(717,309,'assignment_717',1),
+(718,309,'assignment_718',2),
+(719,309,'assignment_719',2),
+(720,309,'assignment_720',2),
+(721,13,'assignment_721',1),
+(722,13,'assignment_722',1),
+(723,13,'assignment_723',1),
+(724,13,'assignment_724',1),
+(725,13,'assignment_725',1),
+(726,13,'assignment_726',1),
+(727,13,'assignment_727',1),
+(728,13,'assignment_728',1),
+(729,13,'assignment_729',1),
+(730,13,'assignment_730',1),
+(731,13,'assignment_731',1),
+(732,13,'assignment_732',1),
+(733,13,'assignment_733',2),
+(734,13,'assignment_734',2),
+(735,13,'assignment_735',2),
+(736,112,'assignment_736',1),
+(737,112,'assignment_737',1),
+(738,112,'assignment_738',1),
+(739,112,'assignment_739',1),
+(740,112,'assignment_740',1),
+(741,112,'assignment_741',1),
+(742,112,'assignment_742',1),
+(743,112,'assignment_743',1),
+(744,112,'assignment_744',1),
+(745,112,'assignment_745',1),
+(746,112,'assignment_746',1),
+(747,112,'assignment_747',1),
+(748,112,'assignment_748',2),
+(749,112,'assignment_749',2),
+(750,112,'assignment_750',2),
+(751,211,'assignment_751',1),
+(752,211,'assignment_752',1),
+(753,211,'assignment_753',1),
+(754,211,'assignment_754',1),
+(755,211,'assignment_755',1),
+(756,211,'assignment_756',1),
+(757,211,'assignment_757',1),
+(758,211,'assignment_758',1),
+(759,211,'assignment_759',1),
+(760,211,'assignment_760',1),
+(761,211,'assignment_761',1),
+(762,211,'assignment_762',1),
+(763,211,'assignment_763',2),
+(764,211,'assignment_764',2),
+(765,211,'assignment_765',2),
+(766,310,'assignment_766',1),
+(767,310,'assignment_767',1),
+(768,310,'assignment_768',1),
+(769,310,'assignment_769',1),
+(770,310,'assignment_770',1),
+(771,310,'assignment_771',1),
+(772,310,'assignment_772',1),
+(773,310,'assignment_773',1),
+(774,310,'assignment_774',1),
+(775,310,'assignment_775',1),
+(776,310,'assignment_776',1),
+(777,310,'assignment_777',1),
+(778,310,'assignment_778',2),
+(779,310,'assignment_779',2),
+(780,310,'assignment_780',2),
+(781,14,'assignment_781',1),
+(782,14,'assignment_782',1),
+(783,14,'assignment_783',1),
+(784,14,'assignment_784',1),
+(785,14,'assignment_785',1),
+(786,14,'assignment_786',1),
+(787,14,'assignment_787',1),
+(788,14,'assignment_788',1),
+(789,14,'assignment_789',1),
+(790,14,'assignment_790',1),
+(791,14,'assignment_791',1),
+(792,14,'assignment_792',1),
+(793,14,'assignment_793',2),
+(794,14,'assignment_794',2),
+(795,14,'assignment_795',2),
+(796,113,'assignment_796',1),
+(797,113,'assignment_797',1),
+(798,113,'assignment_798',1),
+(799,113,'assignment_799',1),
+(800,113,'assignment_800',1),
+(801,113,'assignment_801',1),
+(802,113,'assignment_802',1),
+(803,113,'assignment_803',1),
+(804,113,'assignment_804',1),
+(805,113,'assignment_805',1),
+(806,113,'assignment_806',1),
+(807,113,'assignment_807',1),
+(808,113,'assignment_808',2),
+(809,113,'assignment_809',2),
+(810,113,'assignment_810',2),
+(811,212,'assignment_811',1),
+(812,212,'assignment_812',1),
+(813,212,'assignment_813',1),
+(814,212,'assignment_814',1),
+(815,212,'assignment_815',1),
+(816,212,'assignment_816',1),
+(817,212,'assignment_817',1),
+(818,212,'assignment_818',1),
+(819,212,'assignment_819',1),
+(820,212,'assignment_820',1),
+(821,212,'assignment_821',1),
+(822,212,'assignment_822',1),
+(823,212,'assignment_823',2),
+(824,212,'assignment_824',2),
+(825,212,'assignment_825',2),
+(826,311,'assignment_826',1),
+(827,311,'assignment_827',1),
+(828,311,'assignment_828',1),
+(829,311,'assignment_829',1),
+(830,311,'assignment_830',1),
+(831,311,'assignment_831',1),
+(832,311,'assignment_832',1),
+(833,311,'assignment_833',1),
+(834,311,'assignment_834',1),
+(835,311,'assignment_835',1),
+(836,311,'assignment_836',1),
+(837,311,'assignment_837',1),
+(838,311,'assignment_838',2),
+(839,311,'assignment_839',2),
+(840,311,'assignment_840',2),
+(841,15,'assignment_841',1),
+(842,15,'assignment_842',1),
+(843,15,'assignment_843',1),
+(844,15,'assignment_844',1),
+(845,15,'assignment_845',1),
+(846,15,'assignment_846',1),
+(847,15,'assignment_847',1),
+(848,15,'assignment_848',1),
+(849,15,'assignment_849',1),
+(850,15,'assignment_850',1),
+(851,15,'assignment_851',1),
+(852,15,'assignment_852',1),
+(853,15,'assignment_853',2),
+(854,15,'assignment_854',2),
+(855,15,'assignment_855',2),
+(856,114,'assignment_856',1),
+(857,114,'assignment_857',1),
+(858,114,'assignment_858',1),
+(859,114,'assignment_859',1),
+(860,114,'assignment_860',1),
+(861,114,'assignment_861',1),
+(862,114,'assignment_862',1),
+(863,114,'assignment_863',1),
+(864,114,'assignment_864',1),
+(865,114,'assignment_865',1),
+(866,114,'assignment_866',1),
+(867,114,'assignment_867',1),
+(868,114,'assignment_868',2),
+(869,114,'assignment_869',2),
+(870,114,'assignment_870',2),
+(871,213,'assignment_871',1),
+(872,213,'assignment_872',1),
+(873,213,'assignment_873',1),
+(874,213,'assignment_874',1),
+(875,213,'assignment_875',1),
+(876,213,'assignment_876',1),
+(877,213,'assignment_877',1),
+(878,213,'assignment_878',1),
+(879,213,'assignment_879',1),
+(880,213,'assignment_880',1),
+(881,213,'assignment_881',1),
+(882,213,'assignment_882',1),
+(883,213,'assignment_883',2),
+(884,213,'assignment_884',2),
+(885,213,'assignment_885',2),
+(886,312,'assignment_886',1),
+(887,312,'assignment_887',1),
+(888,312,'assignment_888',1),
+(889,312,'assignment_889',1),
+(890,312,'assignment_890',1),
+(891,312,'assignment_891',1),
+(892,312,'assignment_892',1),
+(893,312,'assignment_893',1),
+(894,312,'assignment_894',1),
+(895,312,'assignment_895',1),
+(896,312,'assignment_896',1),
+(897,312,'assignment_897',1),
+(898,312,'assignment_898',2),
+(899,312,'assignment_899',2),
+(900,312,'assignment_900',2),
+(901,16,'assignment_901',1),
+(902,16,'assignment_902',1),
+(903,16,'assignment_903',1),
+(904,16,'assignment_904',1),
+(905,16,'assignment_905',1),
+(906,16,'assignment_906',1),
+(907,16,'assignment_907',1),
+(908,16,'assignment_908',1),
+(909,16,'assignment_909',1),
+(910,16,'assignment_910',1),
+(911,16,'assignment_911',1),
+(912,16,'assignment_912',1),
+(913,16,'assignment_913',2),
+(914,16,'assignment_914',2),
+(915,16,'assignment_915',2),
+(916,115,'assignment_916',1),
+(917,115,'assignment_917',1),
+(918,115,'assignment_918',1),
+(919,115,'assignment_919',1),
+(920,115,'assignment_920',1),
+(921,115,'assignment_921',1),
+(922,115,'assignment_922',1),
+(923,115,'assignment_923',1),
+(924,115,'assignment_924',1),
+(925,115,'assignment_925',1),
+(926,115,'assignment_926',1),
+(927,115,'assignment_927',1),
+(928,115,'assignment_928',2),
+(929,115,'assignment_929',2),
+(930,115,'assignment_930',2),
+(931,214,'assignment_931',1),
+(932,214,'assignment_932',1),
+(933,214,'assignment_933',1),
+(934,214,'assignment_934',1),
+(935,214,'assignment_935',1),
+(936,214,'assignment_936',1),
+(937,214,'assignment_937',1),
+(938,214,'assignment_938',1),
+(939,214,'assignment_939',1),
+(940,214,'assignment_940',1),
+(941,214,'assignment_941',1),
+(942,214,'assignment_942',1),
+(943,214,'assignment_943',2),
+(944,214,'assignment_944',2),
+(945,214,'assignment_945',2),
+(946,313,'assignment_946',1),
+(947,313,'assignment_947',1),
+(948,313,'assignment_948',1),
+(949,313,'assignment_949',1),
+(950,313,'assignment_950',1),
+(951,313,'assignment_951',1),
+(952,313,'assignment_952',1),
+(953,313,'assignment_953',1),
+(954,313,'assignment_954',1),
+(955,313,'assignment_955',1),
+(956,313,'assignment_956',1),
+(957,313,'assignment_957',1),
+(958,313,'assignment_958',2),
+(959,313,'assignment_959',2),
+(960,313,'assignment_960',2),
+(961,17,'assignment_961',1),
+(962,17,'assignment_962',1),
+(963,17,'assignment_963',1),
+(964,17,'assignment_964',1),
+(965,17,'assignment_965',1),
+(966,17,'assignment_966',1),
+(967,17,'assignment_967',1),
+(968,17,'assignment_968',1),
+(969,17,'assignment_969',1),
+(970,17,'assignment_970',1),
+(971,17,'assignment_971',1),
+(972,17,'assignment_972',1),
+(973,17,'assignment_973',2),
+(974,17,'assignment_974',2),
+(975,17,'assignment_975',2),
+(976,116,'assignment_976',1),
+(977,116,'assignment_977',1),
+(978,116,'assignment_978',1),
+(979,116,'assignment_979',1),
+(980,116,'assignment_980',1),
+(981,116,'assignment_981',1),
+(982,116,'assignment_982',1),
+(983,116,'assignment_983',1),
+(984,116,'assignment_984',1),
+(985,116,'assignment_985',1),
+(986,116,'assignment_986',1),
+(987,116,'assignment_987',1),
+(988,116,'assignment_988',2),
+(989,116,'assignment_989',2),
+(990,116,'assignment_990',2),
+(991,215,'assignment_991',1),
+(992,215,'assignment_992',1),
+(993,215,'assignment_993',1),
+(994,215,'assignment_994',1),
+(995,215,'assignment_995',1),
+(996,215,'assignment_996',1),
+(997,215,'assignment_997',1),
+(998,215,'assignment_998',1),
+(999,215,'assignment_999',1),
+(1000,215,'assignment_1000',1),
+(1001,215,'assignment_1001',1),
+(1002,215,'assignment_1002',1),
+(1003,215,'assignment_1003',2),
+(1004,215,'assignment_1004',2),
+(1005,215,'assignment_1005',2),
+(1006,314,'assignment_1006',1),
+(1007,314,'assignment_1007',1),
+(1008,314,'assignment_1008',1),
+(1009,314,'assignment_1009',1),
+(1010,314,'assignment_1010',1),
+(1011,314,'assignment_1011',1),
+(1012,314,'assignment_1012',1),
+(1013,314,'assignment_1013',1),
+(1014,314,'assignment_1014',1),
+(1015,314,'assignment_1015',1),
+(1016,314,'assignment_1016',1),
+(1017,314,'assignment_1017',1),
+(1018,314,'assignment_1018',2),
+(1019,314,'assignment_1019',2),
+(1020,314,'assignment_1020',2),
+(1021,18,'assignment_1021',1),
+(1022,18,'assignment_1022',1),
+(1023,18,'assignment_1023',1),
+(1024,18,'assignment_1024',1),
+(1025,18,'assignment_1025',1),
+(1026,18,'assignment_1026',1),
+(1027,18,'assignment_1027',1),
+(1028,18,'assignment_1028',1),
+(1029,18,'assignment_1029',1),
+(1030,18,'assignment_1030',1),
+(1031,18,'assignment_1031',1),
+(1032,18,'assignment_1032',1),
+(1033,18,'assignment_1033',2),
+(1034,18,'assignment_1034',2),
+(1035,18,'assignment_1035',2),
+(1036,117,'assignment_1036',1),
+(1037,117,'assignment_1037',1),
+(1038,117,'assignment_1038',1),
+(1039,117,'assignment_1039',1),
+(1040,117,'assignment_1040',1),
+(1041,117,'assignment_1041',1),
+(1042,117,'assignment_1042',1),
+(1043,117,'assignment_1043',1),
+(1044,117,'assignment_1044',1),
+(1045,117,'assignment_1045',1),
+(1046,117,'assignment_1046',1),
+(1047,117,'assignment_1047',1),
+(1048,117,'assignment_1048',2),
+(1049,117,'assignment_1049',2),
+(1050,117,'assignment_1050',2),
+(1051,216,'assignment_1051',1),
+(1052,216,'assignment_1052',1),
+(1053,216,'assignment_1053',1),
+(1054,216,'assignment_1054',1),
+(1055,216,'assignment_1055',1),
+(1056,216,'assignment_1056',1),
+(1057,216,'assignment_1057',1),
+(1058,216,'assignment_1058',1),
+(1059,216,'assignment_1059',1),
+(1060,216,'assignment_1060',1),
+(1061,216,'assignment_1061',1),
+(1062,216,'assignment_1062',1),
+(1063,216,'assignment_1063',2),
+(1064,216,'assignment_1064',2),
+(1065,216,'assignment_1065',2),
+(1066,315,'assignment_1066',1),
+(1067,315,'assignment_1067',1),
+(1068,315,'assignment_1068',1),
+(1069,315,'assignment_1069',1),
+(1070,315,'assignment_1070',1),
+(1071,315,'assignment_1071',1),
+(1072,315,'assignment_1072',1),
+(1073,315,'assignment_1073',1),
+(1074,315,'assignment_1074',1),
+(1075,315,'assignment_1075',1),
+(1076,315,'assignment_1076',1),
+(1077,315,'assignment_1077',1),
+(1078,315,'assignment_1078',2),
+(1079,315,'assignment_1079',2),
+(1080,315,'assignment_1080',2),
+(1081,19,'assignment_1081',1),
+(1082,19,'assignment_1082',1),
+(1083,19,'assignment_1083',1),
+(1084,19,'assignment_1084',1),
+(1085,19,'assignment_1085',1),
+(1086,19,'assignment_1086',1),
+(1087,19,'assignment_1087',1),
+(1088,19,'assignment_1088',1),
+(1089,19,'assignment_1089',1),
+(1090,19,'assignment_1090',1),
+(1091,19,'assignment_1091',1),
+(1092,19,'assignment_1092',1),
+(1093,19,'assignment_1093',2),
+(1094,19,'assignment_1094',2),
+(1095,19,'assignment_1095',2),
+(1096,118,'assignment_1096',1),
+(1097,118,'assignment_1097',1),
+(1098,118,'assignment_1098',1),
+(1099,118,'assignment_1099',1),
+(1100,118,'assignment_1100',1),
+(1101,118,'assignment_1101',1),
+(1102,118,'assignment_1102',1),
+(1103,118,'assignment_1103',1),
+(1104,118,'assignment_1104',1),
+(1105,118,'assignment_1105',1),
+(1106,118,'assignment_1106',1),
+(1107,118,'assignment_1107',1),
+(1108,118,'assignment_1108',2),
+(1109,118,'assignment_1109',2),
+(1110,118,'assignment_1110',2),
+(1111,217,'assignment_1111',1),
+(1112,217,'assignment_1112',1),
+(1113,217,'assignment_1113',1),
+(1114,217,'assignment_1114',1),
+(1115,217,'assignment_1115',1),
+(1116,217,'assignment_1116',1),
+(1117,217,'assignment_1117',1),
+(1118,217,'assignment_1118',1),
+(1119,217,'assignment_1119',1),
+(1120,217,'assignment_1120',1),
+(1121,217,'assignment_1121',1),
+(1122,217,'assignment_1122',1),
+(1123,217,'assignment_1123',2),
+(1124,217,'assignment_1124',2),
+(1125,217,'assignment_1125',2),
+(1126,316,'assignment_1126',1),
+(1127,316,'assignment_1127',1),
+(1128,316,'assignment_1128',1),
+(1129,316,'assignment_1129',1),
+(1130,316,'assignment_1130',1),
+(1131,316,'assignment_1131',1),
+(1132,316,'assignment_1132',1),
+(1133,316,'assignment_1133',1),
+(1134,316,'assignment_1134',1),
+(1135,316,'assignment_1135',1),
+(1136,316,'assignment_1136',1),
+(1137,316,'assignment_1137',1),
+(1138,316,'assignment_1138',2),
+(1139,316,'assignment_1139',2),
+(1140,316,'assignment_1140',2),
+(1141,20,'assignment_1141',1),
+(1142,20,'assignment_1142',1),
+(1143,20,'assignment_1143',1),
+(1144,20,'assignment_1144',1),
+(1145,20,'assignment_1145',1),
+(1146,20,'assignment_1146',1),
+(1147,20,'assignment_1147',1),
+(1148,20,'assignment_1148',1),
+(1149,20,'assignment_1149',1),
+(1150,20,'assignment_1150',1),
+(1151,20,'assignment_1151',1),
+(1152,20,'assignment_1152',1),
+(1153,20,'assignment_1153',2),
+(1154,20,'assignment_1154',2),
+(1155,20,'assignment_1155',2),
+(1156,119,'assignment_1156',1),
+(1157,119,'assignment_1157',1),
+(1158,119,'assignment_1158',1),
+(1159,119,'assignment_1159',1),
+(1160,119,'assignment_1160',1),
+(1161,119,'assignment_1161',1),
+(1162,119,'assignment_1162',1),
+(1163,119,'assignment_1163',1),
+(1164,119,'assignment_1164',1),
+(1165,119,'assignment_1165',1),
+(1166,119,'assignment_1166',1),
+(1167,119,'assignment_1167',1),
+(1168,119,'assignment_1168',2),
+(1169,119,'assignment_1169',2),
+(1170,119,'assignment_1170',2),
+(1171,218,'assignment_1171',1),
+(1172,218,'assignment_1172',1),
+(1173,218,'assignment_1173',1),
+(1174,218,'assignment_1174',1),
+(1175,218,'assignment_1175',1),
+(1176,218,'assignment_1176',1),
+(1177,218,'assignment_1177',1),
+(1178,218,'assignment_1178',1),
+(1179,218,'assignment_1179',1),
+(1180,218,'assignment_1180',1),
+(1181,218,'assignment_1181',1),
+(1182,218,'assignment_1182',1),
+(1183,218,'assignment_1183',2),
+(1184,218,'assignment_1184',2),
+(1185,218,'assignment_1185',2),
+(1186,317,'assignment_1186',1),
+(1187,317,'assignment_1187',1),
+(1188,317,'assignment_1188',1),
+(1189,317,'assignment_1189',1),
+(1190,317,'assignment_1190',1),
+(1191,317,'assignment_1191',1),
+(1192,317,'assignment_1192',1),
+(1193,317,'assignment_1193',1),
+(1194,317,'assignment_1194',1),
+(1195,317,'assignment_1195',1),
+(1196,317,'assignment_1196',1),
+(1197,317,'assignment_1197',1),
+(1198,317,'assignment_1198',2),
+(1199,317,'assignment_1199',2),
+(1200,317,'assignment_1200',2),
+(1201,21,'assignment_1201',1),
+(1202,21,'assignment_1202',1),
+(1203,21,'assignment_1203',1),
+(1204,21,'assignment_1204',1),
+(1205,21,'assignment_1205',1),
+(1206,21,'assignment_1206',1),
+(1207,21,'assignment_1207',1),
+(1208,21,'assignment_1208',1),
+(1209,21,'assignment_1209',1),
+(1210,21,'assignment_1210',1),
+(1211,21,'assignment_1211',1),
+(1212,21,'assignment_1212',1),
+(1213,21,'assignment_1213',2),
+(1214,21,'assignment_1214',2),
+(1215,21,'assignment_1215',2),
+(1216,120,'assignment_1216',1),
+(1217,120,'assignment_1217',1),
+(1218,120,'assignment_1218',1),
+(1219,120,'assignment_1219',1),
+(1220,120,'assignment_1220',1),
+(1221,120,'assignment_1221',1),
+(1222,120,'assignment_1222',1),
+(1223,120,'assignment_1223',1),
+(1224,120,'assignment_1224',1),
+(1225,120,'assignment_1225',1),
+(1226,120,'assignment_1226',1),
+(1227,120,'assignment_1227',1),
+(1228,120,'assignment_1228',2),
+(1229,120,'assignment_1229',2),
+(1230,120,'assignment_1230',2),
+(1231,219,'assignment_1231',1),
+(1232,219,'assignment_1232',1),
+(1233,219,'assignment_1233',1),
+(1234,219,'assignment_1234',1),
+(1235,219,'assignment_1235',1),
+(1236,219,'assignment_1236',1),
+(1237,219,'assignment_1237',1),
+(1238,219,'assignment_1238',1),
+(1239,219,'assignment_1239',1),
+(1240,219,'assignment_1240',1),
+(1241,219,'assignment_1241',1),
+(1242,219,'assignment_1242',1),
+(1243,219,'assignment_1243',2),
+(1244,219,'assignment_1244',2),
+(1245,219,'assignment_1245',2),
+(1246,318,'assignment_1246',1),
+(1247,318,'assignment_1247',1),
+(1248,318,'assignment_1248',1),
+(1249,318,'assignment_1249',1),
+(1250,318,'assignment_1250',1),
+(1251,318,'assignment_1251',1),
+(1252,318,'assignment_1252',1),
+(1253,318,'assignment_1253',1),
+(1254,318,'assignment_1254',1),
+(1255,318,'assignment_1255',1),
+(1256,318,'assignment_1256',1),
+(1257,318,'assignment_1257',1),
+(1258,318,'assignment_1258',2),
+(1259,318,'assignment_1259',2),
+(1260,318,'assignment_1260',2),
+(1261,22,'assignment_1261',1),
+(1262,22,'assignment_1262',1),
+(1263,22,'assignment_1263',1),
+(1264,22,'assignment_1264',1),
+(1265,22,'assignment_1265',1),
+(1266,22,'assignment_1266',1),
+(1267,22,'assignment_1267',1),
+(1268,22,'assignment_1268',1),
+(1269,22,'assignment_1269',1),
+(1270,22,'assignment_1270',1),
+(1271,22,'assignment_1271',1),
+(1272,22,'assignment_1272',1),
+(1273,22,'assignment_1273',2),
+(1274,22,'assignment_1274',2),
+(1275,22,'assignment_1275',2),
+(1276,121,'assignment_1276',1),
+(1277,121,'assignment_1277',1),
+(1278,121,'assignment_1278',1),
+(1279,121,'assignment_1279',1),
+(1280,121,'assignment_1280',1),
+(1281,121,'assignment_1281',1),
+(1282,121,'assignment_1282',1),
+(1283,121,'assignment_1283',1),
+(1284,121,'assignment_1284',1),
+(1285,121,'assignment_1285',1),
+(1286,121,'assignment_1286',1),
+(1287,121,'assignment_1287',1),
+(1288,121,'assignment_1288',2),
+(1289,121,'assignment_1289',2),
+(1290,121,'assignment_1290',2),
+(1291,220,'assignment_1291',1),
+(1292,220,'assignment_1292',1),
+(1293,220,'assignment_1293',1),
+(1294,220,'assignment_1294',1),
+(1295,220,'assignment_1295',1),
+(1296,220,'assignment_1296',1),
+(1297,220,'assignment_1297',1),
+(1298,220,'assignment_1298',1),
+(1299,220,'assignment_1299',1),
+(1300,220,'assignment_1300',1),
+(1301,220,'assignment_1301',1),
+(1302,220,'assignment_1302',1),
+(1303,220,'assignment_1303',2),
+(1304,220,'assignment_1304',2),
+(1305,220,'assignment_1305',2),
+(1306,319,'assignment_1306',1),
+(1307,319,'assignment_1307',1),
+(1308,319,'assignment_1308',1),
+(1309,319,'assignment_1309',1),
+(1310,319,'assignment_1310',1),
+(1311,319,'assignment_1311',1),
+(1312,319,'assignment_1312',1),
+(1313,319,'assignment_1313',1),
+(1314,319,'assignment_1314',1),
+(1315,319,'assignment_1315',1),
+(1316,319,'assignment_1316',1),
+(1317,319,'assignment_1317',1),
+(1318,319,'assignment_1318',2),
+(1319,319,'assignment_1319',2),
+(1320,319,'assignment_1320',2),
+(1321,23,'assignment_1321',1),
+(1322,23,'assignment_1322',1),
+(1323,23,'assignment_1323',1),
+(1324,23,'assignment_1324',1),
+(1325,23,'assignment_1325',1),
+(1326,23,'assignment_1326',1),
+(1327,23,'assignment_1327',1),
+(1328,23,'assignment_1328',1),
+(1329,23,'assignment_1329',1),
+(1330,23,'assignment_1330',1),
+(1331,23,'assignment_1331',1),
+(1332,23,'assignment_1332',1),
+(1333,23,'assignment_1333',2),
+(1334,23,'assignment_1334',2),
+(1335,23,'assignment_1335',2),
+(1336,122,'assignment_1336',1),
+(1337,122,'assignment_1337',1),
+(1338,122,'assignment_1338',1),
+(1339,122,'assignment_1339',1),
+(1340,122,'assignment_1340',1),
+(1341,122,'assignment_1341',1),
+(1342,122,'assignment_1342',1),
+(1343,122,'assignment_1343',1),
+(1344,122,'assignment_1344',1),
+(1345,122,'assignment_1345',1),
+(1346,122,'assignment_1346',1),
+(1347,122,'assignment_1347',1),
+(1348,122,'assignment_1348',2),
+(1349,122,'assignment_1349',2),
+(1350,122,'assignment_1350',2),
+(1351,221,'assignment_1351',1),
+(1352,221,'assignment_1352',1),
+(1353,221,'assignment_1353',1),
+(1354,221,'assignment_1354',1),
+(1355,221,'assignment_1355',1),
+(1356,221,'assignment_1356',1),
+(1357,221,'assignment_1357',1),
+(1358,221,'assignment_1358',1),
+(1359,221,'assignment_1359',1),
+(1360,221,'assignment_1360',1),
+(1361,221,'assignment_1361',1),
+(1362,221,'assignment_1362',1),
+(1363,221,'assignment_1363',2),
+(1364,221,'assignment_1364',2),
+(1365,221,'assignment_1365',2),
+(1366,320,'assignment_1366',1),
+(1367,320,'assignment_1367',1),
+(1368,320,'assignment_1368',1),
+(1369,320,'assignment_1369',1),
+(1370,320,'assignment_1370',1),
+(1371,320,'assignment_1371',1),
+(1372,320,'assignment_1372',1),
+(1373,320,'assignment_1373',1),
+(1374,320,'assignment_1374',1),
+(1375,320,'assignment_1375',1),
+(1376,320,'assignment_1376',1),
+(1377,320,'assignment_1377',1),
+(1378,320,'assignment_1378',2),
+(1379,320,'assignment_1379',2),
+(1380,320,'assignment_1380',2),
+(1381,24,'assignment_1381',1),
+(1382,24,'assignment_1382',1),
+(1383,24,'assignment_1383',1),
+(1384,24,'assignment_1384',1),
+(1385,24,'assignment_1385',1),
+(1386,24,'assignment_1386',1),
+(1387,24,'assignment_1387',1),
+(1388,24,'assignment_1388',1),
+(1389,24,'assignment_1389',1),
+(1390,24,'assignment_1390',1),
+(1391,24,'assignment_1391',1),
+(1392,24,'assignment_1392',1),
+(1393,24,'assignment_1393',2),
+(1394,24,'assignment_1394',2),
+(1395,24,'assignment_1395',2),
+(1396,123,'assignment_1396',1),
+(1397,123,'assignment_1397',1),
+(1398,123,'assignment_1398',1),
+(1399,123,'assignment_1399',1),
+(1400,123,'assignment_1400',1),
+(1401,123,'assignment_1401',1),
+(1402,123,'assignment_1402',1),
+(1403,123,'assignment_1403',1),
+(1404,123,'assignment_1404',1),
+(1405,123,'assignment_1405',1),
+(1406,123,'assignment_1406',1),
+(1407,123,'assignment_1407',1),
+(1408,123,'assignment_1408',2),
+(1409,123,'assignment_1409',2),
+(1410,123,'assignment_1410',2),
+(1411,222,'assignment_1411',1),
+(1412,222,'assignment_1412',1),
+(1413,222,'assignment_1413',1),
+(1414,222,'assignment_1414',1),
+(1415,222,'assignment_1415',1),
+(1416,222,'assignment_1416',1),
+(1417,222,'assignment_1417',1),
+(1418,222,'assignment_1418',1),
+(1419,222,'assignment_1419',1),
+(1420,222,'assignment_1420',1),
+(1421,222,'assignment_1421',1),
+(1422,222,'assignment_1422',1),
+(1423,222,'assignment_1423',2),
+(1424,222,'assignment_1424',2),
+(1425,222,'assignment_1425',2),
+(1426,321,'assignment_1426',1),
+(1427,321,'assignment_1427',1),
+(1428,321,'assignment_1428',1),
+(1429,321,'assignment_1429',1),
+(1430,321,'assignment_1430',1),
+(1431,321,'assignment_1431',1),
+(1432,321,'assignment_1432',1),
+(1433,321,'assignment_1433',1),
+(1434,321,'assignment_1434',1),
+(1435,321,'assignment_1435',1),
+(1436,321,'assignment_1436',1),
+(1437,321,'assignment_1437',1),
+(1438,321,'assignment_1438',2),
+(1439,321,'assignment_1439',2),
+(1440,321,'assignment_1440',2),
+(1441,25,'assignment_1441',1),
+(1442,25,'assignment_1442',1),
+(1443,25,'assignment_1443',1),
+(1444,25,'assignment_1444',1),
+(1445,25,'assignment_1445',1),
+(1446,25,'assignment_1446',1),
+(1447,25,'assignment_1447',1),
+(1448,25,'assignment_1448',1),
+(1449,25,'assignment_1449',1),
+(1450,25,'assignment_1450',1),
+(1451,25,'assignment_1451',1),
+(1452,25,'assignment_1452',1),
+(1453,25,'assignment_1453',2),
+(1454,25,'assignment_1454',2),
+(1455,25,'assignment_1455',2),
+(1456,124,'assignment_1456',1),
+(1457,124,'assignment_1457',1),
+(1458,124,'assignment_1458',1),
+(1459,124,'assignment_1459',1),
+(1460,124,'assignment_1460',1),
+(1461,124,'assignment_1461',1),
+(1462,124,'assignment_1462',1),
+(1463,124,'assignment_1463',1),
+(1464,124,'assignment_1464',1),
+(1465,124,'assignment_1465',1),
+(1466,124,'assignment_1466',1),
+(1467,124,'assignment_1467',1),
+(1468,124,'assignment_1468',2),
+(1469,124,'assignment_1469',2),
+(1470,124,'assignment_1470',2),
+(1471,223,'assignment_1471',1),
+(1472,223,'assignment_1472',1),
+(1473,223,'assignment_1473',1),
+(1474,223,'assignment_1474',1),
+(1475,223,'assignment_1475',1),
+(1476,223,'assignment_1476',1),
+(1477,223,'assignment_1477',1),
+(1478,223,'assignment_1478',1),
+(1479,223,'assignment_1479',1),
+(1480,223,'assignment_1480',1),
+(1481,223,'assignment_1481',1),
+(1482,223,'assignment_1482',1),
+(1483,223,'assignment_1483',2),
+(1484,223,'assignment_1484',2),
+(1485,223,'assignment_1485',2),
+(1486,322,'assignment_1486',1),
+(1487,322,'assignment_1487',1),
+(1488,322,'assignment_1488',1),
+(1489,322,'assignment_1489',1),
+(1490,322,'assignment_1490',1),
+(1491,322,'assignment_1491',1),
+(1492,322,'assignment_1492',1),
+(1493,322,'assignment_1493',1),
+(1494,322,'assignment_1494',1),
+(1495,322,'assignment_1495',1),
+(1496,322,'assignment_1496',1),
+(1497,322,'assignment_1497',1),
+(1498,322,'assignment_1498',2),
+(1499,322,'assignment_1499',2),
+(1500,322,'assignment_1500',2),
+(1501,26,'assignment_1501',1),
+(1502,26,'assignment_1502',1),
+(1503,26,'assignment_1503',1),
+(1504,26,'assignment_1504',1),
+(1505,26,'assignment_1505',1),
+(1506,26,'assignment_1506',1),
+(1507,26,'assignment_1507',1),
+(1508,26,'assignment_1508',1),
+(1509,26,'assignment_1509',1),
+(1510,26,'assignment_1510',1),
+(1511,26,'assignment_1511',1),
+(1512,26,'assignment_1512',1),
+(1513,26,'assignment_1513',2),
+(1514,26,'assignment_1514',2),
+(1515,26,'assignment_1515',2),
+(1516,125,'assignment_1516',1),
+(1517,125,'assignment_1517',1),
+(1518,125,'assignment_1518',1),
+(1519,125,'assignment_1519',1),
+(1520,125,'assignment_1520',1),
+(1521,125,'assignment_1521',1),
+(1522,125,'assignment_1522',1),
+(1523,125,'assignment_1523',1),
+(1524,125,'assignment_1524',1),
+(1525,125,'assignment_1525',1),
+(1526,125,'assignment_1526',1),
+(1527,125,'assignment_1527',1),
+(1528,125,'assignment_1528',2),
+(1529,125,'assignment_1529',2),
+(1530,125,'assignment_1530',2),
+(1531,224,'assignment_1531',1),
+(1532,224,'assignment_1532',1),
+(1533,224,'assignment_1533',1),
+(1534,224,'assignment_1534',1),
+(1535,224,'assignment_1535',1),
+(1536,224,'assignment_1536',1),
+(1537,224,'assignment_1537',1),
+(1538,224,'assignment_1538',1),
+(1539,224,'assignment_1539',1),
+(1540,224,'assignment_1540',1),
+(1541,224,'assignment_1541',1),
+(1542,224,'assignment_1542',1),
+(1543,224,'assignment_1543',2),
+(1544,224,'assignment_1544',2),
+(1545,224,'assignment_1545',2),
+(1546,323,'assignment_1546',1),
+(1547,323,'assignment_1547',1),
+(1548,323,'assignment_1548',1),
+(1549,323,'assignment_1549',1),
+(1550,323,'assignment_1550',1),
+(1551,323,'assignment_1551',1),
+(1552,323,'assignment_1552',1),
+(1553,323,'assignment_1553',1),
+(1554,323,'assignment_1554',1),
+(1555,323,'assignment_1555',1),
+(1556,323,'assignment_1556',1),
+(1557,323,'assignment_1557',1),
+(1558,323,'assignment_1558',2),
+(1559,323,'assignment_1559',2),
+(1560,323,'assignment_1560',2),
+(1561,27,'assignment_1561',1),
+(1562,27,'assignment_1562',1),
+(1563,27,'assignment_1563',1),
+(1564,27,'assignment_1564',1),
+(1565,27,'assignment_1565',1),
+(1566,27,'assignment_1566',1),
+(1567,27,'assignment_1567',1),
+(1568,27,'assignment_1568',1),
+(1569,27,'assignment_1569',1),
+(1570,27,'assignment_1570',1),
+(1571,27,'assignment_1571',1),
+(1572,27,'assignment_1572',1),
+(1573,27,'assignment_1573',2),
+(1574,27,'assignment_1574',2),
+(1575,27,'assignment_1575',2),
+(1576,126,'assignment_1576',1),
+(1577,126,'assignment_1577',1),
+(1578,126,'assignment_1578',1),
+(1579,126,'assignment_1579',1),
+(1580,126,'assignment_1580',1),
+(1581,126,'assignment_1581',1),
+(1582,126,'assignment_1582',1),
+(1583,126,'assignment_1583',1),
+(1584,126,'assignment_1584',1),
+(1585,126,'assignment_1585',1),
+(1586,126,'assignment_1586',1),
+(1587,126,'assignment_1587',1),
+(1588,126,'assignment_1588',2),
+(1589,126,'assignment_1589',2),
+(1590,126,'assignment_1590',2),
+(1591,225,'assignment_1591',1),
+(1592,225,'assignment_1592',1),
+(1593,225,'assignment_1593',1),
+(1594,225,'assignment_1594',1),
+(1595,225,'assignment_1595',1),
+(1596,225,'assignment_1596',1),
+(1597,225,'assignment_1597',1),
+(1598,225,'assignment_1598',1),
+(1599,225,'assignment_1599',1),
+(1600,225,'assignment_1600',1),
+(1601,225,'assignment_1601',1),
+(1602,225,'assignment_1602',1),
+(1603,225,'assignment_1603',2),
+(1604,225,'assignment_1604',2),
+(1605,225,'assignment_1605',2),
+(1606,324,'assignment_1606',1),
+(1607,324,'assignment_1607',1),
+(1608,324,'assignment_1608',1),
+(1609,324,'assignment_1609',1),
+(1610,324,'assignment_1610',1),
+(1611,324,'assignment_1611',1),
+(1612,324,'assignment_1612',1),
+(1613,324,'assignment_1613',1),
+(1614,324,'assignment_1614',1),
+(1615,324,'assignment_1615',1),
+(1616,324,'assignment_1616',1),
+(1617,324,'assignment_1617',1),
+(1618,324,'assignment_1618',2),
+(1619,324,'assignment_1619',2),
+(1620,324,'assignment_1620',2),
+(1621,28,'assignment_1621',1),
+(1622,28,'assignment_1622',1),
+(1623,28,'assignment_1623',1),
+(1624,28,'assignment_1624',1),
+(1625,28,'assignment_1625',1),
+(1626,28,'assignment_1626',1),
+(1627,28,'assignment_1627',1),
+(1628,28,'assignment_1628',1),
+(1629,28,'assignment_1629',1),
+(1630,28,'assignment_1630',1),
+(1631,28,'assignment_1631',1),
+(1632,28,'assignment_1632',1),
+(1633,28,'assignment_1633',2),
+(1634,28,'assignment_1634',2),
+(1635,28,'assignment_1635',2),
+(1636,127,'assignment_1636',1),
+(1637,127,'assignment_1637',1),
+(1638,127,'assignment_1638',1),
+(1639,127,'assignment_1639',1),
+(1640,127,'assignment_1640',1),
+(1641,127,'assignment_1641',1),
+(1642,127,'assignment_1642',1),
+(1643,127,'assignment_1643',1),
+(1644,127,'assignment_1644',1),
+(1645,127,'assignment_1645',1),
+(1646,127,'assignment_1646',1),
+(1647,127,'assignment_1647',1),
+(1648,127,'assignment_1648',2),
+(1649,127,'assignment_1649',2),
+(1650,127,'assignment_1650',2),
+(1651,226,'assignment_1651',1),
+(1652,226,'assignment_1652',1),
+(1653,226,'assignment_1653',1),
+(1654,226,'assignment_1654',1),
+(1655,226,'assignment_1655',1),
+(1656,226,'assignment_1656',1),
+(1657,226,'assignment_1657',1),
+(1658,226,'assignment_1658',1),
+(1659,226,'assignment_1659',1),
+(1660,226,'assignment_1660',1),
+(1661,226,'assignment_1661',1),
+(1662,226,'assignment_1662',1),
+(1663,226,'assignment_1663',2),
+(1664,226,'assignment_1664',2),
+(1665,226,'assignment_1665',2),
+(1666,29,'assignment_1666',1),
+(1667,29,'assignment_1667',1),
+(1668,29,'assignment_1668',1),
+(1669,29,'assignment_1669',1),
+(1670,29,'assignment_1670',1),
+(1671,29,'assignment_1671',1),
+(1672,29,'assignment_1672',1),
+(1673,29,'assignment_1673',1),
+(1674,29,'assignment_1674',1),
+(1675,29,'assignment_1675',1),
+(1676,29,'assignment_1676',1),
+(1677,29,'assignment_1677',1),
+(1678,29,'assignment_1678',2),
+(1679,29,'assignment_1679',2),
+(1680,29,'assignment_1680',2),
+(1681,128,'assignment_1681',1),
+(1682,128,'assignment_1682',1),
+(1683,128,'assignment_1683',1),
+(1684,128,'assignment_1684',1),
+(1685,128,'assignment_1685',1),
+(1686,128,'assignment_1686',1),
+(1687,128,'assignment_1687',1),
+(1688,128,'assignment_1688',1),
+(1689,128,'assignment_1689',1),
+(1690,128,'assignment_1690',1),
+(1691,128,'assignment_1691',1),
+(1692,128,'assignment_1692',1),
+(1693,128,'assignment_1693',2),
+(1694,128,'assignment_1694',2),
+(1695,128,'assignment_1695',2),
+(1696,227,'assignment_1696',1),
+(1697,227,'assignment_1697',1),
+(1698,227,'assignment_1698',1),
+(1699,227,'assignment_1699',1),
+(1700,227,'assignment_1700',1),
+(1701,227,'assignment_1701',1),
+(1702,227,'assignment_1702',1),
+(1703,227,'assignment_1703',1),
+(1704,227,'assignment_1704',1),
+(1705,227,'assignment_1705',1),
+(1706,227,'assignment_1706',1),
+(1707,227,'assignment_1707',1),
+(1708,227,'assignment_1708',2),
+(1709,227,'assignment_1709',2),
+(1710,227,'assignment_1710',2),
+(1711,30,'assignment_1711',1),
+(1712,30,'assignment_1712',1),
+(1713,30,'assignment_1713',1),
+(1714,30,'assignment_1714',1),
+(1715,30,'assignment_1715',1),
+(1716,30,'assignment_1716',1),
+(1717,30,'assignment_1717',1),
+(1718,30,'assignment_1718',1),
+(1719,30,'assignment_1719',1),
+(1720,30,'assignment_1720',1),
+(1721,30,'assignment_1721',1),
+(1722,30,'assignment_1722',1),
+(1723,30,'assignment_1723',2),
+(1724,30,'assignment_1724',2),
+(1725,30,'assignment_1725',2),
+(1726,129,'assignment_1726',1),
+(1727,129,'assignment_1727',1),
+(1728,129,'assignment_1728',1),
+(1729,129,'assignment_1729',1),
+(1730,129,'assignment_1730',1),
+(1731,129,'assignment_1731',1),
+(1732,129,'assignment_1732',1),
+(1733,129,'assignment_1733',1),
+(1734,129,'assignment_1734',1),
+(1735,129,'assignment_1735',1),
+(1736,129,'assignment_1736',1),
+(1737,129,'assignment_1737',1),
+(1738,129,'assignment_1738',2),
+(1739,129,'assignment_1739',2),
+(1740,129,'assignment_1740',2),
+(1741,228,'assignment_1741',1),
+(1742,228,'assignment_1742',1),
+(1743,228,'assignment_1743',1),
+(1744,228,'assignment_1744',1),
+(1745,228,'assignment_1745',1),
+(1746,228,'assignment_1746',1),
+(1747,228,'assignment_1747',1),
+(1748,228,'assignment_1748',1),
+(1749,228,'assignment_1749',1),
+(1750,228,'assignment_1750',1),
+(1751,228,'assignment_1751',1),
+(1752,228,'assignment_1752',1),
+(1753,228,'assignment_1753',2),
+(1754,228,'assignment_1754',2),
+(1755,228,'assignment_1755',2),
+(1756,31,'assignment_1756',1),
+(1757,31,'assignment_1757',1),
+(1758,31,'assignment_1758',1),
+(1759,31,'assignment_1759',1),
+(1760,31,'assignment_1760',1),
+(1761,31,'assignment_1761',1),
+(1762,31,'assignment_1762',1),
+(1763,31,'assignment_1763',1),
+(1764,31,'assignment_1764',1),
+(1765,31,'assignment_1765',1),
+(1766,31,'assignment_1766',1),
+(1767,31,'assignment_1767',1),
+(1768,31,'assignment_1768',2),
+(1769,31,'assignment_1769',2),
+(1770,31,'assignment_1770',2),
+(1771,130,'assignment_1771',1),
+(1772,130,'assignment_1772',1),
+(1773,130,'assignment_1773',1),
+(1774,130,'assignment_1774',1),
+(1775,130,'assignment_1775',1),
+(1776,130,'assignment_1776',1),
+(1777,130,'assignment_1777',1),
+(1778,130,'assignment_1778',1),
+(1779,130,'assignment_1779',1),
+(1780,130,'assignment_1780',1),
+(1781,130,'assignment_1781',1),
+(1782,130,'assignment_1782',1),
+(1783,130,'assignment_1783',2),
+(1784,130,'assignment_1784',2),
+(1785,130,'assignment_1785',2),
+(1786,229,'assignment_1786',1),
+(1787,229,'assignment_1787',1),
+(1788,229,'assignment_1788',1),
+(1789,229,'assignment_1789',1),
+(1790,229,'assignment_1790',1),
+(1791,229,'assignment_1791',1),
+(1792,229,'assignment_1792',1),
+(1793,229,'assignment_1793',1),
+(1794,229,'assignment_1794',1),
+(1795,229,'assignment_1795',1),
+(1796,229,'assignment_1796',1),
+(1797,229,'assignment_1797',1),
+(1798,229,'assignment_1798',2),
+(1799,229,'assignment_1799',2),
+(1800,229,'assignment_1800',2),
+(1801,32,'assignment_1801',1),
+(1802,32,'assignment_1802',1),
+(1803,32,'assignment_1803',1),
+(1804,32,'assignment_1804',1),
+(1805,32,'assignment_1805',1),
+(1806,32,'assignment_1806',1),
+(1807,32,'assignment_1807',1),
+(1808,32,'assignment_1808',1),
+(1809,32,'assignment_1809',1),
+(1810,32,'assignment_1810',1),
+(1811,32,'assignment_1811',1),
+(1812,32,'assignment_1812',1),
+(1813,32,'assignment_1813',2),
+(1814,32,'assignment_1814',2),
+(1815,32,'assignment_1815',2),
+(1816,131,'assignment_1816',1),
+(1817,131,'assignment_1817',1),
+(1818,131,'assignment_1818',1),
+(1819,131,'assignment_1819',1),
+(1820,131,'assignment_1820',1),
+(1821,131,'assignment_1821',1),
+(1822,131,'assignment_1822',1),
+(1823,131,'assignment_1823',1),
+(1824,131,'assignment_1824',1),
+(1825,131,'assignment_1825',1),
+(1826,131,'assignment_1826',1),
+(1827,131,'assignment_1827',1),
+(1828,131,'assignment_1828',2),
+(1829,131,'assignment_1829',2),
+(1830,131,'assignment_1830',2),
+(1831,230,'assignment_1831',1),
+(1832,230,'assignment_1832',1),
+(1833,230,'assignment_1833',1),
+(1834,230,'assignment_1834',1),
+(1835,230,'assignment_1835',1),
+(1836,230,'assignment_1836',1),
+(1837,230,'assignment_1837',1),
+(1838,230,'assignment_1838',1),
+(1839,230,'assignment_1839',1),
+(1840,230,'assignment_1840',1),
+(1841,230,'assignment_1841',1),
+(1842,230,'assignment_1842',1),
+(1843,230,'assignment_1843',2),
+(1844,230,'assignment_1844',2),
+(1845,230,'assignment_1845',2),
+(1846,33,'assignment_1846',1),
+(1847,33,'assignment_1847',1),
+(1848,33,'assignment_1848',1),
+(1849,33,'assignment_1849',1),
+(1850,33,'assignment_1850',1),
+(1851,33,'assignment_1851',1),
+(1852,33,'assignment_1852',1),
+(1853,33,'assignment_1853',1),
+(1854,33,'assignment_1854',1),
+(1855,33,'assignment_1855',1),
+(1856,33,'assignment_1856',1),
+(1857,33,'assignment_1857',1),
+(1858,33,'assignment_1858',2),
+(1859,33,'assignment_1859',2),
+(1860,33,'assignment_1860',2),
+(1861,132,'assignment_1861',1),
+(1862,132,'assignment_1862',1),
+(1863,132,'assignment_1863',1),
+(1864,132,'assignment_1864',1),
+(1865,132,'assignment_1865',1),
+(1866,132,'assignment_1866',1),
+(1867,132,'assignment_1867',1),
+(1868,132,'assignment_1868',1),
+(1869,132,'assignment_1869',1),
+(1870,132,'assignment_1870',1),
+(1871,132,'assignment_1871',1),
+(1872,132,'assignment_1872',1),
+(1873,132,'assignment_1873',2),
+(1874,132,'assignment_1874',2),
+(1875,132,'assignment_1875',2),
+(1876,231,'assignment_1876',1),
+(1877,231,'assignment_1877',1),
+(1878,231,'assignment_1878',1),
+(1879,231,'assignment_1879',1),
+(1880,231,'assignment_1880',1),
+(1881,231,'assignment_1881',1),
+(1882,231,'assignment_1882',1),
+(1883,231,'assignment_1883',1),
+(1884,231,'assignment_1884',1),
+(1885,231,'assignment_1885',1),
+(1886,231,'assignment_1886',1),
+(1887,231,'assignment_1887',1),
+(1888,231,'assignment_1888',2),
+(1889,231,'assignment_1889',2),
+(1890,231,'assignment_1890',2),
+(1891,34,'assignment_1891',1),
+(1892,34,'assignment_1892',1),
+(1893,34,'assignment_1893',1),
+(1894,34,'assignment_1894',1),
+(1895,34,'assignment_1895',1),
+(1896,34,'assignment_1896',1),
+(1897,34,'assignment_1897',1),
+(1898,34,'assignment_1898',1),
+(1899,34,'assignment_1899',1),
+(1900,34,'assignment_1900',1),
+(1901,34,'assignment_1901',1),
+(1902,34,'assignment_1902',1),
+(1903,34,'assignment_1903',2),
+(1904,34,'assignment_1904',2),
+(1905,34,'assignment_1905',2),
+(1906,133,'assignment_1906',1),
+(1907,133,'assignment_1907',1),
+(1908,133,'assignment_1908',1),
+(1909,133,'assignment_1909',1),
+(1910,133,'assignment_1910',1),
+(1911,133,'assignment_1911',1),
+(1912,133,'assignment_1912',1),
+(1913,133,'assignment_1913',1),
+(1914,133,'assignment_1914',1),
+(1915,133,'assignment_1915',1),
+(1916,133,'assignment_1916',1),
+(1917,133,'assignment_1917',1),
+(1918,133,'assignment_1918',2),
+(1919,133,'assignment_1919',2),
+(1920,133,'assignment_1920',2),
+(1921,232,'assignment_1921',1),
+(1922,232,'assignment_1922',1),
+(1923,232,'assignment_1923',1),
+(1924,232,'assignment_1924',1),
+(1925,232,'assignment_1925',1),
+(1926,232,'assignment_1926',1),
+(1927,232,'assignment_1927',1),
+(1928,232,'assignment_1928',1),
+(1929,232,'assignment_1929',1),
+(1930,232,'assignment_1930',1),
+(1931,232,'assignment_1931',1),
+(1932,232,'assignment_1932',1),
+(1933,232,'assignment_1933',2),
+(1934,232,'assignment_1934',2),
+(1935,232,'assignment_1935',2),
+(1936,35,'assignment_1936',1),
+(1937,35,'assignment_1937',1),
+(1938,35,'assignment_1938',1),
+(1939,35,'assignment_1939',1),
+(1940,35,'assignment_1940',1),
+(1941,35,'assignment_1941',1),
+(1942,35,'assignment_1942',1),
+(1943,35,'assignment_1943',1),
+(1944,35,'assignment_1944',1),
+(1945,35,'assignment_1945',1),
+(1946,35,'assignment_1946',1),
+(1947,35,'assignment_1947',1),
+(1948,35,'assignment_1948',2),
+(1949,35,'assignment_1949',2),
+(1950,35,'assignment_1950',2),
+(1951,134,'assignment_1951',1),
+(1952,134,'assignment_1952',1),
+(1953,134,'assignment_1953',1),
+(1954,134,'assignment_1954',1),
+(1955,134,'assignment_1955',1),
+(1956,134,'assignment_1956',1),
+(1957,134,'assignment_1957',1),
+(1958,134,'assignment_1958',1),
+(1959,134,'assignment_1959',1),
+(1960,134,'assignment_1960',1),
+(1961,134,'assignment_1961',1),
+(1962,134,'assignment_1962',1),
+(1963,134,'assignment_1963',2),
+(1964,134,'assignment_1964',2),
+(1965,134,'assignment_1965',2),
+(1966,233,'assignment_1966',1),
+(1967,233,'assignment_1967',1),
+(1968,233,'assignment_1968',1),
+(1969,233,'assignment_1969',1),
+(1970,233,'assignment_1970',1),
+(1971,233,'assignment_1971',1),
+(1972,233,'assignment_1972',1),
+(1973,233,'assignment_1973',1),
+(1974,233,'assignment_1974',1),
+(1975,233,'assignment_1975',1),
+(1976,233,'assignment_1976',1),
+(1977,233,'assignment_1977',1),
+(1978,233,'assignment_1978',2),
+(1979,233,'assignment_1979',2),
+(1980,233,'assignment_1980',2),
+(1981,36,'assignment_1981',1),
+(1982,36,'assignment_1982',1),
+(1983,36,'assignment_1983',1),
+(1984,36,'assignment_1984',1),
+(1985,36,'assignment_1985',1),
+(1986,36,'assignment_1986',1),
+(1987,36,'assignment_1987',1),
+(1988,36,'assignment_1988',1),
+(1989,36,'assignment_1989',1),
+(1990,36,'assignment_1990',1),
+(1991,36,'assignment_1991',1),
+(1992,36,'assignment_1992',1),
+(1993,36,'assignment_1993',2),
+(1994,36,'assignment_1994',2),
+(1995,36,'assignment_1995',2),
+(1996,135,'assignment_1996',1),
+(1997,135,'assignment_1997',1),
+(1998,135,'assignment_1998',1),
+(1999,135,'assignment_1999',1),
+(2000,135,'assignment_2000',1),
+(2001,135,'assignment_2001',1),
+(2002,135,'assignment_2002',1),
+(2003,135,'assignment_2003',1),
+(2004,135,'assignment_2004',1),
+(2005,135,'assignment_2005',1),
+(2006,135,'assignment_2006',1),
+(2007,135,'assignment_2007',1),
+(2008,135,'assignment_2008',2),
+(2009,135,'assignment_2009',2),
+(2010,135,'assignment_2010',2),
+(2011,234,'assignment_2011',1),
+(2012,234,'assignment_2012',1),
+(2013,234,'assignment_2013',1),
+(2014,234,'assignment_2014',1),
+(2015,234,'assignment_2015',1),
+(2016,234,'assignment_2016',1),
+(2017,234,'assignment_2017',1),
+(2018,234,'assignment_2018',1),
+(2019,234,'assignment_2019',1),
+(2020,234,'assignment_2020',1),
+(2021,234,'assignment_2021',1),
+(2022,234,'assignment_2022',1),
+(2023,234,'assignment_2023',2),
+(2024,234,'assignment_2024',2),
+(2025,234,'assignment_2025',2),
+(2026,37,'assignment_2026',1),
+(2027,37,'assignment_2027',1),
+(2028,37,'assignment_2028',1),
+(2029,37,'assignment_2029',1),
+(2030,37,'assignment_2030',1),
+(2031,37,'assignment_2031',1),
+(2032,37,'assignment_2032',1),
+(2033,37,'assignment_2033',1),
+(2034,37,'assignment_2034',1),
+(2035,37,'assignment_2035',1),
+(2036,37,'assignment_2036',1),
+(2037,37,'assignment_2037',1),
+(2038,37,'assignment_2038',2),
+(2039,37,'assignment_2039',2),
+(2040,37,'assignment_2040',2),
+(2041,136,'assignment_2041',1),
+(2042,136,'assignment_2042',1),
+(2043,136,'assignment_2043',1),
+(2044,136,'assignment_2044',1),
+(2045,136,'assignment_2045',1),
+(2046,136,'assignment_2046',1),
+(2047,136,'assignment_2047',1),
+(2048,136,'assignment_2048',1),
+(2049,136,'assignment_2049',1),
+(2050,136,'assignment_2050',1),
+(2051,136,'assignment_2051',1),
+(2052,136,'assignment_2052',1),
+(2053,136,'assignment_2053',2),
+(2054,136,'assignment_2054',2),
+(2055,136,'assignment_2055',2),
+(2056,235,'assignment_2056',1),
+(2057,235,'assignment_2057',1),
+(2058,235,'assignment_2058',1),
+(2059,235,'assignment_2059',1),
+(2060,235,'assignment_2060',1),
+(2061,235,'assignment_2061',1),
+(2062,235,'assignment_2062',1),
+(2063,235,'assignment_2063',1),
+(2064,235,'assignment_2064',1),
+(2065,235,'assignment_2065',1),
+(2066,235,'assignment_2066',1),
+(2067,235,'assignment_2067',1),
+(2068,235,'assignment_2068',2),
+(2069,235,'assignment_2069',2),
+(2070,235,'assignment_2070',2),
+(2071,38,'assignment_2071',1),
+(2072,38,'assignment_2072',1),
+(2073,38,'assignment_2073',1),
+(2074,38,'assignment_2074',1),
+(2075,38,'assignment_2075',1),
+(2076,38,'assignment_2076',1),
+(2077,38,'assignment_2077',1),
+(2078,38,'assignment_2078',1),
+(2079,38,'assignment_2079',1),
+(2080,38,'assignment_2080',1),
+(2081,38,'assignment_2081',1),
+(2082,38,'assignment_2082',1),
+(2083,38,'assignment_2083',2),
+(2084,38,'assignment_2084',2),
+(2085,38,'assignment_2085',2),
+(2086,137,'assignment_2086',1),
+(2087,137,'assignment_2087',1),
+(2088,137,'assignment_2088',1),
+(2089,137,'assignment_2089',1),
+(2090,137,'assignment_2090',1),
+(2091,137,'assignment_2091',1),
+(2092,137,'assignment_2092',1),
+(2093,137,'assignment_2093',1),
+(2094,137,'assignment_2094',1),
+(2095,137,'assignment_2095',1),
+(2096,137,'assignment_2096',1),
+(2097,137,'assignment_2097',1),
+(2098,137,'assignment_2098',2),
+(2099,137,'assignment_2099',2),
+(2100,137,'assignment_2100',2),
+(2101,236,'assignment_2101',1),
+(2102,236,'assignment_2102',1),
+(2103,236,'assignment_2103',1),
+(2104,236,'assignment_2104',1),
+(2105,236,'assignment_2105',1),
+(2106,236,'assignment_2106',1),
+(2107,236,'assignment_2107',1),
+(2108,236,'assignment_2108',1),
+(2109,236,'assignment_2109',1),
+(2110,236,'assignment_2110',1),
+(2111,236,'assignment_2111',1),
+(2112,236,'assignment_2112',1),
+(2113,236,'assignment_2113',2),
+(2114,236,'assignment_2114',2),
+(2115,236,'assignment_2115',2),
+(2116,39,'assignment_2116',1),
+(2117,39,'assignment_2117',1),
+(2118,39,'assignment_2118',1),
+(2119,39,'assignment_2119',1),
+(2120,39,'assignment_2120',1),
+(2121,39,'assignment_2121',1),
+(2122,39,'assignment_2122',1),
+(2123,39,'assignment_2123',1),
+(2124,39,'assignment_2124',1),
+(2125,39,'assignment_2125',1),
+(2126,39,'assignment_2126',1),
+(2127,39,'assignment_2127',1),
+(2128,39,'assignment_2128',2),
+(2129,39,'assignment_2129',2),
+(2130,39,'assignment_2130',2),
+(2131,138,'assignment_2131',1),
+(2132,138,'assignment_2132',1),
+(2133,138,'assignment_2133',1),
+(2134,138,'assignment_2134',1),
+(2135,138,'assignment_2135',1),
+(2136,138,'assignment_2136',1),
+(2137,138,'assignment_2137',1),
+(2138,138,'assignment_2138',1),
+(2139,138,'assignment_2139',1),
+(2140,138,'assignment_2140',1),
+(2141,138,'assignment_2141',1),
+(2142,138,'assignment_2142',1),
+(2143,138,'assignment_2143',2),
+(2144,138,'assignment_2144',2),
+(2145,138,'assignment_2145',2),
+(2146,237,'assignment_2146',1),
+(2147,237,'assignment_2147',1),
+(2148,237,'assignment_2148',1),
+(2149,237,'assignment_2149',1),
+(2150,237,'assignment_2150',1),
+(2151,237,'assignment_2151',1),
+(2152,237,'assignment_2152',1),
+(2153,237,'assignment_2153',1),
+(2154,237,'assignment_2154',1),
+(2155,237,'assignment_2155',1),
+(2156,237,'assignment_2156',1),
+(2157,237,'assignment_2157',1),
+(2158,237,'assignment_2158',2),
+(2159,237,'assignment_2159',2),
+(2160,237,'assignment_2160',2),
+(2161,40,'assignment_2161',1),
+(2162,40,'assignment_2162',1),
+(2163,40,'assignment_2163',1),
+(2164,40,'assignment_2164',1),
+(2165,40,'assignment_2165',1),
+(2166,40,'assignment_2166',1),
+(2167,40,'assignment_2167',1),
+(2168,40,'assignment_2168',1),
+(2169,40,'assignment_2169',1),
+(2170,40,'assignment_2170',1),
+(2171,40,'assignment_2171',1),
+(2172,40,'assignment_2172',1),
+(2173,40,'assignment_2173',2),
+(2174,40,'assignment_2174',2),
+(2175,40,'assignment_2175',2),
+(2176,139,'assignment_2176',1),
+(2177,139,'assignment_2177',1),
+(2178,139,'assignment_2178',1),
+(2179,139,'assignment_2179',1),
+(2180,139,'assignment_2180',1),
+(2181,139,'assignment_2181',1),
+(2182,139,'assignment_2182',1),
+(2183,139,'assignment_2183',1),
+(2184,139,'assignment_2184',1),
+(2185,139,'assignment_2185',1),
+(2186,139,'assignment_2186',1),
+(2187,139,'assignment_2187',1),
+(2188,139,'assignment_2188',2),
+(2189,139,'assignment_2189',2),
+(2190,139,'assignment_2190',2),
+(2191,238,'assignment_2191',1),
+(2192,238,'assignment_2192',1),
+(2193,238,'assignment_2193',1),
+(2194,238,'assignment_2194',1),
+(2195,238,'assignment_2195',1),
+(2196,238,'assignment_2196',1),
+(2197,238,'assignment_2197',1),
+(2198,238,'assignment_2198',1),
+(2199,238,'assignment_2199',1),
+(2200,238,'assignment_2200',1),
+(2201,238,'assignment_2201',1),
+(2202,238,'assignment_2202',1),
+(2203,238,'assignment_2203',2),
+(2204,238,'assignment_2204',2),
+(2205,238,'assignment_2205',2),
+(2206,41,'assignment_2206',1),
+(2207,41,'assignment_2207',1),
+(2208,41,'assignment_2208',1),
+(2209,41,'assignment_2209',1),
+(2210,41,'assignment_2210',1),
+(2211,41,'assignment_2211',1),
+(2212,41,'assignment_2212',1),
+(2213,41,'assignment_2213',1),
+(2214,41,'assignment_2214',1),
+(2215,41,'assignment_2215',1),
+(2216,41,'assignment_2216',1),
+(2217,41,'assignment_2217',1),
+(2218,41,'assignment_2218',2),
+(2219,41,'assignment_2219',2),
+(2220,41,'assignment_2220',2),
+(2221,140,'assignment_2221',1),
+(2222,140,'assignment_2222',1),
+(2223,140,'assignment_2223',1),
+(2224,140,'assignment_2224',1),
+(2225,140,'assignment_2225',1),
+(2226,140,'assignment_2226',1),
+(2227,140,'assignment_2227',1),
+(2228,140,'assignment_2228',1),
+(2229,140,'assignment_2229',1),
+(2230,140,'assignment_2230',1),
+(2231,140,'assignment_2231',1),
+(2232,140,'assignment_2232',1),
+(2233,140,'assignment_2233',2),
+(2234,140,'assignment_2234',2),
+(2235,140,'assignment_2235',2),
+(2236,239,'assignment_2236',1),
+(2237,239,'assignment_2237',1),
+(2238,239,'assignment_2238',1),
+(2239,239,'assignment_2239',1),
+(2240,239,'assignment_2240',1),
+(2241,239,'assignment_2241',1),
+(2242,239,'assignment_2242',1),
+(2243,239,'assignment_2243',1),
+(2244,239,'assignment_2244',1),
+(2245,239,'assignment_2245',1),
+(2246,239,'assignment_2246',1),
+(2247,239,'assignment_2247',1),
+(2248,239,'assignment_2248',2),
+(2249,239,'assignment_2249',2),
+(2250,239,'assignment_2250',2),
+(2251,42,'assignment_2251',1),
+(2252,42,'assignment_2252',1),
+(2253,42,'assignment_2253',1),
+(2254,42,'assignment_2254',1),
+(2255,42,'assignment_2255',1),
+(2256,42,'assignment_2256',1),
+(2257,42,'assignment_2257',1),
+(2258,42,'assignment_2258',1),
+(2259,42,'assignment_2259',1),
+(2260,42,'assignment_2260',1),
+(2261,42,'assignment_2261',1),
+(2262,42,'assignment_2262',1),
+(2263,42,'assignment_2263',2),
+(2264,42,'assignment_2264',2),
+(2265,42,'assignment_2265',2),
+(2266,141,'assignment_2266',1),
+(2267,141,'assignment_2267',1),
+(2268,141,'assignment_2268',1),
+(2269,141,'assignment_2269',1),
+(2270,141,'assignment_2270',1),
+(2271,141,'assignment_2271',1),
+(2272,141,'assignment_2272',1),
+(2273,141,'assignment_2273',1),
+(2274,141,'assignment_2274',1),
+(2275,141,'assignment_2275',1),
+(2276,141,'assignment_2276',1),
+(2277,141,'assignment_2277',1),
+(2278,141,'assignment_2278',2),
+(2279,141,'assignment_2279',2),
+(2280,141,'assignment_2280',2),
+(2281,240,'assignment_2281',1),
+(2282,240,'assignment_2282',1),
+(2283,240,'assignment_2283',1),
+(2284,240,'assignment_2284',1),
+(2285,240,'assignment_2285',1),
+(2286,240,'assignment_2286',1),
+(2287,240,'assignment_2287',1),
+(2288,240,'assignment_2288',1),
+(2289,240,'assignment_2289',1),
+(2290,240,'assignment_2290',1),
+(2291,240,'assignment_2291',1),
+(2292,240,'assignment_2292',1),
+(2293,240,'assignment_2293',2),
+(2294,240,'assignment_2294',2),
+(2295,240,'assignment_2295',2),
+(2296,43,'assignment_2296',1),
+(2297,43,'assignment_2297',1),
+(2298,43,'assignment_2298',1),
+(2299,43,'assignment_2299',1),
+(2300,43,'assignment_2300',1),
+(2301,43,'assignment_2301',1),
+(2302,43,'assignment_2302',1),
+(2303,43,'assignment_2303',1),
+(2304,43,'assignment_2304',1),
+(2305,43,'assignment_2305',1),
+(2306,43,'assignment_2306',1),
+(2307,43,'assignment_2307',1),
+(2308,43,'assignment_2308',2),
+(2309,43,'assignment_2309',2),
+(2310,43,'assignment_2310',2),
+(2311,142,'assignment_2311',1),
+(2312,142,'assignment_2312',1),
+(2313,142,'assignment_2313',1),
+(2314,142,'assignment_2314',1),
+(2315,142,'assignment_2315',1),
+(2316,142,'assignment_2316',1),
+(2317,142,'assignment_2317',1),
+(2318,142,'assignment_2318',1),
+(2319,142,'assignment_2319',1),
+(2320,142,'assignment_2320',1),
+(2321,142,'assignment_2321',1),
+(2322,142,'assignment_2322',1),
+(2323,142,'assignment_2323',2),
+(2324,142,'assignment_2324',2),
+(2325,142,'assignment_2325',2),
+(2326,241,'assignment_2326',1),
+(2327,241,'assignment_2327',1),
+(2328,241,'assignment_2328',1),
+(2329,241,'assignment_2329',1),
+(2330,241,'assignment_2330',1),
+(2331,241,'assignment_2331',1),
+(2332,241,'assignment_2332',1),
+(2333,241,'assignment_2333',1),
+(2334,241,'assignment_2334',1),
+(2335,241,'assignment_2335',1),
+(2336,241,'assignment_2336',1),
+(2337,241,'assignment_2337',1),
+(2338,241,'assignment_2338',2),
+(2339,241,'assignment_2339',2),
+(2340,241,'assignment_2340',2),
+(2341,44,'assignment_2341',1),
+(2342,44,'assignment_2342',1),
+(2343,44,'assignment_2343',1),
+(2344,44,'assignment_2344',1),
+(2345,44,'assignment_2345',1),
+(2346,44,'assignment_2346',1),
+(2347,44,'assignment_2347',1),
+(2348,44,'assignment_2348',1),
+(2349,44,'assignment_2349',1),
+(2350,44,'assignment_2350',1),
+(2351,44,'assignment_2351',1),
+(2352,44,'assignment_2352',1),
+(2353,44,'assignment_2353',2),
+(2354,44,'assignment_2354',2),
+(2355,44,'assignment_2355',2),
+(2356,143,'assignment_2356',1),
+(2357,143,'assignment_2357',1),
+(2358,143,'assignment_2358',1),
+(2359,143,'assignment_2359',1),
+(2360,143,'assignment_2360',1),
+(2361,143,'assignment_2361',1),
+(2362,143,'assignment_2362',1),
+(2363,143,'assignment_2363',1),
+(2364,143,'assignment_2364',1),
+(2365,143,'assignment_2365',1),
+(2366,143,'assignment_2366',1),
+(2367,143,'assignment_2367',1),
+(2368,143,'assignment_2368',2),
+(2369,143,'assignment_2369',2),
+(2370,143,'assignment_2370',2),
+(2371,242,'assignment_2371',1),
+(2372,242,'assignment_2372',1),
+(2373,242,'assignment_2373',1),
+(2374,242,'assignment_2374',1),
+(2375,242,'assignment_2375',1),
+(2376,242,'assignment_2376',1),
+(2377,242,'assignment_2377',1),
+(2378,242,'assignment_2378',1),
+(2379,242,'assignment_2379',1),
+(2380,242,'assignment_2380',1),
+(2381,242,'assignment_2381',1),
+(2382,242,'assignment_2382',1),
+(2383,242,'assignment_2383',2),
+(2384,242,'assignment_2384',2),
+(2385,242,'assignment_2385',2),
+(2386,45,'assignment_2386',1),
+(2387,45,'assignment_2387',1),
+(2388,45,'assignment_2388',1),
+(2389,45,'assignment_2389',1),
+(2390,45,'assignment_2390',1),
+(2391,45,'assignment_2391',1),
+(2392,45,'assignment_2392',1),
+(2393,45,'assignment_2393',1),
+(2394,45,'assignment_2394',1),
+(2395,45,'assignment_2395',1),
+(2396,45,'assignment_2396',1),
+(2397,45,'assignment_2397',1),
+(2398,45,'assignment_2398',2),
+(2399,45,'assignment_2399',2),
+(2400,45,'assignment_2400',2),
+(2401,144,'assignment_2401',1),
+(2402,144,'assignment_2402',1),
+(2403,144,'assignment_2403',1),
+(2404,144,'assignment_2404',1),
+(2405,144,'assignment_2405',1),
+(2406,144,'assignment_2406',1),
+(2407,144,'assignment_2407',1),
+(2408,144,'assignment_2408',1),
+(2409,144,'assignment_2409',1),
+(2410,144,'assignment_2410',1),
+(2411,144,'assignment_2411',1),
+(2412,144,'assignment_2412',1),
+(2413,144,'assignment_2413',2),
+(2414,144,'assignment_2414',2),
+(2415,144,'assignment_2415',2),
+(2416,243,'assignment_2416',1),
+(2417,243,'assignment_2417',1),
+(2418,243,'assignment_2418',1),
+(2419,243,'assignment_2419',1),
+(2420,243,'assignment_2420',1),
+(2421,243,'assignment_2421',1),
+(2422,243,'assignment_2422',1),
+(2423,243,'assignment_2423',1),
+(2424,243,'assignment_2424',1),
+(2425,243,'assignment_2425',1),
+(2426,243,'assignment_2426',1),
+(2427,243,'assignment_2427',1),
+(2428,243,'assignment_2428',2),
+(2429,243,'assignment_2429',2),
+(2430,243,'assignment_2430',2),
+(2431,46,'assignment_2431',1),
+(2432,46,'assignment_2432',1),
+(2433,46,'assignment_2433',1),
+(2434,46,'assignment_2434',1),
+(2435,46,'assignment_2435',1),
+(2436,46,'assignment_2436',1),
+(2437,46,'assignment_2437',1),
+(2438,46,'assignment_2438',1),
+(2439,46,'assignment_2439',1),
+(2440,46,'assignment_2440',1),
+(2441,46,'assignment_2441',1),
+(2442,46,'assignment_2442',1),
+(2443,46,'assignment_2443',2),
+(2444,46,'assignment_2444',2),
+(2445,46,'assignment_2445',2),
+(2446,145,'assignment_2446',1),
+(2447,145,'assignment_2447',1),
+(2448,145,'assignment_2448',1),
+(2449,145,'assignment_2449',1),
+(2450,145,'assignment_2450',1),
+(2451,145,'assignment_2451',1),
+(2452,145,'assignment_2452',1),
+(2453,145,'assignment_2453',1),
+(2454,145,'assignment_2454',1),
+(2455,145,'assignment_2455',1),
+(2456,145,'assignment_2456',1),
+(2457,145,'assignment_2457',1),
+(2458,145,'assignment_2458',2),
+(2459,145,'assignment_2459',2),
+(2460,145,'assignment_2460',2),
+(2461,244,'assignment_2461',1),
+(2462,244,'assignment_2462',1),
+(2463,244,'assignment_2463',1),
+(2464,244,'assignment_2464',1),
+(2465,244,'assignment_2465',1),
+(2466,244,'assignment_2466',1),
+(2467,244,'assignment_2467',1),
+(2468,244,'assignment_2468',1),
+(2469,244,'assignment_2469',1),
+(2470,244,'assignment_2470',1),
+(2471,244,'assignment_2471',1),
+(2472,244,'assignment_2472',1),
+(2473,244,'assignment_2473',2),
+(2474,244,'assignment_2474',2),
+(2475,244,'assignment_2475',2),
+(2476,47,'assignment_2476',1),
+(2477,47,'assignment_2477',1),
+(2478,47,'assignment_2478',1),
+(2479,47,'assignment_2479',1),
+(2480,47,'assignment_2480',1),
+(2481,47,'assignment_2481',1),
+(2482,47,'assignment_2482',1),
+(2483,47,'assignment_2483',1),
+(2484,47,'assignment_2484',1),
+(2485,47,'assignment_2485',1),
+(2486,47,'assignment_2486',1),
+(2487,47,'assignment_2487',1),
+(2488,47,'assignment_2488',2),
+(2489,47,'assignment_2489',2),
+(2490,47,'assignment_2490',2),
+(2491,146,'assignment_2491',1),
+(2492,146,'assignment_2492',1),
+(2493,146,'assignment_2493',1),
+(2494,146,'assignment_2494',1),
+(2495,146,'assignment_2495',1),
+(2496,146,'assignment_2496',1),
+(2497,146,'assignment_2497',1),
+(2498,146,'assignment_2498',1),
+(2499,146,'assignment_2499',1),
+(2500,146,'assignment_2500',1),
+(2501,146,'assignment_2501',1),
+(2502,146,'assignment_2502',1),
+(2503,146,'assignment_2503',2),
+(2504,146,'assignment_2504',2),
+(2505,146,'assignment_2505',2),
+(2506,245,'assignment_2506',1),
+(2507,245,'assignment_2507',1),
+(2508,245,'assignment_2508',1),
+(2509,245,'assignment_2509',1),
+(2510,245,'assignment_2510',1),
+(2511,245,'assignment_2511',1),
+(2512,245,'assignment_2512',1),
+(2513,245,'assignment_2513',1),
+(2514,245,'assignment_2514',1),
+(2515,245,'assignment_2515',1),
+(2516,245,'assignment_2516',1),
+(2517,245,'assignment_2517',1),
+(2518,245,'assignment_2518',2),
+(2519,245,'assignment_2519',2),
+(2520,245,'assignment_2520',2),
+(2521,48,'assignment_2521',1),
+(2522,48,'assignment_2522',1),
+(2523,48,'assignment_2523',1),
+(2524,48,'assignment_2524',1),
+(2525,48,'assignment_2525',1),
+(2526,48,'assignment_2526',1),
+(2527,48,'assignment_2527',1),
+(2528,48,'assignment_2528',1),
+(2529,48,'assignment_2529',1),
+(2530,48,'assignment_2530',1),
+(2531,48,'assignment_2531',1),
+(2532,48,'assignment_2532',1),
+(2533,48,'assignment_2533',2),
+(2534,48,'assignment_2534',2),
+(2535,48,'assignment_2535',2),
+(2536,147,'assignment_2536',1),
+(2537,147,'assignment_2537',1),
+(2538,147,'assignment_2538',1),
+(2539,147,'assignment_2539',1),
+(2540,147,'assignment_2540',1),
+(2541,147,'assignment_2541',1),
+(2542,147,'assignment_2542',1),
+(2543,147,'assignment_2543',1),
+(2544,147,'assignment_2544',1),
+(2545,147,'assignment_2545',1),
+(2546,147,'assignment_2546',1),
+(2547,147,'assignment_2547',1),
+(2548,147,'assignment_2548',2),
+(2549,147,'assignment_2549',2),
+(2550,147,'assignment_2550',2),
+(2551,246,'assignment_2551',1),
+(2552,246,'assignment_2552',1),
+(2553,246,'assignment_2553',1),
+(2554,246,'assignment_2554',1),
+(2555,246,'assignment_2555',1),
+(2556,246,'assignment_2556',1),
+(2557,246,'assignment_2557',1),
+(2558,246,'assignment_2558',1),
+(2559,246,'assignment_2559',1),
+(2560,246,'assignment_2560',1),
+(2561,246,'assignment_2561',1),
+(2562,246,'assignment_2562',1),
+(2563,246,'assignment_2563',2),
+(2564,246,'assignment_2564',2),
+(2565,246,'assignment_2565',2),
+(2566,49,'assignment_2566',1),
+(2567,49,'assignment_2567',1),
+(2568,49,'assignment_2568',1),
+(2569,49,'assignment_2569',1),
+(2570,49,'assignment_2570',1),
+(2571,49,'assignment_2571',1),
+(2572,49,'assignment_2572',1),
+(2573,49,'assignment_2573',1),
+(2574,49,'assignment_2574',1),
+(2575,49,'assignment_2575',1),
+(2576,49,'assignment_2576',1),
+(2577,49,'assignment_2577',1),
+(2578,49,'assignment_2578',2),
+(2579,49,'assignment_2579',2),
+(2580,49,'assignment_2580',2),
+(2581,148,'assignment_2581',1),
+(2582,148,'assignment_2582',1),
+(2583,148,'assignment_2583',1),
+(2584,148,'assignment_2584',1),
+(2585,148,'assignment_2585',1),
+(2586,148,'assignment_2586',1),
+(2587,148,'assignment_2587',1),
+(2588,148,'assignment_2588',1),
+(2589,148,'assignment_2589',1),
+(2590,148,'assignment_2590',1),
+(2591,148,'assignment_2591',1),
+(2592,148,'assignment_2592',1),
+(2593,148,'assignment_2593',2),
+(2594,148,'assignment_2594',2),
+(2595,148,'assignment_2595',2),
+(2596,247,'assignment_2596',1),
+(2597,247,'assignment_2597',1),
+(2598,247,'assignment_2598',1),
+(2599,247,'assignment_2599',1),
+(2600,247,'assignment_2600',1),
+(2601,247,'assignment_2601',1),
+(2602,247,'assignment_2602',1),
+(2603,247,'assignment_2603',1),
+(2604,247,'assignment_2604',1),
+(2605,247,'assignment_2605',1),
+(2606,247,'assignment_2606',1),
+(2607,247,'assignment_2607',1),
+(2608,247,'assignment_2608',2),
+(2609,247,'assignment_2609',2),
+(2610,247,'assignment_2610',2),
+(2611,50,'assignment_2611',1),
+(2612,50,'assignment_2612',1),
+(2613,50,'assignment_2613',1),
+(2614,50,'assignment_2614',1),
+(2615,50,'assignment_2615',1),
+(2616,50,'assignment_2616',1),
+(2617,50,'assignment_2617',1),
+(2618,50,'assignment_2618',1),
+(2619,50,'assignment_2619',1),
+(2620,50,'assignment_2620',1),
+(2621,50,'assignment_2621',1),
+(2622,50,'assignment_2622',1),
+(2623,50,'assignment_2623',2),
+(2624,50,'assignment_2624',2),
+(2625,50,'assignment_2625',2),
+(2626,149,'assignment_2626',1),
+(2627,149,'assignment_2627',1),
+(2628,149,'assignment_2628',1),
+(2629,149,'assignment_2629',1),
+(2630,149,'assignment_2630',1),
+(2631,149,'assignment_2631',1),
+(2632,149,'assignment_2632',1),
+(2633,149,'assignment_2633',1),
+(2634,149,'assignment_2634',1),
+(2635,149,'assignment_2635',1),
+(2636,149,'assignment_2636',1),
+(2637,149,'assignment_2637',1),
+(2638,149,'assignment_2638',2),
+(2639,149,'assignment_2639',2),
+(2640,149,'assignment_2640',2),
+(2641,248,'assignment_2641',1),
+(2642,248,'assignment_2642',1),
+(2643,248,'assignment_2643',1),
+(2644,248,'assignment_2644',1),
+(2645,248,'assignment_2645',1),
+(2646,248,'assignment_2646',1),
+(2647,248,'assignment_2647',1),
+(2648,248,'assignment_2648',1),
+(2649,248,'assignment_2649',1),
+(2650,248,'assignment_2650',1),
+(2651,248,'assignment_2651',1),
+(2652,248,'assignment_2652',1),
+(2653,248,'assignment_2653',2),
+(2654,248,'assignment_2654',2),
+(2655,248,'assignment_2655',2),
+(2656,51,'assignment_2656',1),
+(2657,51,'assignment_2657',1),
+(2658,51,'assignment_2658',1),
+(2659,51,'assignment_2659',1),
+(2660,51,'assignment_2660',1),
+(2661,51,'assignment_2661',1),
+(2662,51,'assignment_2662',1),
+(2663,51,'assignment_2663',1),
+(2664,51,'assignment_2664',1),
+(2665,51,'assignment_2665',1),
+(2666,51,'assignment_2666',1),
+(2667,51,'assignment_2667',1),
+(2668,51,'assignment_2668',2),
+(2669,51,'assignment_2669',2),
+(2670,51,'assignment_2670',2),
+(2671,150,'assignment_2671',1),
+(2672,150,'assignment_2672',1),
+(2673,150,'assignment_2673',1),
+(2674,150,'assignment_2674',1),
+(2675,150,'assignment_2675',1),
+(2676,150,'assignment_2676',1),
+(2677,150,'assignment_2677',1),
+(2678,150,'assignment_2678',1),
+(2679,150,'assignment_2679',1),
+(2680,150,'assignment_2680',1),
+(2681,150,'assignment_2681',1),
+(2682,150,'assignment_2682',1),
+(2683,150,'assignment_2683',2),
+(2684,150,'assignment_2684',2),
+(2685,150,'assignment_2685',2),
+(2686,249,'assignment_2686',1),
+(2687,249,'assignment_2687',1),
+(2688,249,'assignment_2688',1),
+(2689,249,'assignment_2689',1),
+(2690,249,'assignment_2690',1),
+(2691,249,'assignment_2691',1),
+(2692,249,'assignment_2692',1),
+(2693,249,'assignment_2693',1),
+(2694,249,'assignment_2694',1),
+(2695,249,'assignment_2695',1),
+(2696,249,'assignment_2696',1),
+(2697,249,'assignment_2697',1),
+(2698,249,'assignment_2698',2),
+(2699,249,'assignment_2699',2),
+(2700,249,'assignment_2700',2),
+(2701,52,'assignment_2701',1),
+(2702,52,'assignment_2702',1),
+(2703,52,'assignment_2703',1),
+(2704,52,'assignment_2704',1),
+(2705,52,'assignment_2705',1),
+(2706,52,'assignment_2706',1),
+(2707,52,'assignment_2707',1),
+(2708,52,'assignment_2708',1),
+(2709,52,'assignment_2709',1),
+(2710,52,'assignment_2710',1),
+(2711,52,'assignment_2711',1),
+(2712,52,'assignment_2712',1),
+(2713,52,'assignment_2713',2),
+(2714,52,'assignment_2714',2),
+(2715,52,'assignment_2715',2),
+(2716,151,'assignment_2716',1),
+(2717,151,'assignment_2717',1),
+(2718,151,'assignment_2718',1),
+(2719,151,'assignment_2719',1),
+(2720,151,'assignment_2720',1),
+(2721,151,'assignment_2721',1),
+(2722,151,'assignment_2722',1),
+(2723,151,'assignment_2723',1),
+(2724,151,'assignment_2724',1),
+(2725,151,'assignment_2725',1),
+(2726,151,'assignment_2726',1),
+(2727,151,'assignment_2727',1),
+(2728,151,'assignment_2728',2),
+(2729,151,'assignment_2729',2),
+(2730,151,'assignment_2730',2),
+(2731,250,'assignment_2731',1),
+(2732,250,'assignment_2732',1),
+(2733,250,'assignment_2733',1),
+(2734,250,'assignment_2734',1),
+(2735,250,'assignment_2735',1),
+(2736,250,'assignment_2736',1),
+(2737,250,'assignment_2737',1),
+(2738,250,'assignment_2738',1),
+(2739,250,'assignment_2739',1),
+(2740,250,'assignment_2740',1),
+(2741,250,'assignment_2741',1),
+(2742,250,'assignment_2742',1),
+(2743,250,'assignment_2743',2),
+(2744,250,'assignment_2744',2),
+(2745,250,'assignment_2745',2),
+(2746,53,'assignment_2746',1),
+(2747,53,'assignment_2747',1),
+(2748,53,'assignment_2748',1),
+(2749,53,'assignment_2749',1),
+(2750,53,'assignment_2750',1),
+(2751,53,'assignment_2751',1),
+(2752,53,'assignment_2752',1),
+(2753,53,'assignment_2753',1),
+(2754,53,'assignment_2754',1),
+(2755,53,'assignment_2755',1),
+(2756,53,'assignment_2756',1),
+(2757,53,'assignment_2757',1),
+(2758,53,'assignment_2758',2),
+(2759,53,'assignment_2759',2),
+(2760,53,'assignment_2760',2),
+(2761,152,'assignment_2761',1),
+(2762,152,'assignment_2762',1),
+(2763,152,'assignment_2763',1),
+(2764,152,'assignment_2764',1),
+(2765,152,'assignment_2765',1),
+(2766,152,'assignment_2766',1),
+(2767,152,'assignment_2767',1),
+(2768,152,'assignment_2768',1),
+(2769,152,'assignment_2769',1),
+(2770,152,'assignment_2770',1),
+(2771,152,'assignment_2771',1),
+(2772,152,'assignment_2772',1),
+(2773,152,'assignment_2773',2),
+(2774,152,'assignment_2774',2),
+(2775,152,'assignment_2775',2),
+(2776,251,'assignment_2776',1),
+(2777,251,'assignment_2777',1),
+(2778,251,'assignment_2778',1),
+(2779,251,'assignment_2779',1),
+(2780,251,'assignment_2780',1),
+(2781,251,'assignment_2781',1),
+(2782,251,'assignment_2782',1),
+(2783,251,'assignment_2783',1),
+(2784,251,'assignment_2784',1),
+(2785,251,'assignment_2785',1),
+(2786,251,'assignment_2786',1),
+(2787,251,'assignment_2787',1),
+(2788,251,'assignment_2788',2),
+(2789,251,'assignment_2789',2),
+(2790,251,'assignment_2790',2),
+(2791,54,'assignment_2791',1),
+(2792,54,'assignment_2792',1),
+(2793,54,'assignment_2793',1),
+(2794,54,'assignment_2794',1),
+(2795,54,'assignment_2795',1),
+(2796,54,'assignment_2796',1),
+(2797,54,'assignment_2797',1),
+(2798,54,'assignment_2798',1),
+(2799,54,'assignment_2799',1),
+(2800,54,'assignment_2800',1),
+(2801,54,'assignment_2801',1),
+(2802,54,'assignment_2802',1),
+(2803,54,'assignment_2803',2),
+(2804,54,'assignment_2804',2),
+(2805,54,'assignment_2805',2),
+(2806,153,'assignment_2806',1),
+(2807,153,'assignment_2807',1),
+(2808,153,'assignment_2808',1),
+(2809,153,'assignment_2809',1),
+(2810,153,'assignment_2810',1),
+(2811,153,'assignment_2811',1),
+(2812,153,'assignment_2812',1),
+(2813,153,'assignment_2813',1),
+(2814,153,'assignment_2814',1),
+(2815,153,'assignment_2815',1),
+(2816,153,'assignment_2816',1),
+(2817,153,'assignment_2817',1),
+(2818,153,'assignment_2818',2),
+(2819,153,'assignment_2819',2),
+(2820,153,'assignment_2820',2),
+(2821,252,'assignment_2821',1),
+(2822,252,'assignment_2822',1),
+(2823,252,'assignment_2823',1),
+(2824,252,'assignment_2824',1),
+(2825,252,'assignment_2825',1),
+(2826,252,'assignment_2826',1),
+(2827,252,'assignment_2827',1),
+(2828,252,'assignment_2828',1),
+(2829,252,'assignment_2829',1),
+(2830,252,'assignment_2830',1),
+(2831,252,'assignment_2831',1),
+(2832,252,'assignment_2832',1),
+(2833,252,'assignment_2833',2),
+(2834,252,'assignment_2834',2),
+(2835,252,'assignment_2835',2),
+(2836,55,'assignment_2836',1),
+(2837,55,'assignment_2837',1),
+(2838,55,'assignment_2838',1),
+(2839,55,'assignment_2839',1),
+(2840,55,'assignment_2840',1),
+(2841,55,'assignment_2841',1),
+(2842,55,'assignment_2842',1),
+(2843,55,'assignment_2843',1),
+(2844,55,'assignment_2844',1),
+(2845,55,'assignment_2845',1),
+(2846,55,'assignment_2846',1),
+(2847,55,'assignment_2847',1),
+(2848,55,'assignment_2848',2),
+(2849,55,'assignment_2849',2),
+(2850,55,'assignment_2850',2),
+(2851,154,'assignment_2851',1),
+(2852,154,'assignment_2852',1),
+(2853,154,'assignment_2853',1),
+(2854,154,'assignment_2854',1),
+(2855,154,'assignment_2855',1),
+(2856,154,'assignment_2856',1),
+(2857,154,'assignment_2857',1),
+(2858,154,'assignment_2858',1),
+(2859,154,'assignment_2859',1),
+(2860,154,'assignment_2860',1),
+(2861,154,'assignment_2861',1),
+(2862,154,'assignment_2862',1),
+(2863,154,'assignment_2863',2),
+(2864,154,'assignment_2864',2),
+(2865,154,'assignment_2865',2),
+(2866,253,'assignment_2866',1),
+(2867,253,'assignment_2867',1),
+(2868,253,'assignment_2868',1),
+(2869,253,'assignment_2869',1),
+(2870,253,'assignment_2870',1),
+(2871,253,'assignment_2871',1),
+(2872,253,'assignment_2872',1),
+(2873,253,'assignment_2873',1),
+(2874,253,'assignment_2874',1),
+(2875,253,'assignment_2875',1),
+(2876,253,'assignment_2876',1),
+(2877,253,'assignment_2877',1),
+(2878,253,'assignment_2878',2),
+(2879,253,'assignment_2879',2),
+(2880,253,'assignment_2880',2),
+(2881,56,'assignment_2881',1),
+(2882,56,'assignment_2882',1),
+(2883,56,'assignment_2883',1),
+(2884,56,'assignment_2884',1),
+(2885,56,'assignment_2885',1),
+(2886,56,'assignment_2886',1),
+(2887,56,'assignment_2887',1),
+(2888,56,'assignment_2888',1),
+(2889,56,'assignment_2889',1),
+(2890,56,'assignment_2890',1),
+(2891,56,'assignment_2891',1),
+(2892,56,'assignment_2892',1),
+(2893,56,'assignment_2893',2),
+(2894,56,'assignment_2894',2),
+(2895,56,'assignment_2895',2),
+(2896,155,'assignment_2896',1),
+(2897,155,'assignment_2897',1),
+(2898,155,'assignment_2898',1),
+(2899,155,'assignment_2899',1),
+(2900,155,'assignment_2900',1),
+(2901,155,'assignment_2901',1),
+(2902,155,'assignment_2902',1),
+(2903,155,'assignment_2903',1),
+(2904,155,'assignment_2904',1),
+(2905,155,'assignment_2905',1),
+(2906,155,'assignment_2906',1),
+(2907,155,'assignment_2907',1),
+(2908,155,'assignment_2908',2),
+(2909,155,'assignment_2909',2),
+(2910,155,'assignment_2910',2),
+(2911,254,'assignment_2911',1),
+(2912,254,'assignment_2912',1),
+(2913,254,'assignment_2913',1),
+(2914,254,'assignment_2914',1),
+(2915,254,'assignment_2915',1),
+(2916,254,'assignment_2916',1),
+(2917,254,'assignment_2917',1),
+(2918,254,'assignment_2918',1),
+(2919,254,'assignment_2919',1),
+(2920,254,'assignment_2920',1),
+(2921,254,'assignment_2921',1),
+(2922,254,'assignment_2922',1),
+(2923,254,'assignment_2923',2),
+(2924,254,'assignment_2924',2),
+(2925,254,'assignment_2925',2),
+(2926,57,'assignment_2926',1),
+(2927,57,'assignment_2927',1),
+(2928,57,'assignment_2928',1),
+(2929,57,'assignment_2929',1),
+(2930,57,'assignment_2930',1),
+(2931,57,'assignment_2931',1),
+(2932,57,'assignment_2932',1),
+(2933,57,'assignment_2933',1),
+(2934,57,'assignment_2934',1),
+(2935,57,'assignment_2935',1),
+(2936,57,'assignment_2936',1),
+(2937,57,'assignment_2937',1),
+(2938,57,'assignment_2938',2),
+(2939,57,'assignment_2939',2),
+(2940,57,'assignment_2940',2),
+(2941,156,'assignment_2941',1),
+(2942,156,'assignment_2942',1),
+(2943,156,'assignment_2943',1),
+(2944,156,'assignment_2944',1),
+(2945,156,'assignment_2945',1),
+(2946,156,'assignment_2946',1),
+(2947,156,'assignment_2947',1),
+(2948,156,'assignment_2948',1),
+(2949,156,'assignment_2949',1),
+(2950,156,'assignment_2950',1),
+(2951,156,'assignment_2951',1),
+(2952,156,'assignment_2952',1),
+(2953,156,'assignment_2953',2),
+(2954,156,'assignment_2954',2),
+(2955,156,'assignment_2955',2),
+(2956,255,'assignment_2956',1),
+(2957,255,'assignment_2957',1),
+(2958,255,'assignment_2958',1),
+(2959,255,'assignment_2959',1),
+(2960,255,'assignment_2960',1),
+(2961,255,'assignment_2961',1),
+(2962,255,'assignment_2962',1),
+(2963,255,'assignment_2963',1),
+(2964,255,'assignment_2964',1),
+(2965,255,'assignment_2965',1),
+(2966,255,'assignment_2966',1),
+(2967,255,'assignment_2967',1),
+(2968,255,'assignment_2968',2),
+(2969,255,'assignment_2969',2),
+(2970,255,'assignment_2970',2),
+(2971,58,'assignment_2971',1),
+(2972,58,'assignment_2972',1),
+(2973,58,'assignment_2973',1),
+(2974,58,'assignment_2974',1),
+(2975,58,'assignment_2975',1),
+(2976,58,'assignment_2976',1),
+(2977,58,'assignment_2977',1),
+(2978,58,'assignment_2978',1),
+(2979,58,'assignment_2979',1),
+(2980,58,'assignment_2980',1),
+(2981,58,'assignment_2981',1),
+(2982,58,'assignment_2982',1),
+(2983,58,'assignment_2983',2),
+(2984,58,'assignment_2984',2),
+(2985,58,'assignment_2985',2),
+(2986,157,'assignment_2986',1),
+(2987,157,'assignment_2987',1),
+(2988,157,'assignment_2988',1),
+(2989,157,'assignment_2989',1),
+(2990,157,'assignment_2990',1),
+(2991,157,'assignment_2991',1),
+(2992,157,'assignment_2992',1),
+(2993,157,'assignment_2993',1),
+(2994,157,'assignment_2994',1),
+(2995,157,'assignment_2995',1),
+(2996,157,'assignment_2996',1),
+(2997,157,'assignment_2997',1),
+(2998,157,'assignment_2998',2),
+(2999,157,'assignment_2999',2),
+(3000,157,'assignment_3000',2),
+(3001,256,'assignment_3001',1),
+(3002,256,'assignment_3002',1),
+(3003,256,'assignment_3003',1),
+(3004,256,'assignment_3004',1),
+(3005,256,'assignment_3005',1),
+(3006,256,'assignment_3006',1),
+(3007,256,'assignment_3007',1),
+(3008,256,'assignment_3008',1),
+(3009,256,'assignment_3009',1),
+(3010,256,'assignment_3010',1),
+(3011,256,'assignment_3011',1),
+(3012,256,'assignment_3012',1),
+(3013,256,'assignment_3013',2),
+(3014,256,'assignment_3014',2),
+(3015,256,'assignment_3015',2),
+(3016,59,'assignment_3016',1),
+(3017,59,'assignment_3017',1),
+(3018,59,'assignment_3018',1),
+(3019,59,'assignment_3019',1),
+(3020,59,'assignment_3020',1),
+(3021,59,'assignment_3021',1),
+(3022,59,'assignment_3022',1),
+(3023,59,'assignment_3023',1),
+(3024,59,'assignment_3024',1),
+(3025,59,'assignment_3025',1),
+(3026,59,'assignment_3026',1),
+(3027,59,'assignment_3027',1),
+(3028,59,'assignment_3028',2),
+(3029,59,'assignment_3029',2),
+(3030,59,'assignment_3030',2),
+(3031,158,'assignment_3031',1),
+(3032,158,'assignment_3032',1),
+(3033,158,'assignment_3033',1),
+(3034,158,'assignment_3034',1),
+(3035,158,'assignment_3035',1),
+(3036,158,'assignment_3036',1),
+(3037,158,'assignment_3037',1),
+(3038,158,'assignment_3038',1),
+(3039,158,'assignment_3039',1),
+(3040,158,'assignment_3040',1),
+(3041,158,'assignment_3041',1),
+(3042,158,'assignment_3042',1),
+(3043,158,'assignment_3043',2),
+(3044,158,'assignment_3044',2),
+(3045,158,'assignment_3045',2),
+(3046,257,'assignment_3046',1),
+(3047,257,'assignment_3047',1),
+(3048,257,'assignment_3048',1),
+(3049,257,'assignment_3049',1),
+(3050,257,'assignment_3050',1),
+(3051,257,'assignment_3051',1),
+(3052,257,'assignment_3052',1),
+(3053,257,'assignment_3053',1),
+(3054,257,'assignment_3054',1),
+(3055,257,'assignment_3055',1),
+(3056,257,'assignment_3056',1),
+(3057,257,'assignment_3057',1),
+(3058,257,'assignment_3058',2),
+(3059,257,'assignment_3059',2),
+(3060,257,'assignment_3060',2),
+(3061,60,'assignment_3061',1),
+(3062,60,'assignment_3062',1),
+(3063,60,'assignment_3063',1),
+(3064,60,'assignment_3064',1),
+(3065,60,'assignment_3065',1),
+(3066,60,'assignment_3066',1),
+(3067,60,'assignment_3067',1),
+(3068,60,'assignment_3068',1),
+(3069,60,'assignment_3069',1),
+(3070,60,'assignment_3070',1),
+(3071,60,'assignment_3071',1),
+(3072,60,'assignment_3072',1),
+(3073,60,'assignment_3073',2),
+(3074,60,'assignment_3074',2),
+(3075,60,'assignment_3075',2),
+(3076,159,'assignment_3076',1),
+(3077,159,'assignment_3077',1),
+(3078,159,'assignment_3078',1),
+(3079,159,'assignment_3079',1),
+(3080,159,'assignment_3080',1),
+(3081,159,'assignment_3081',1),
+(3082,159,'assignment_3082',1),
+(3083,159,'assignment_3083',1),
+(3084,159,'assignment_3084',1),
+(3085,159,'assignment_3085',1),
+(3086,159,'assignment_3086',1),
+(3087,159,'assignment_3087',1),
+(3088,159,'assignment_3088',2),
+(3089,159,'assignment_3089',2),
+(3090,159,'assignment_3090',2),
+(3091,258,'assignment_3091',1),
+(3092,258,'assignment_3092',1),
+(3093,258,'assignment_3093',1),
+(3094,258,'assignment_3094',1),
+(3095,258,'assignment_3095',1),
+(3096,258,'assignment_3096',1),
+(3097,258,'assignment_3097',1),
+(3098,258,'assignment_3098',1),
+(3099,258,'assignment_3099',1),
+(3100,258,'assignment_3100',1),
+(3101,258,'assignment_3101',1),
+(3102,258,'assignment_3102',1),
+(3103,258,'assignment_3103',2),
+(3104,258,'assignment_3104',2),
+(3105,258,'assignment_3105',2),
+(3106,61,'assignment_3106',1),
+(3107,61,'assignment_3107',1),
+(3108,61,'assignment_3108',1),
+(3109,61,'assignment_3109',1),
+(3110,61,'assignment_3110',1),
+(3111,61,'assignment_3111',1),
+(3112,61,'assignment_3112',1),
+(3113,61,'assignment_3113',1),
+(3114,61,'assignment_3114',1),
+(3115,61,'assignment_3115',1),
+(3116,61,'assignment_3116',1),
+(3117,61,'assignment_3117',1),
+(3118,61,'assignment_3118',2),
+(3119,61,'assignment_3119',2),
+(3120,61,'assignment_3120',2),
+(3121,160,'assignment_3121',1),
+(3122,160,'assignment_3122',1),
+(3123,160,'assignment_3123',1),
+(3124,160,'assignment_3124',1),
+(3125,160,'assignment_3125',1),
+(3126,160,'assignment_3126',1),
+(3127,160,'assignment_3127',1),
+(3128,160,'assignment_3128',1),
+(3129,160,'assignment_3129',1),
+(3130,160,'assignment_3130',1),
+(3131,160,'assignment_3131',1),
+(3132,160,'assignment_3132',1),
+(3133,160,'assignment_3133',2),
+(3134,160,'assignment_3134',2),
+(3135,160,'assignment_3135',2),
+(3136,259,'assignment_3136',1),
+(3137,259,'assignment_3137',1),
+(3138,259,'assignment_3138',1),
+(3139,259,'assignment_3139',1),
+(3140,259,'assignment_3140',1),
+(3141,259,'assignment_3141',1),
+(3142,259,'assignment_3142',1),
+(3143,259,'assignment_3143',1),
+(3144,259,'assignment_3144',1),
+(3145,259,'assignment_3145',1),
+(3146,259,'assignment_3146',1),
+(3147,259,'assignment_3147',1),
+(3148,259,'assignment_3148',2),
+(3149,259,'assignment_3149',2),
+(3150,259,'assignment_3150',2),
+(3151,62,'assignment_3151',1),
+(3152,62,'assignment_3152',1),
+(3153,62,'assignment_3153',1),
+(3154,62,'assignment_3154',1),
+(3155,62,'assignment_3155',1),
+(3156,62,'assignment_3156',1),
+(3157,62,'assignment_3157',1),
+(3158,62,'assignment_3158',1),
+(3159,62,'assignment_3159',1),
+(3160,62,'assignment_3160',1),
+(3161,62,'assignment_3161',1),
+(3162,62,'assignment_3162',1),
+(3163,62,'assignment_3163',2),
+(3164,62,'assignment_3164',2),
+(3165,62,'assignment_3165',2),
+(3166,161,'assignment_3166',1),
+(3167,161,'assignment_3167',1),
+(3168,161,'assignment_3168',1),
+(3169,161,'assignment_3169',1),
+(3170,161,'assignment_3170',1),
+(3171,161,'assignment_3171',1),
+(3172,161,'assignment_3172',1),
+(3173,161,'assignment_3173',1),
+(3174,161,'assignment_3174',1),
+(3175,161,'assignment_3175',1),
+(3176,161,'assignment_3176',1),
+(3177,161,'assignment_3177',1),
+(3178,161,'assignment_3178',2),
+(3179,161,'assignment_3179',2),
+(3180,161,'assignment_3180',2),
+(3181,260,'assignment_3181',1),
+(3182,260,'assignment_3182',1),
+(3183,260,'assignment_3183',1),
+(3184,260,'assignment_3184',1),
+(3185,260,'assignment_3185',1),
+(3186,260,'assignment_3186',1),
+(3187,260,'assignment_3187',1),
+(3188,260,'assignment_3188',1),
+(3189,260,'assignment_3189',1),
+(3190,260,'assignment_3190',1),
+(3191,260,'assignment_3191',1),
+(3192,260,'assignment_3192',1),
+(3193,260,'assignment_3193',2),
+(3194,260,'assignment_3194',2),
+(3195,260,'assignment_3195',2),
+(3196,63,'assignment_3196',1),
+(3197,63,'assignment_3197',1),
+(3198,63,'assignment_3198',1),
+(3199,63,'assignment_3199',1),
+(3200,63,'assignment_3200',1),
+(3201,63,'assignment_3201',1),
+(3202,63,'assignment_3202',1),
+(3203,63,'assignment_3203',1),
+(3204,63,'assignment_3204',1),
+(3205,63,'assignment_3205',1),
+(3206,63,'assignment_3206',1),
+(3207,63,'assignment_3207',1),
+(3208,63,'assignment_3208',2),
+(3209,63,'assignment_3209',2),
+(3210,63,'assignment_3210',2),
+(3211,162,'assignment_3211',1),
+(3212,162,'assignment_3212',1),
+(3213,162,'assignment_3213',1),
+(3214,162,'assignment_3214',1),
+(3215,162,'assignment_3215',1),
+(3216,162,'assignment_3216',1),
+(3217,162,'assignment_3217',1),
+(3218,162,'assignment_3218',1),
+(3219,162,'assignment_3219',1),
+(3220,162,'assignment_3220',1),
+(3221,162,'assignment_3221',1),
+(3222,162,'assignment_3222',1),
+(3223,162,'assignment_3223',2),
+(3224,162,'assignment_3224',2),
+(3225,162,'assignment_3225',2),
+(3226,261,'assignment_3226',1),
+(3227,261,'assignment_3227',1),
+(3228,261,'assignment_3228',1),
+(3229,261,'assignment_3229',1),
+(3230,261,'assignment_3230',1),
+(3231,261,'assignment_3231',1),
+(3232,261,'assignment_3232',1),
+(3233,261,'assignment_3233',1),
+(3234,261,'assignment_3234',1),
+(3235,261,'assignment_3235',1),
+(3236,261,'assignment_3236',1),
+(3237,261,'assignment_3237',1),
+(3238,261,'assignment_3238',2),
+(3239,261,'assignment_3239',2),
+(3240,261,'assignment_3240',2),
+(3241,64,'assignment_3241',1),
+(3242,64,'assignment_3242',1),
+(3243,64,'assignment_3243',1),
+(3244,64,'assignment_3244',1),
+(3245,64,'assignment_3245',1),
+(3246,64,'assignment_3246',1),
+(3247,64,'assignment_3247',1),
+(3248,64,'assignment_3248',1),
+(3249,64,'assignment_3249',1),
+(3250,64,'assignment_3250',1),
+(3251,64,'assignment_3251',1),
+(3252,64,'assignment_3252',1),
+(3253,64,'assignment_3253',2),
+(3254,64,'assignment_3254',2),
+(3255,64,'assignment_3255',2),
+(3256,163,'assignment_3256',1),
+(3257,163,'assignment_3257',1),
+(3258,163,'assignment_3258',1),
+(3259,163,'assignment_3259',1),
+(3260,163,'assignment_3260',1),
+(3261,163,'assignment_3261',1),
+(3262,163,'assignment_3262',1),
+(3263,163,'assignment_3263',1),
+(3264,163,'assignment_3264',1),
+(3265,163,'assignment_3265',1),
+(3266,163,'assignment_3266',1),
+(3267,163,'assignment_3267',1),
+(3268,163,'assignment_3268',2),
+(3269,163,'assignment_3269',2),
+(3270,163,'assignment_3270',2),
+(3271,262,'assignment_3271',1),
+(3272,262,'assignment_3272',1),
+(3273,262,'assignment_3273',1),
+(3274,262,'assignment_3274',1),
+(3275,262,'assignment_3275',1),
+(3276,262,'assignment_3276',1),
+(3277,262,'assignment_3277',1),
+(3278,262,'assignment_3278',1),
+(3279,262,'assignment_3279',1),
+(3280,262,'assignment_3280',1),
+(3281,262,'assignment_3281',1),
+(3282,262,'assignment_3282',1),
+(3283,262,'assignment_3283',2),
+(3284,262,'assignment_3284',2),
+(3285,262,'assignment_3285',2),
+(3286,65,'assignment_3286',1),
+(3287,65,'assignment_3287',1),
+(3288,65,'assignment_3288',1),
+(3289,65,'assignment_3289',1),
+(3290,65,'assignment_3290',1),
+(3291,65,'assignment_3291',1),
+(3292,65,'assignment_3292',1),
+(3293,65,'assignment_3293',1),
+(3294,65,'assignment_3294',1),
+(3295,65,'assignment_3295',1),
+(3296,65,'assignment_3296',1),
+(3297,65,'assignment_3297',1),
+(3298,65,'assignment_3298',2),
+(3299,65,'assignment_3299',2),
+(3300,65,'assignment_3300',2),
+(3301,164,'assignment_3301',1),
+(3302,164,'assignment_3302',1),
+(3303,164,'assignment_3303',1),
+(3304,164,'assignment_3304',1),
+(3305,164,'assignment_3305',1),
+(3306,164,'assignment_3306',1),
+(3307,164,'assignment_3307',1),
+(3308,164,'assignment_3308',1),
+(3309,164,'assignment_3309',1),
+(3310,164,'assignment_3310',1),
+(3311,164,'assignment_3311',1),
+(3312,164,'assignment_3312',1),
+(3313,164,'assignment_3313',2),
+(3314,164,'assignment_3314',2),
+(3315,164,'assignment_3315',2),
+(3316,263,'assignment_3316',1),
+(3317,263,'assignment_3317',1),
+(3318,263,'assignment_3318',1),
+(3319,263,'assignment_3319',1),
+(3320,263,'assignment_3320',1),
+(3321,263,'assignment_3321',1),
+(3322,263,'assignment_3322',1),
+(3323,263,'assignment_3323',1),
+(3324,263,'assignment_3324',1),
+(3325,263,'assignment_3325',1),
+(3326,263,'assignment_3326',1),
+(3327,263,'assignment_3327',1),
+(3328,263,'assignment_3328',2),
+(3329,263,'assignment_3329',2),
+(3330,263,'assignment_3330',2),
+(3331,66,'assignment_3331',1),
+(3332,66,'assignment_3332',1),
+(3333,66,'assignment_3333',1),
+(3334,66,'assignment_3334',1),
+(3335,66,'assignment_3335',1),
+(3336,66,'assignment_3336',1),
+(3337,66,'assignment_3337',1),
+(3338,66,'assignment_3338',1),
+(3339,66,'assignment_3339',1),
+(3340,66,'assignment_3340',1),
+(3341,66,'assignment_3341',1),
+(3342,66,'assignment_3342',1),
+(3343,66,'assignment_3343',2),
+(3344,66,'assignment_3344',2),
+(3345,66,'assignment_3345',2),
+(3346,165,'assignment_3346',1),
+(3347,165,'assignment_3347',1),
+(3348,165,'assignment_3348',1),
+(3349,165,'assignment_3349',1),
+(3350,165,'assignment_3350',1),
+(3351,165,'assignment_3351',1),
+(3352,165,'assignment_3352',1),
+(3353,165,'assignment_3353',1),
+(3354,165,'assignment_3354',1),
+(3355,165,'assignment_3355',1),
+(3356,165,'assignment_3356',1),
+(3357,165,'assignment_3357',1),
+(3358,165,'assignment_3358',2),
+(3359,165,'assignment_3359',2),
+(3360,165,'assignment_3360',2),
+(3361,264,'assignment_3361',1),
+(3362,264,'assignment_3362',1),
+(3363,264,'assignment_3363',1),
+(3364,264,'assignment_3364',1),
+(3365,264,'assignment_3365',1),
+(3366,264,'assignment_3366',1),
+(3367,264,'assignment_3367',1),
+(3368,264,'assignment_3368',1),
+(3369,264,'assignment_3369',1),
+(3370,264,'assignment_3370',1),
+(3371,264,'assignment_3371',1),
+(3372,264,'assignment_3372',1),
+(3373,264,'assignment_3373',2),
+(3374,264,'assignment_3374',2),
+(3375,264,'assignment_3375',2),
+(3376,67,'assignment_3376',1),
+(3377,67,'assignment_3377',1),
+(3378,67,'assignment_3378',1),
+(3379,67,'assignment_3379',1),
+(3380,67,'assignment_3380',1),
+(3381,67,'assignment_3381',1),
+(3382,67,'assignment_3382',1),
+(3383,67,'assignment_3383',1),
+(3384,67,'assignment_3384',1),
+(3385,67,'assignment_3385',1),
+(3386,67,'assignment_3386',1),
+(3387,67,'assignment_3387',1),
+(3388,67,'assignment_3388',2),
+(3389,67,'assignment_3389',2),
+(3390,67,'assignment_3390',2),
+(3391,166,'assignment_3391',1),
+(3392,166,'assignment_3392',1),
+(3393,166,'assignment_3393',1),
+(3394,166,'assignment_3394',1),
+(3395,166,'assignment_3395',1),
+(3396,166,'assignment_3396',1),
+(3397,166,'assignment_3397',1),
+(3398,166,'assignment_3398',1),
+(3399,166,'assignment_3399',1),
+(3400,166,'assignment_3400',1),
+(3401,166,'assignment_3401',1),
+(3402,166,'assignment_3402',1),
+(3403,166,'assignment_3403',2),
+(3404,166,'assignment_3404',2),
+(3405,166,'assignment_3405',2),
+(3406,265,'assignment_3406',1),
+(3407,265,'assignment_3407',1),
+(3408,265,'assignment_3408',1),
+(3409,265,'assignment_3409',1),
+(3410,265,'assignment_3410',1),
+(3411,265,'assignment_3411',1),
+(3412,265,'assignment_3412',1),
+(3413,265,'assignment_3413',1),
+(3414,265,'assignment_3414',1),
+(3415,265,'assignment_3415',1),
+(3416,265,'assignment_3416',1),
+(3417,265,'assignment_3417',1),
+(3418,265,'assignment_3418',2),
+(3419,265,'assignment_3419',2),
+(3420,265,'assignment_3420',2),
+(3421,68,'assignment_3421',1),
+(3422,68,'assignment_3422',1),
+(3423,68,'assignment_3423',1),
+(3424,68,'assignment_3424',1),
+(3425,68,'assignment_3425',1),
+(3426,68,'assignment_3426',1),
+(3427,68,'assignment_3427',1),
+(3428,68,'assignment_3428',1),
+(3429,68,'assignment_3429',1),
+(3430,68,'assignment_3430',1),
+(3431,68,'assignment_3431',1),
+(3432,68,'assignment_3432',1),
+(3433,68,'assignment_3433',2),
+(3434,68,'assignment_3434',2),
+(3435,68,'assignment_3435',2),
+(3436,167,'assignment_3436',1),
+(3437,167,'assignment_3437',1),
+(3438,167,'assignment_3438',1),
+(3439,167,'assignment_3439',1),
+(3440,167,'assignment_3440',1),
+(3441,167,'assignment_3441',1),
+(3442,167,'assignment_3442',1),
+(3443,167,'assignment_3443',1),
+(3444,167,'assignment_3444',1),
+(3445,167,'assignment_3445',1),
+(3446,167,'assignment_3446',1),
+(3447,167,'assignment_3447',1),
+(3448,167,'assignment_3448',2),
+(3449,167,'assignment_3449',2),
+(3450,167,'assignment_3450',2),
+(3451,266,'assignment_3451',1),
+(3452,266,'assignment_3452',1),
+(3453,266,'assignment_3453',1),
+(3454,266,'assignment_3454',1),
+(3455,266,'assignment_3455',1),
+(3456,266,'assignment_3456',1),
+(3457,266,'assignment_3457',1),
+(3458,266,'assignment_3458',1),
+(3459,266,'assignment_3459',1),
+(3460,266,'assignment_3460',1),
+(3461,266,'assignment_3461',1),
+(3462,266,'assignment_3462',1),
+(3463,266,'assignment_3463',2),
+(3464,266,'assignment_3464',2),
+(3465,266,'assignment_3465',2),
+(3466,69,'assignment_3466',1),
+(3467,69,'assignment_3467',1),
+(3468,69,'assignment_3468',1),
+(3469,69,'assignment_3469',1),
+(3470,69,'assignment_3470',1),
+(3471,69,'assignment_3471',1),
+(3472,69,'assignment_3472',1),
+(3473,69,'assignment_3473',1),
+(3474,69,'assignment_3474',1),
+(3475,69,'assignment_3475',1),
+(3476,69,'assignment_3476',1),
+(3477,69,'assignment_3477',1),
+(3478,69,'assignment_3478',2),
+(3479,69,'assignment_3479',2),
+(3480,69,'assignment_3480',2),
+(3481,168,'assignment_3481',1),
+(3482,168,'assignment_3482',1),
+(3483,168,'assignment_3483',1),
+(3484,168,'assignment_3484',1),
+(3485,168,'assignment_3485',1),
+(3486,168,'assignment_3486',1),
+(3487,168,'assignment_3487',1),
+(3488,168,'assignment_3488',1),
+(3489,168,'assignment_3489',1),
+(3490,168,'assignment_3490',1),
+(3491,168,'assignment_3491',1),
+(3492,168,'assignment_3492',1),
+(3493,168,'assignment_3493',2),
+(3494,168,'assignment_3494',2),
+(3495,168,'assignment_3495',2),
+(3496,267,'assignment_3496',1),
+(3497,267,'assignment_3497',1),
+(3498,267,'assignment_3498',1),
+(3499,267,'assignment_3499',1),
+(3500,267,'assignment_3500',1),
+(3501,267,'assignment_3501',1),
+(3502,267,'assignment_3502',1),
+(3503,267,'assignment_3503',1),
+(3504,267,'assignment_3504',1),
+(3505,267,'assignment_3505',1),
+(3506,267,'assignment_3506',1),
+(3507,267,'assignment_3507',1),
+(3508,267,'assignment_3508',2),
+(3509,267,'assignment_3509',2),
+(3510,267,'assignment_3510',2),
+(3511,70,'assignment_3511',1),
+(3512,70,'assignment_3512',1),
+(3513,70,'assignment_3513',1),
+(3514,70,'assignment_3514',1),
+(3515,70,'assignment_3515',1),
+(3516,70,'assignment_3516',1),
+(3517,70,'assignment_3517',1),
+(3518,70,'assignment_3518',1),
+(3519,70,'assignment_3519',1),
+(3520,70,'assignment_3520',1),
+(3521,70,'assignment_3521',1),
+(3522,70,'assignment_3522',1),
+(3523,70,'assignment_3523',2),
+(3524,70,'assignment_3524',2),
+(3525,70,'assignment_3525',2),
+(3526,169,'assignment_3526',1),
+(3527,169,'assignment_3527',1),
+(3528,169,'assignment_3528',1),
+(3529,169,'assignment_3529',1),
+(3530,169,'assignment_3530',1),
+(3531,169,'assignment_3531',1),
+(3532,169,'assignment_3532',1),
+(3533,169,'assignment_3533',1),
+(3534,169,'assignment_3534',1),
+(3535,169,'assignment_3535',1),
+(3536,169,'assignment_3536',1),
+(3537,169,'assignment_3537',1),
+(3538,169,'assignment_3538',2),
+(3539,169,'assignment_3539',2),
+(3540,169,'assignment_3540',2),
+(3541,268,'assignment_3541',1),
+(3542,268,'assignment_3542',1),
+(3543,268,'assignment_3543',1),
+(3544,268,'assignment_3544',1),
+(3545,268,'assignment_3545',1),
+(3546,268,'assignment_3546',1),
+(3547,268,'assignment_3547',1),
+(3548,268,'assignment_3548',1),
+(3549,268,'assignment_3549',1),
+(3550,268,'assignment_3550',1),
+(3551,268,'assignment_3551',1),
+(3552,268,'assignment_3552',1),
+(3553,268,'assignment_3553',2),
+(3554,268,'assignment_3554',2),
+(3555,268,'assignment_3555',2),
+(3556,71,'assignment_3556',1),
+(3557,71,'assignment_3557',1),
+(3558,71,'assignment_3558',1),
+(3559,71,'assignment_3559',1),
+(3560,71,'assignment_3560',1),
+(3561,71,'assignment_3561',1),
+(3562,71,'assignment_3562',1),
+(3563,71,'assignment_3563',1),
+(3564,71,'assignment_3564',1),
+(3565,71,'assignment_3565',1),
+(3566,71,'assignment_3566',1),
+(3567,71,'assignment_3567',1),
+(3568,71,'assignment_3568',2),
+(3569,71,'assignment_3569',2),
+(3570,71,'assignment_3570',2),
+(3571,170,'assignment_3571',1),
+(3572,170,'assignment_3572',1),
+(3573,170,'assignment_3573',1),
+(3574,170,'assignment_3574',1),
+(3575,170,'assignment_3575',1),
+(3576,170,'assignment_3576',1),
+(3577,170,'assignment_3577',1),
+(3578,170,'assignment_3578',1),
+(3579,170,'assignment_3579',1),
+(3580,170,'assignment_3580',1),
+(3581,170,'assignment_3581',1),
+(3582,170,'assignment_3582',1),
+(3583,170,'assignment_3583',2),
+(3584,170,'assignment_3584',2),
+(3585,170,'assignment_3585',2),
+(3586,269,'assignment_3586',1),
+(3587,269,'assignment_3587',1),
+(3588,269,'assignment_3588',1),
+(3589,269,'assignment_3589',1),
+(3590,269,'assignment_3590',1),
+(3591,269,'assignment_3591',1),
+(3592,269,'assignment_3592',1),
+(3593,269,'assignment_3593',1),
+(3594,269,'assignment_3594',1),
+(3595,269,'assignment_3595',1),
+(3596,269,'assignment_3596',1),
+(3597,269,'assignment_3597',1),
+(3598,269,'assignment_3598',2),
+(3599,269,'assignment_3599',2),
+(3600,269,'assignment_3600',2),
+(3601,72,'assignment_3601',1),
+(3602,72,'assignment_3602',1),
+(3603,72,'assignment_3603',1),
+(3604,72,'assignment_3604',1),
+(3605,72,'assignment_3605',1),
+(3606,72,'assignment_3606',1),
+(3607,72,'assignment_3607',1),
+(3608,72,'assignment_3608',1),
+(3609,72,'assignment_3609',1),
+(3610,72,'assignment_3610',1),
+(3611,72,'assignment_3611',1),
+(3612,72,'assignment_3612',1),
+(3613,72,'assignment_3613',2),
+(3614,72,'assignment_3614',2),
+(3615,72,'assignment_3615',2),
+(3616,171,'assignment_3616',1),
+(3617,171,'assignment_3617',1),
+(3618,171,'assignment_3618',1),
+(3619,171,'assignment_3619',1),
+(3620,171,'assignment_3620',1),
+(3621,171,'assignment_3621',1),
+(3622,171,'assignment_3622',1),
+(3623,171,'assignment_3623',1),
+(3624,171,'assignment_3624',1),
+(3625,171,'assignment_3625',1),
+(3626,171,'assignment_3626',1),
+(3627,171,'assignment_3627',1),
+(3628,171,'assignment_3628',2),
+(3629,171,'assignment_3629',2),
+(3630,171,'assignment_3630',2),
+(3631,270,'assignment_3631',1),
+(3632,270,'assignment_3632',1),
+(3633,270,'assignment_3633',1),
+(3634,270,'assignment_3634',1),
+(3635,270,'assignment_3635',1),
+(3636,270,'assignment_3636',1),
+(3637,270,'assignment_3637',1),
+(3638,270,'assignment_3638',1),
+(3639,270,'assignment_3639',1),
+(3640,270,'assignment_3640',1),
+(3641,270,'assignment_3641',1),
+(3642,270,'assignment_3642',1),
+(3643,270,'assignment_3643',2),
+(3644,270,'assignment_3644',2),
+(3645,270,'assignment_3645',2),
+(3646,73,'assignment_3646',1),
+(3647,73,'assignment_3647',1),
+(3648,73,'assignment_3648',1),
+(3649,73,'assignment_3649',1),
+(3650,73,'assignment_3650',1),
+(3651,73,'assignment_3651',1),
+(3652,73,'assignment_3652',1),
+(3653,73,'assignment_3653',1),
+(3654,73,'assignment_3654',1),
+(3655,73,'assignment_3655',1),
+(3656,73,'assignment_3656',1),
+(3657,73,'assignment_3657',1),
+(3658,73,'assignment_3658',2),
+(3659,73,'assignment_3659',2),
+(3660,73,'assignment_3660',2),
+(3661,172,'assignment_3661',1),
+(3662,172,'assignment_3662',1),
+(3663,172,'assignment_3663',1),
+(3664,172,'assignment_3664',1),
+(3665,172,'assignment_3665',1),
+(3666,172,'assignment_3666',1),
+(3667,172,'assignment_3667',1),
+(3668,172,'assignment_3668',1),
+(3669,172,'assignment_3669',1),
+(3670,172,'assignment_3670',1),
+(3671,172,'assignment_3671',1),
+(3672,172,'assignment_3672',1),
+(3673,172,'assignment_3673',2),
+(3674,172,'assignment_3674',2),
+(3675,172,'assignment_3675',2),
+(3676,271,'assignment_3676',1),
+(3677,271,'assignment_3677',1),
+(3678,271,'assignment_3678',1),
+(3679,271,'assignment_3679',1),
+(3680,271,'assignment_3680',1),
+(3681,271,'assignment_3681',1),
+(3682,271,'assignment_3682',1),
+(3683,271,'assignment_3683',1),
+(3684,271,'assignment_3684',1),
+(3685,271,'assignment_3685',1),
+(3686,271,'assignment_3686',1),
+(3687,271,'assignment_3687',1),
+(3688,271,'assignment_3688',2),
+(3689,271,'assignment_3689',2),
+(3690,271,'assignment_3690',2),
+(3691,74,'assignment_3691',1),
+(3692,74,'assignment_3692',1),
+(3693,74,'assignment_3693',1),
+(3694,74,'assignment_3694',1),
+(3695,74,'assignment_3695',1),
+(3696,74,'assignment_3696',1),
+(3697,74,'assignment_3697',1),
+(3698,74,'assignment_3698',1),
+(3699,74,'assignment_3699',1),
+(3700,74,'assignment_3700',1),
+(3701,74,'assignment_3701',1),
+(3702,74,'assignment_3702',1),
+(3703,74,'assignment_3703',2),
+(3704,74,'assignment_3704',2),
+(3705,74,'assignment_3705',2),
+(3706,173,'assignment_3706',1),
+(3707,173,'assignment_3707',1),
+(3708,173,'assignment_3708',1),
+(3709,173,'assignment_3709',1),
+(3710,173,'assignment_3710',1),
+(3711,173,'assignment_3711',1),
+(3712,173,'assignment_3712',1),
+(3713,173,'assignment_3713',1),
+(3714,173,'assignment_3714',1),
+(3715,173,'assignment_3715',1),
+(3716,173,'assignment_3716',1),
+(3717,173,'assignment_3717',1),
+(3718,173,'assignment_3718',2),
+(3719,173,'assignment_3719',2),
+(3720,173,'assignment_3720',2),
+(3721,272,'assignment_3721',1),
+(3722,272,'assignment_3722',1),
+(3723,272,'assignment_3723',1),
+(3724,272,'assignment_3724',1),
+(3725,272,'assignment_3725',1),
+(3726,272,'assignment_3726',1),
+(3727,272,'assignment_3727',1),
+(3728,272,'assignment_3728',1),
+(3729,272,'assignment_3729',1),
+(3730,272,'assignment_3730',1),
+(3731,272,'assignment_3731',1),
+(3732,272,'assignment_3732',1),
+(3733,272,'assignment_3733',2),
+(3734,272,'assignment_3734',2),
+(3735,272,'assignment_3735',2),
+(3736,75,'assignment_3736',1),
+(3737,75,'assignment_3737',1),
+(3738,75,'assignment_3738',1),
+(3739,75,'assignment_3739',1),
+(3740,75,'assignment_3740',1),
+(3741,75,'assignment_3741',1),
+(3742,75,'assignment_3742',1),
+(3743,75,'assignment_3743',1),
+(3744,75,'assignment_3744',1),
+(3745,75,'assignment_3745',1),
+(3746,75,'assignment_3746',1),
+(3747,75,'assignment_3747',1),
+(3748,75,'assignment_3748',2),
+(3749,75,'assignment_3749',2),
+(3750,75,'assignment_3750',2),
+(3751,174,'assignment_3751',1),
+(3752,174,'assignment_3752',1),
+(3753,174,'assignment_3753',1),
+(3754,174,'assignment_3754',1),
+(3755,174,'assignment_3755',1),
+(3756,174,'assignment_3756',1),
+(3757,174,'assignment_3757',1),
+(3758,174,'assignment_3758',1),
+(3759,174,'assignment_3759',1),
+(3760,174,'assignment_3760',1),
+(3761,174,'assignment_3761',1),
+(3762,174,'assignment_3762',1),
+(3763,174,'assignment_3763',2),
+(3764,174,'assignment_3764',2),
+(3765,174,'assignment_3765',2),
+(3766,273,'assignment_3766',1),
+(3767,273,'assignment_3767',1),
+(3768,273,'assignment_3768',1),
+(3769,273,'assignment_3769',1),
+(3770,273,'assignment_3770',1),
+(3771,273,'assignment_3771',1),
+(3772,273,'assignment_3772',1),
+(3773,273,'assignment_3773',1),
+(3774,273,'assignment_3774',1),
+(3775,273,'assignment_3775',1),
+(3776,273,'assignment_3776',1),
+(3777,273,'assignment_3777',1),
+(3778,273,'assignment_3778',2),
+(3779,273,'assignment_3779',2),
+(3780,273,'assignment_3780',2),
+(3781,76,'assignment_3781',1),
+(3782,76,'assignment_3782',1),
+(3783,76,'assignment_3783',1),
+(3784,76,'assignment_3784',1),
+(3785,76,'assignment_3785',1),
+(3786,76,'assignment_3786',1),
+(3787,76,'assignment_3787',1),
+(3788,76,'assignment_3788',1),
+(3789,76,'assignment_3789',1),
+(3790,76,'assignment_3790',1),
+(3791,76,'assignment_3791',1),
+(3792,76,'assignment_3792',1),
+(3793,76,'assignment_3793',2),
+(3794,76,'assignment_3794',2),
+(3795,76,'assignment_3795',2),
+(3796,175,'assignment_3796',1),
+(3797,175,'assignment_3797',1),
+(3798,175,'assignment_3798',1),
+(3799,175,'assignment_3799',1),
+(3800,175,'assignment_3800',1),
+(3801,175,'assignment_3801',1),
+(3802,175,'assignment_3802',1),
+(3803,175,'assignment_3803',1),
+(3804,175,'assignment_3804',1),
+(3805,175,'assignment_3805',1),
+(3806,175,'assignment_3806',1),
+(3807,175,'assignment_3807',1),
+(3808,175,'assignment_3808',2),
+(3809,175,'assignment_3809',2),
+(3810,175,'assignment_3810',2),
+(3811,274,'assignment_3811',1),
+(3812,274,'assignment_3812',1),
+(3813,274,'assignment_3813',1),
+(3814,274,'assignment_3814',1),
+(3815,274,'assignment_3815',1),
+(3816,274,'assignment_3816',1),
+(3817,274,'assignment_3817',1),
+(3818,274,'assignment_3818',1),
+(3819,274,'assignment_3819',1),
+(3820,274,'assignment_3820',1),
+(3821,274,'assignment_3821',1),
+(3822,274,'assignment_3822',1),
+(3823,274,'assignment_3823',2),
+(3824,274,'assignment_3824',2),
+(3825,274,'assignment_3825',2),
+(3826,77,'assignment_3826',1),
+(3827,77,'assignment_3827',1),
+(3828,77,'assignment_3828',1),
+(3829,77,'assignment_3829',1),
+(3830,77,'assignment_3830',1),
+(3831,77,'assignment_3831',1),
+(3832,77,'assignment_3832',1),
+(3833,77,'assignment_3833',1),
+(3834,77,'assignment_3834',1),
+(3835,77,'assignment_3835',1),
+(3836,77,'assignment_3836',1),
+(3837,77,'assignment_3837',1),
+(3838,77,'assignment_3838',2),
+(3839,77,'assignment_3839',2),
+(3840,77,'assignment_3840',2),
+(3841,176,'assignment_3841',1),
+(3842,176,'assignment_3842',1),
+(3843,176,'assignment_3843',1),
+(3844,176,'assignment_3844',1),
+(3845,176,'assignment_3845',1),
+(3846,176,'assignment_3846',1),
+(3847,176,'assignment_3847',1),
+(3848,176,'assignment_3848',1),
+(3849,176,'assignment_3849',1),
+(3850,176,'assignment_3850',1),
+(3851,176,'assignment_3851',1),
+(3852,176,'assignment_3852',1),
+(3853,176,'assignment_3853',2),
+(3854,176,'assignment_3854',2),
+(3855,176,'assignment_3855',2),
+(3856,275,'assignment_3856',1),
+(3857,275,'assignment_3857',1),
+(3858,275,'assignment_3858',1),
+(3859,275,'assignment_3859',1),
+(3860,275,'assignment_3860',1),
+(3861,275,'assignment_3861',1),
+(3862,275,'assignment_3862',1),
+(3863,275,'assignment_3863',1),
+(3864,275,'assignment_3864',1),
+(3865,275,'assignment_3865',1),
+(3866,275,'assignment_3866',1),
+(3867,275,'assignment_3867',1),
+(3868,275,'assignment_3868',2),
+(3869,275,'assignment_3869',2),
+(3870,275,'assignment_3870',2),
+(3871,78,'assignment_3871',1),
+(3872,78,'assignment_3872',1),
+(3873,78,'assignment_3873',1),
+(3874,78,'assignment_3874',1),
+(3875,78,'assignment_3875',1),
+(3876,78,'assignment_3876',1),
+(3877,78,'assignment_3877',1),
+(3878,78,'assignment_3878',1),
+(3879,78,'assignment_3879',1),
+(3880,78,'assignment_3880',1),
+(3881,78,'assignment_3881',1),
+(3882,78,'assignment_3882',1),
+(3883,78,'assignment_3883',2),
+(3884,78,'assignment_3884',2),
+(3885,78,'assignment_3885',2),
+(3886,177,'assignment_3886',1),
+(3887,177,'assignment_3887',1),
+(3888,177,'assignment_3888',1),
+(3889,177,'assignment_3889',1),
+(3890,177,'assignment_3890',1),
+(3891,177,'assignment_3891',1),
+(3892,177,'assignment_3892',1),
+(3893,177,'assignment_3893',1),
+(3894,177,'assignment_3894',1),
+(3895,177,'assignment_3895',1),
+(3896,177,'assignment_3896',1),
+(3897,177,'assignment_3897',1),
+(3898,177,'assignment_3898',2),
+(3899,177,'assignment_3899',2),
+(3900,177,'assignment_3900',2),
+(3901,276,'assignment_3901',1),
+(3902,276,'assignment_3902',1),
+(3903,276,'assignment_3903',1),
+(3904,276,'assignment_3904',1),
+(3905,276,'assignment_3905',1),
+(3906,276,'assignment_3906',1),
+(3907,276,'assignment_3907',1),
+(3908,276,'assignment_3908',1),
+(3909,276,'assignment_3909',1),
+(3910,276,'assignment_3910',1),
+(3911,276,'assignment_3911',1),
+(3912,276,'assignment_3912',1),
+(3913,276,'assignment_3913',2),
+(3914,276,'assignment_3914',2),
+(3915,276,'assignment_3915',2),
+(3916,79,'assignment_3916',1),
+(3917,79,'assignment_3917',1),
+(3918,79,'assignment_3918',1),
+(3919,79,'assignment_3919',1),
+(3920,79,'assignment_3920',1),
+(3921,79,'assignment_3921',1),
+(3922,79,'assignment_3922',1),
+(3923,79,'assignment_3923',1),
+(3924,79,'assignment_3924',1),
+(3925,79,'assignment_3925',1),
+(3926,79,'assignment_3926',1),
+(3927,79,'assignment_3927',1),
+(3928,79,'assignment_3928',2),
+(3929,79,'assignment_3929',2),
+(3930,79,'assignment_3930',2),
+(3931,178,'assignment_3931',1),
+(3932,178,'assignment_3932',1),
+(3933,178,'assignment_3933',1),
+(3934,178,'assignment_3934',1),
+(3935,178,'assignment_3935',1),
+(3936,178,'assignment_3936',1),
+(3937,178,'assignment_3937',1),
+(3938,178,'assignment_3938',1),
+(3939,178,'assignment_3939',1),
+(3940,178,'assignment_3940',1),
+(3941,178,'assignment_3941',1),
+(3942,178,'assignment_3942',1),
+(3943,178,'assignment_3943',2),
+(3944,178,'assignment_3944',2),
+(3945,178,'assignment_3945',2),
+(3946,277,'assignment_3946',1),
+(3947,277,'assignment_3947',1),
+(3948,277,'assignment_3948',1),
+(3949,277,'assignment_3949',1),
+(3950,277,'assignment_3950',1),
+(3951,277,'assignment_3951',1),
+(3952,277,'assignment_3952',1),
+(3953,277,'assignment_3953',1),
+(3954,277,'assignment_3954',1),
+(3955,277,'assignment_3955',1),
+(3956,277,'assignment_3956',1),
+(3957,277,'assignment_3957',1),
+(3958,277,'assignment_3958',2),
+(3959,277,'assignment_3959',2),
+(3960,277,'assignment_3960',2),
+(3961,80,'assignment_3961',1),
+(3962,80,'assignment_3962',1),
+(3963,80,'assignment_3963',1),
+(3964,80,'assignment_3964',1),
+(3965,80,'assignment_3965',1),
+(3966,80,'assignment_3966',1),
+(3967,80,'assignment_3967',1),
+(3968,80,'assignment_3968',1),
+(3969,80,'assignment_3969',1),
+(3970,80,'assignment_3970',1),
+(3971,80,'assignment_3971',1),
+(3972,80,'assignment_3972',1),
+(3973,80,'assignment_3973',2),
+(3974,80,'assignment_3974',2),
+(3975,80,'assignment_3975',2),
+(3976,179,'assignment_3976',1),
+(3977,179,'assignment_3977',1),
+(3978,179,'assignment_3978',1),
+(3979,179,'assignment_3979',1),
+(3980,179,'assignment_3980',1),
+(3981,179,'assignment_3981',1),
+(3982,179,'assignment_3982',1),
+(3983,179,'assignment_3983',1),
+(3984,179,'assignment_3984',1),
+(3985,179,'assignment_3985',1),
+(3986,179,'assignment_3986',1),
+(3987,179,'assignment_3987',1),
+(3988,179,'assignment_3988',2),
+(3989,179,'assignment_3989',2),
+(3990,179,'assignment_3990',2),
+(3991,278,'assignment_3991',1),
+(3992,278,'assignment_3992',1),
+(3993,278,'assignment_3993',1),
+(3994,278,'assignment_3994',1),
+(3995,278,'assignment_3995',1),
+(3996,278,'assignment_3996',1),
+(3997,278,'assignment_3997',1),
+(3998,278,'assignment_3998',1),
+(3999,278,'assignment_3999',1),
+(4000,278,'assignment_4000',1),
+(4001,278,'assignment_4001',1),
+(4002,278,'assignment_4002',1),
+(4003,278,'assignment_4003',2),
+(4004,278,'assignment_4004',2),
+(4005,278,'assignment_4005',2),
+(4006,81,'assignment_4006',1),
+(4007,81,'assignment_4007',1),
+(4008,81,'assignment_4008',1),
+(4009,81,'assignment_4009',1),
+(4010,81,'assignment_4010',1),
+(4011,81,'assignment_4011',1),
+(4012,81,'assignment_4012',1),
+(4013,81,'assignment_4013',1),
+(4014,81,'assignment_4014',1),
+(4015,81,'assignment_4015',1),
+(4016,81,'assignment_4016',1),
+(4017,81,'assignment_4017',1),
+(4018,81,'assignment_4018',2),
+(4019,81,'assignment_4019',2),
+(4020,81,'assignment_4020',2),
+(4021,180,'assignment_4021',1),
+(4022,180,'assignment_4022',1),
+(4023,180,'assignment_4023',1),
+(4024,180,'assignment_4024',1),
+(4025,180,'assignment_4025',1),
+(4026,180,'assignment_4026',1),
+(4027,180,'assignment_4027',1),
+(4028,180,'assignment_4028',1),
+(4029,180,'assignment_4029',1),
+(4030,180,'assignment_4030',1),
+(4031,180,'assignment_4031',1),
+(4032,180,'assignment_4032',1),
+(4033,180,'assignment_4033',2),
+(4034,180,'assignment_4034',2),
+(4035,180,'assignment_4035',2),
+(4036,279,'assignment_4036',1),
+(4037,279,'assignment_4037',1),
+(4038,279,'assignment_4038',1),
+(4039,279,'assignment_4039',1),
+(4040,279,'assignment_4040',1),
+(4041,279,'assignment_4041',1),
+(4042,279,'assignment_4042',1),
+(4043,279,'assignment_4043',1),
+(4044,279,'assignment_4044',1),
+(4045,279,'assignment_4045',1),
+(4046,279,'assignment_4046',1),
+(4047,279,'assignment_4047',1),
+(4048,279,'assignment_4048',2),
+(4049,279,'assignment_4049',2),
+(4050,279,'assignment_4050',2),
+(4051,82,'assignment_4051',1),
+(4052,82,'assignment_4052',1),
+(4053,82,'assignment_4053',1),
+(4054,82,'assignment_4054',1),
+(4055,82,'assignment_4055',1),
+(4056,82,'assignment_4056',1),
+(4057,82,'assignment_4057',1),
+(4058,82,'assignment_4058',1),
+(4059,82,'assignment_4059',1),
+(4060,82,'assignment_4060',1),
+(4061,82,'assignment_4061',1),
+(4062,82,'assignment_4062',1),
+(4063,82,'assignment_4063',2),
+(4064,82,'assignment_4064',2),
+(4065,82,'assignment_4065',2),
+(4066,181,'assignment_4066',1),
+(4067,181,'assignment_4067',1),
+(4068,181,'assignment_4068',1),
+(4069,181,'assignment_4069',1),
+(4070,181,'assignment_4070',1),
+(4071,181,'assignment_4071',1),
+(4072,181,'assignment_4072',1),
+(4073,181,'assignment_4073',1),
+(4074,181,'assignment_4074',1),
+(4075,181,'assignment_4075',1),
+(4076,181,'assignment_4076',1),
+(4077,181,'assignment_4077',1),
+(4078,181,'assignment_4078',2),
+(4079,181,'assignment_4079',2),
+(4080,181,'assignment_4080',2),
+(4081,280,'assignment_4081',1),
+(4082,280,'assignment_4082',1),
+(4083,280,'assignment_4083',1),
+(4084,280,'assignment_4084',1),
+(4085,280,'assignment_4085',1),
+(4086,280,'assignment_4086',1),
+(4087,280,'assignment_4087',1),
+(4088,280,'assignment_4088',1),
+(4089,280,'assignment_4089',1),
+(4090,280,'assignment_4090',1),
+(4091,280,'assignment_4091',1),
+(4092,280,'assignment_4092',1),
+(4093,280,'assignment_4093',2),
+(4094,280,'assignment_4094',2),
+(4095,280,'assignment_4095',2),
+(4096,83,'assignment_4096',1),
+(4097,83,'assignment_4097',1),
+(4098,83,'assignment_4098',1),
+(4099,83,'assignment_4099',1),
+(4100,83,'assignment_4100',1),
+(4101,83,'assignment_4101',1),
+(4102,83,'assignment_4102',1),
+(4103,83,'assignment_4103',1),
+(4104,83,'assignment_4104',1),
+(4105,83,'assignment_4105',1),
+(4106,83,'assignment_4106',1),
+(4107,83,'assignment_4107',1),
+(4108,83,'assignment_4108',2),
+(4109,83,'assignment_4109',2),
+(4110,83,'assignment_4110',2),
+(4111,182,'assignment_4111',1),
+(4112,182,'assignment_4112',1),
+(4113,182,'assignment_4113',1),
+(4114,182,'assignment_4114',1),
+(4115,182,'assignment_4115',1),
+(4116,182,'assignment_4116',1),
+(4117,182,'assignment_4117',1),
+(4118,182,'assignment_4118',1),
+(4119,182,'assignment_4119',1),
+(4120,182,'assignment_4120',1),
+(4121,182,'assignment_4121',1),
+(4122,182,'assignment_4122',1),
+(4123,182,'assignment_4123',2),
+(4124,182,'assignment_4124',2),
+(4125,182,'assignment_4125',2),
+(4126,281,'assignment_4126',1),
+(4127,281,'assignment_4127',1),
+(4128,281,'assignment_4128',1),
+(4129,281,'assignment_4129',1),
+(4130,281,'assignment_4130',1),
+(4131,281,'assignment_4131',1),
+(4132,281,'assignment_4132',1),
+(4133,281,'assignment_4133',1),
+(4134,281,'assignment_4134',1),
+(4135,281,'assignment_4135',1),
+(4136,281,'assignment_4136',1),
+(4137,281,'assignment_4137',1),
+(4138,281,'assignment_4138',2),
+(4139,281,'assignment_4139',2),
+(4140,281,'assignment_4140',2),
+(4141,84,'assignment_4141',1),
+(4142,84,'assignment_4142',1),
+(4143,84,'assignment_4143',1),
+(4144,84,'assignment_4144',1),
+(4145,84,'assignment_4145',1),
+(4146,84,'assignment_4146',1),
+(4147,84,'assignment_4147',1),
+(4148,84,'assignment_4148',1),
+(4149,84,'assignment_4149',1),
+(4150,84,'assignment_4150',1),
+(4151,84,'assignment_4151',1),
+(4152,84,'assignment_4152',1),
+(4153,84,'assignment_4153',2),
+(4154,84,'assignment_4154',2),
+(4155,84,'assignment_4155',2),
+(4156,183,'assignment_4156',1),
+(4157,183,'assignment_4157',1),
+(4158,183,'assignment_4158',1),
+(4159,183,'assignment_4159',1),
+(4160,183,'assignment_4160',1),
+(4161,183,'assignment_4161',1),
+(4162,183,'assignment_4162',1),
+(4163,183,'assignment_4163',1),
+(4164,183,'assignment_4164',1),
+(4165,183,'assignment_4165',1),
+(4166,183,'assignment_4166',1),
+(4167,183,'assignment_4167',1),
+(4168,183,'assignment_4168',2),
+(4169,183,'assignment_4169',2),
+(4170,183,'assignment_4170',2),
+(4171,282,'assignment_4171',1),
+(4172,282,'assignment_4172',1),
+(4173,282,'assignment_4173',1),
+(4174,282,'assignment_4174',1),
+(4175,282,'assignment_4175',1),
+(4176,282,'assignment_4176',1),
+(4177,282,'assignment_4177',1),
+(4178,282,'assignment_4178',1),
+(4179,282,'assignment_4179',1),
+(4180,282,'assignment_4180',1),
+(4181,282,'assignment_4181',1),
+(4182,282,'assignment_4182',1),
+(4183,282,'assignment_4183',2),
+(4184,282,'assignment_4184',2),
+(4185,282,'assignment_4185',2),
+(4186,85,'assignment_4186',1),
+(4187,85,'assignment_4187',1),
+(4188,85,'assignment_4188',1),
+(4189,85,'assignment_4189',1),
+(4190,85,'assignment_4190',1),
+(4191,85,'assignment_4191',1),
+(4192,85,'assignment_4192',1),
+(4193,85,'assignment_4193',1),
+(4194,85,'assignment_4194',1),
+(4195,85,'assignment_4195',1),
+(4196,85,'assignment_4196',1),
+(4197,85,'assignment_4197',1),
+(4198,85,'assignment_4198',2),
+(4199,85,'assignment_4199',2),
+(4200,85,'assignment_4200',2),
+(4201,184,'assignment_4201',1),
+(4202,184,'assignment_4202',1),
+(4203,184,'assignment_4203',1),
+(4204,184,'assignment_4204',1),
+(4205,184,'assignment_4205',1),
+(4206,184,'assignment_4206',1),
+(4207,184,'assignment_4207',1),
+(4208,184,'assignment_4208',1),
+(4209,184,'assignment_4209',1),
+(4210,184,'assignment_4210',1),
+(4211,184,'assignment_4211',1),
+(4212,184,'assignment_4212',1),
+(4213,184,'assignment_4213',2),
+(4214,184,'assignment_4214',2),
+(4215,184,'assignment_4215',2),
+(4216,283,'assignment_4216',1),
+(4217,283,'assignment_4217',1),
+(4218,283,'assignment_4218',1),
+(4219,283,'assignment_4219',1),
+(4220,283,'assignment_4220',1),
+(4221,283,'assignment_4221',1),
+(4222,283,'assignment_4222',1),
+(4223,283,'assignment_4223',1),
+(4224,283,'assignment_4224',1),
+(4225,283,'assignment_4225',1),
+(4226,283,'assignment_4226',1),
+(4227,283,'assignment_4227',1),
+(4228,283,'assignment_4228',2),
+(4229,283,'assignment_4229',2),
+(4230,283,'assignment_4230',2),
+(4231,86,'assignment_4231',1),
+(4232,86,'assignment_4232',1),
+(4233,86,'assignment_4233',1),
+(4234,86,'assignment_4234',1),
+(4235,86,'assignment_4235',1),
+(4236,86,'assignment_4236',1),
+(4237,86,'assignment_4237',1),
+(4238,86,'assignment_4238',1),
+(4239,86,'assignment_4239',1),
+(4240,86,'assignment_4240',1),
+(4241,86,'assignment_4241',1),
+(4242,86,'assignment_4242',1),
+(4243,86,'assignment_4243',2),
+(4244,86,'assignment_4244',2),
+(4245,86,'assignment_4245',2),
+(4246,185,'assignment_4246',1),
+(4247,185,'assignment_4247',1),
+(4248,185,'assignment_4248',1),
+(4249,185,'assignment_4249',1),
+(4250,185,'assignment_4250',1),
+(4251,185,'assignment_4251',1),
+(4252,185,'assignment_4252',1),
+(4253,185,'assignment_4253',1),
+(4254,185,'assignment_4254',1),
+(4255,185,'assignment_4255',1),
+(4256,185,'assignment_4256',1),
+(4257,185,'assignment_4257',1),
+(4258,185,'assignment_4258',2),
+(4259,185,'assignment_4259',2),
+(4260,185,'assignment_4260',2),
+(4261,284,'assignment_4261',1),
+(4262,284,'assignment_4262',1),
+(4263,284,'assignment_4263',1),
+(4264,284,'assignment_4264',1),
+(4265,284,'assignment_4265',1),
+(4266,284,'assignment_4266',1),
+(4267,284,'assignment_4267',1),
+(4268,284,'assignment_4268',1),
+(4269,284,'assignment_4269',1),
+(4270,284,'assignment_4270',1),
+(4271,284,'assignment_4271',1),
+(4272,284,'assignment_4272',1),
+(4273,284,'assignment_4273',2),
+(4274,284,'assignment_4274',2),
+(4275,284,'assignment_4275',2),
+(4276,87,'assignment_4276',1),
+(4277,87,'assignment_4277',1),
+(4278,87,'assignment_4278',1),
+(4279,87,'assignment_4279',1),
+(4280,87,'assignment_4280',1),
+(4281,87,'assignment_4281',1),
+(4282,87,'assignment_4282',1),
+(4283,87,'assignment_4283',1),
+(4284,87,'assignment_4284',1),
+(4285,87,'assignment_4285',1),
+(4286,87,'assignment_4286',1),
+(4287,87,'assignment_4287',1),
+(4288,87,'assignment_4288',2),
+(4289,87,'assignment_4289',2),
+(4290,87,'assignment_4290',2),
+(4291,186,'assignment_4291',1),
+(4292,186,'assignment_4292',1),
+(4293,186,'assignment_4293',1),
+(4294,186,'assignment_4294',1),
+(4295,186,'assignment_4295',1),
+(4296,186,'assignment_4296',1),
+(4297,186,'assignment_4297',1),
+(4298,186,'assignment_4298',1),
+(4299,186,'assignment_4299',1),
+(4300,186,'assignment_4300',1),
+(4301,186,'assignment_4301',1),
+(4302,186,'assignment_4302',1),
+(4303,186,'assignment_4303',2),
+(4304,186,'assignment_4304',2),
+(4305,186,'assignment_4305',2),
+(4306,285,'assignment_4306',1),
+(4307,285,'assignment_4307',1),
+(4308,285,'assignment_4308',1),
+(4309,285,'assignment_4309',1),
+(4310,285,'assignment_4310',1),
+(4311,285,'assignment_4311',1),
+(4312,285,'assignment_4312',1),
+(4313,285,'assignment_4313',1),
+(4314,285,'assignment_4314',1),
+(4315,285,'assignment_4315',1),
+(4316,285,'assignment_4316',1),
+(4317,285,'assignment_4317',1),
+(4318,285,'assignment_4318',2),
+(4319,285,'assignment_4319',2),
+(4320,285,'assignment_4320',2),
+(4321,88,'assignment_4321',1),
+(4322,88,'assignment_4322',1),
+(4323,88,'assignment_4323',1),
+(4324,88,'assignment_4324',1),
+(4325,88,'assignment_4325',1),
+(4326,88,'assignment_4326',1),
+(4327,88,'assignment_4327',1),
+(4328,88,'assignment_4328',1),
+(4329,88,'assignment_4329',1),
+(4330,88,'assignment_4330',1),
+(4331,88,'assignment_4331',1),
+(4332,88,'assignment_4332',1),
+(4333,88,'assignment_4333',2),
+(4334,88,'assignment_4334',2),
+(4335,88,'assignment_4335',2),
+(4336,187,'assignment_4336',1),
+(4337,187,'assignment_4337',1),
+(4338,187,'assignment_4338',1),
+(4339,187,'assignment_4339',1),
+(4340,187,'assignment_4340',1),
+(4341,187,'assignment_4341',1),
+(4342,187,'assignment_4342',1),
+(4343,187,'assignment_4343',1),
+(4344,187,'assignment_4344',1),
+(4345,187,'assignment_4345',1),
+(4346,187,'assignment_4346',1),
+(4347,187,'assignment_4347',1),
+(4348,187,'assignment_4348',2),
+(4349,187,'assignment_4349',2),
+(4350,187,'assignment_4350',2),
+(4351,286,'assignment_4351',1),
+(4352,286,'assignment_4352',1),
+(4353,286,'assignment_4353',1),
+(4354,286,'assignment_4354',1),
+(4355,286,'assignment_4355',1),
+(4356,286,'assignment_4356',1),
+(4357,286,'assignment_4357',1),
+(4358,286,'assignment_4358',1),
+(4359,286,'assignment_4359',1),
+(4360,286,'assignment_4360',1),
+(4361,286,'assignment_4361',1),
+(4362,286,'assignment_4362',1),
+(4363,286,'assignment_4363',2),
+(4364,286,'assignment_4364',2),
+(4365,286,'assignment_4365',2),
+(4366,89,'assignment_4366',1),
+(4367,89,'assignment_4367',1),
+(4368,89,'assignment_4368',1),
+(4369,89,'assignment_4369',1),
+(4370,89,'assignment_4370',1),
+(4371,89,'assignment_4371',1),
+(4372,89,'assignment_4372',1),
+(4373,89,'assignment_4373',1),
+(4374,89,'assignment_4374',1),
+(4375,89,'assignment_4375',1),
+(4376,89,'assignment_4376',1),
+(4377,89,'assignment_4377',1),
+(4378,89,'assignment_4378',2),
+(4379,89,'assignment_4379',2),
+(4380,89,'assignment_4380',2),
+(4381,188,'assignment_4381',1),
+(4382,188,'assignment_4382',1),
+(4383,188,'assignment_4383',1),
+(4384,188,'assignment_4384',1),
+(4385,188,'assignment_4385',1),
+(4386,188,'assignment_4386',1),
+(4387,188,'assignment_4387',1),
+(4388,188,'assignment_4388',1),
+(4389,188,'assignment_4389',1),
+(4390,188,'assignment_4390',1),
+(4391,188,'assignment_4391',1),
+(4392,188,'assignment_4392',1),
+(4393,188,'assignment_4393',2),
+(4394,188,'assignment_4394',2),
+(4395,188,'assignment_4395',2),
+(4396,287,'assignment_4396',1),
+(4397,287,'assignment_4397',1),
+(4398,287,'assignment_4398',1),
+(4399,287,'assignment_4399',1),
+(4400,287,'assignment_4400',1),
+(4401,287,'assignment_4401',1),
+(4402,287,'assignment_4402',1),
+(4403,287,'assignment_4403',1),
+(4404,287,'assignment_4404',1),
+(4405,287,'assignment_4405',1),
+(4406,287,'assignment_4406',1),
+(4407,287,'assignment_4407',1),
+(4408,287,'assignment_4408',2),
+(4409,287,'assignment_4409',2),
+(4410,287,'assignment_4410',2),
+(4411,90,'assignment_4411',1),
+(4412,90,'assignment_4412',1),
+(4413,90,'assignment_4413',1),
+(4414,90,'assignment_4414',1),
+(4415,90,'assignment_4415',1),
+(4416,90,'assignment_4416',1),
+(4417,90,'assignment_4417',1),
+(4418,90,'assignment_4418',1),
+(4419,90,'assignment_4419',1),
+(4420,90,'assignment_4420',1),
+(4421,90,'assignment_4421',1),
+(4422,90,'assignment_4422',1),
+(4423,90,'assignment_4423',2),
+(4424,90,'assignment_4424',2),
+(4425,90,'assignment_4425',2),
+(4426,189,'assignment_4426',1),
+(4427,189,'assignment_4427',1),
+(4428,189,'assignment_4428',1),
+(4429,189,'assignment_4429',1),
+(4430,189,'assignment_4430',1),
+(4431,189,'assignment_4431',1),
+(4432,189,'assignment_4432',1),
+(4433,189,'assignment_4433',1),
+(4434,189,'assignment_4434',1),
+(4435,189,'assignment_4435',1),
+(4436,189,'assignment_4436',1),
+(4437,189,'assignment_4437',1),
+(4438,189,'assignment_4438',2),
+(4439,189,'assignment_4439',2),
+(4440,189,'assignment_4440',2),
+(4441,288,'assignment_4441',1),
+(4442,288,'assignment_4442',1),
+(4443,288,'assignment_4443',1),
+(4444,288,'assignment_4444',1),
+(4445,288,'assignment_4445',1),
+(4446,288,'assignment_4446',1),
+(4447,288,'assignment_4447',1),
+(4448,288,'assignment_4448',1),
+(4449,288,'assignment_4449',1),
+(4450,288,'assignment_4450',1),
+(4451,288,'assignment_4451',1),
+(4452,288,'assignment_4452',1),
+(4453,288,'assignment_4453',2),
+(4454,288,'assignment_4454',2),
+(4455,288,'assignment_4455',2),
+(4456,91,'assignment_4456',1),
+(4457,91,'assignment_4457',1),
+(4458,91,'assignment_4458',1),
+(4459,91,'assignment_4459',1),
+(4460,91,'assignment_4460',1),
+(4461,91,'assignment_4461',1),
+(4462,91,'assignment_4462',1),
+(4463,91,'assignment_4463',1),
+(4464,91,'assignment_4464',1),
+(4465,91,'assignment_4465',1),
+(4466,91,'assignment_4466',1),
+(4467,91,'assignment_4467',1),
+(4468,91,'assignment_4468',2),
+(4469,91,'assignment_4469',2),
+(4470,91,'assignment_4470',2),
+(4471,190,'assignment_4471',1),
+(4472,190,'assignment_4472',1),
+(4473,190,'assignment_4473',1),
+(4474,190,'assignment_4474',1),
+(4475,190,'assignment_4475',1),
+(4476,190,'assignment_4476',1),
+(4477,190,'assignment_4477',1),
+(4478,190,'assignment_4478',1),
+(4479,190,'assignment_4479',1),
+(4480,190,'assignment_4480',1),
+(4481,190,'assignment_4481',1),
+(4482,190,'assignment_4482',1),
+(4483,190,'assignment_4483',2),
+(4484,190,'assignment_4484',2),
+(4485,190,'assignment_4485',2),
+(4486,289,'assignment_4486',1),
+(4487,289,'assignment_4487',1),
+(4488,289,'assignment_4488',1),
+(4489,289,'assignment_4489',1),
+(4490,289,'assignment_4490',1),
+(4491,289,'assignment_4491',1),
+(4492,289,'assignment_4492',1),
+(4493,289,'assignment_4493',1),
+(4494,289,'assignment_4494',1),
+(4495,289,'assignment_4495',1),
+(4496,289,'assignment_4496',1),
+(4497,289,'assignment_4497',1),
+(4498,289,'assignment_4498',2),
+(4499,289,'assignment_4499',2),
+(4500,289,'assignment_4500',2),
+(4501,92,'assignment_4501',1),
+(4502,92,'assignment_4502',1),
+(4503,92,'assignment_4503',1),
+(4504,92,'assignment_4504',1),
+(4505,92,'assignment_4505',1),
+(4506,92,'assignment_4506',1),
+(4507,92,'assignment_4507',1),
+(4508,92,'assignment_4508',1),
+(4509,92,'assignment_4509',1),
+(4510,92,'assignment_4510',1),
+(4511,92,'assignment_4511',1),
+(4512,92,'assignment_4512',1),
+(4513,92,'assignment_4513',2),
+(4514,92,'assignment_4514',2),
+(4515,92,'assignment_4515',2),
+(4516,191,'assignment_4516',1),
+(4517,191,'assignment_4517',1),
+(4518,191,'assignment_4518',1),
+(4519,191,'assignment_4519',1),
+(4520,191,'assignment_4520',1),
+(4521,191,'assignment_4521',1),
+(4522,191,'assignment_4522',1),
+(4523,191,'assignment_4523',1),
+(4524,191,'assignment_4524',1),
+(4525,191,'assignment_4525',1),
+(4526,191,'assignment_4526',1),
+(4527,191,'assignment_4527',1),
+(4528,191,'assignment_4528',2),
+(4529,191,'assignment_4529',2),
+(4530,191,'assignment_4530',2),
+(4531,290,'assignment_4531',1),
+(4532,290,'assignment_4532',1),
+(4533,290,'assignment_4533',1),
+(4534,290,'assignment_4534',1),
+(4535,290,'assignment_4535',1),
+(4536,290,'assignment_4536',1),
+(4537,290,'assignment_4537',1),
+(4538,290,'assignment_4538',1),
+(4539,290,'assignment_4539',1),
+(4540,290,'assignment_4540',1),
+(4541,290,'assignment_4541',1),
+(4542,290,'assignment_4542',1),
+(4543,290,'assignment_4543',2),
+(4544,290,'assignment_4544',2),
+(4545,290,'assignment_4545',2),
+(4546,93,'assignment_4546',1),
+(4547,93,'assignment_4547',1),
+(4548,93,'assignment_4548',1),
+(4549,93,'assignment_4549',1),
+(4550,93,'assignment_4550',1),
+(4551,93,'assignment_4551',1),
+(4552,93,'assignment_4552',1),
+(4553,93,'assignment_4553',1),
+(4554,93,'assignment_4554',1),
+(4555,93,'assignment_4555',1),
+(4556,93,'assignment_4556',1),
+(4557,93,'assignment_4557',1),
+(4558,93,'assignment_4558',2),
+(4559,93,'assignment_4559',2),
+(4560,93,'assignment_4560',2),
+(4561,192,'assignment_4561',1),
+(4562,192,'assignment_4562',1),
+(4563,192,'assignment_4563',1),
+(4564,192,'assignment_4564',1),
+(4565,192,'assignment_4565',1),
+(4566,192,'assignment_4566',1),
+(4567,192,'assignment_4567',1),
+(4568,192,'assignment_4568',1),
+(4569,192,'assignment_4569',1),
+(4570,192,'assignment_4570',1),
+(4571,192,'assignment_4571',1),
+(4572,192,'assignment_4572',1),
+(4573,192,'assignment_4573',2),
+(4574,192,'assignment_4574',2),
+(4575,192,'assignment_4575',2),
+(4576,291,'assignment_4576',1),
+(4577,291,'assignment_4577',1),
+(4578,291,'assignment_4578',1),
+(4579,291,'assignment_4579',1),
+(4580,291,'assignment_4580',1),
+(4581,291,'assignment_4581',1),
+(4582,291,'assignment_4582',1),
+(4583,291,'assignment_4583',1),
+(4584,291,'assignment_4584',1),
+(4585,291,'assignment_4585',1),
+(4586,291,'assignment_4586',1),
+(4587,291,'assignment_4587',1),
+(4588,291,'assignment_4588',2),
+(4589,291,'assignment_4589',2),
+(4590,291,'assignment_4590',2),
+(4591,94,'assignment_4591',1),
+(4592,94,'assignment_4592',1),
+(4593,94,'assignment_4593',1),
+(4594,94,'assignment_4594',1),
+(4595,94,'assignment_4595',1),
+(4596,94,'assignment_4596',1),
+(4597,94,'assignment_4597',1),
+(4598,94,'assignment_4598',1),
+(4599,94,'assignment_4599',1),
+(4600,94,'assignment_4600',1),
+(4601,94,'assignment_4601',1),
+(4602,94,'assignment_4602',1),
+(4603,94,'assignment_4603',2),
+(4604,94,'assignment_4604',2),
+(4605,94,'assignment_4605',2),
+(4606,193,'assignment_4606',1),
+(4607,193,'assignment_4607',1),
+(4608,193,'assignment_4608',1),
+(4609,193,'assignment_4609',1),
+(4610,193,'assignment_4610',1),
+(4611,193,'assignment_4611',1),
+(4612,193,'assignment_4612',1),
+(4613,193,'assignment_4613',1),
+(4614,193,'assignment_4614',1),
+(4615,193,'assignment_4615',1),
+(4616,193,'assignment_4616',1),
+(4617,193,'assignment_4617',1),
+(4618,193,'assignment_4618',2),
+(4619,193,'assignment_4619',2),
+(4620,193,'assignment_4620',2),
+(4621,292,'assignment_4621',1),
+(4622,292,'assignment_4622',1),
+(4623,292,'assignment_4623',1),
+(4624,292,'assignment_4624',1),
+(4625,292,'assignment_4625',1),
+(4626,292,'assignment_4626',1),
+(4627,292,'assignment_4627',1),
+(4628,292,'assignment_4628',1),
+(4629,292,'assignment_4629',1),
+(4630,292,'assignment_4630',1),
+(4631,292,'assignment_4631',1),
+(4632,292,'assignment_4632',1),
+(4633,292,'assignment_4633',2),
+(4634,292,'assignment_4634',2),
+(4635,292,'assignment_4635',2),
+(4636,95,'assignment_4636',1),
+(4637,95,'assignment_4637',1),
+(4638,95,'assignment_4638',1),
+(4639,95,'assignment_4639',1),
+(4640,95,'assignment_4640',1),
+(4641,95,'assignment_4641',1),
+(4642,95,'assignment_4642',1),
+(4643,95,'assignment_4643',1),
+(4644,95,'assignment_4644',1),
+(4645,95,'assignment_4645',1),
+(4646,95,'assignment_4646',1),
+(4647,95,'assignment_4647',1),
+(4648,95,'assignment_4648',2),
+(4649,95,'assignment_4649',2),
+(4650,95,'assignment_4650',2),
+(4651,194,'assignment_4651',1),
+(4652,194,'assignment_4652',1),
+(4653,194,'assignment_4653',1),
+(4654,194,'assignment_4654',1),
+(4655,194,'assignment_4655',1),
+(4656,194,'assignment_4656',1),
+(4657,194,'assignment_4657',1),
+(4658,194,'assignment_4658',1),
+(4659,194,'assignment_4659',1),
+(4660,194,'assignment_4660',1),
+(4661,194,'assignment_4661',1),
+(4662,194,'assignment_4662',1),
+(4663,194,'assignment_4663',2),
+(4664,194,'assignment_4664',2),
+(4665,194,'assignment_4665',2),
+(4666,293,'assignment_4666',1),
+(4667,293,'assignment_4667',1),
+(4668,293,'assignment_4668',1),
+(4669,293,'assignment_4669',1),
+(4670,293,'assignment_4670',1),
+(4671,293,'assignment_4671',1),
+(4672,293,'assignment_4672',1),
+(4673,293,'assignment_4673',1),
+(4674,293,'assignment_4674',1),
+(4675,293,'assignment_4675',1),
+(4676,293,'assignment_4676',1),
+(4677,293,'assignment_4677',1),
+(4678,293,'assignment_4678',2),
+(4679,293,'assignment_4679',2),
+(4680,293,'assignment_4680',2),
+(4681,96,'assignment_4681',1),
+(4682,96,'assignment_4682',1),
+(4683,96,'assignment_4683',1),
+(4684,96,'assignment_4684',1),
+(4685,96,'assignment_4685',1),
+(4686,96,'assignment_4686',1),
+(4687,96,'assignment_4687',1),
+(4688,96,'assignment_4688',1),
+(4689,96,'assignment_4689',1),
+(4690,96,'assignment_4690',1),
+(4691,96,'assignment_4691',1),
+(4692,96,'assignment_4692',1),
+(4693,96,'assignment_4693',2),
+(4694,96,'assignment_4694',2),
+(4695,96,'assignment_4695',2),
+(4696,195,'assignment_4696',1),
+(4697,195,'assignment_4697',1),
+(4698,195,'assignment_4698',1),
+(4699,195,'assignment_4699',1),
+(4700,195,'assignment_4700',1),
+(4701,195,'assignment_4701',1),
+(4702,195,'assignment_4702',1),
+(4703,195,'assignment_4703',1),
+(4704,195,'assignment_4704',1),
+(4705,195,'assignment_4705',1),
+(4706,195,'assignment_4706',1),
+(4707,195,'assignment_4707',1),
+(4708,195,'assignment_4708',2),
+(4709,195,'assignment_4709',2),
+(4710,195,'assignment_4710',2),
+(4711,294,'assignment_4711',1),
+(4712,294,'assignment_4712',1),
+(4713,294,'assignment_4713',1),
+(4714,294,'assignment_4714',1),
+(4715,294,'assignment_4715',1),
+(4716,294,'assignment_4716',1),
+(4717,294,'assignment_4717',1),
+(4718,294,'assignment_4718',1),
+(4719,294,'assignment_4719',1),
+(4720,294,'assignment_4720',1),
+(4721,294,'assignment_4721',1),
+(4722,294,'assignment_4722',1),
+(4723,294,'assignment_4723',2),
+(4724,294,'assignment_4724',2),
+(4725,294,'assignment_4725',2),
+(4726,97,'assignment_4726',1),
+(4727,97,'assignment_4727',1),
+(4728,97,'assignment_4728',1),
+(4729,97,'assignment_4729',1),
+(4730,97,'assignment_4730',1),
+(4731,97,'assignment_4731',1),
+(4732,97,'assignment_4732',1),
+(4733,97,'assignment_4733',1),
+(4734,97,'assignment_4734',1),
+(4735,97,'assignment_4735',1),
+(4736,97,'assignment_4736',1),
+(4737,97,'assignment_4737',1),
+(4738,97,'assignment_4738',2),
+(4739,97,'assignment_4739',2),
+(4740,97,'assignment_4740',2),
+(4741,196,'assignment_4741',1),
+(4742,196,'assignment_4742',1),
+(4743,196,'assignment_4743',1),
+(4744,196,'assignment_4744',1),
+(4745,196,'assignment_4745',1),
+(4746,196,'assignment_4746',1),
+(4747,196,'assignment_4747',1),
+(4748,196,'assignment_4748',1),
+(4749,196,'assignment_4749',1),
+(4750,196,'assignment_4750',1),
+(4751,196,'assignment_4751',1),
+(4752,196,'assignment_4752',1),
+(4753,196,'assignment_4753',2),
+(4754,196,'assignment_4754',2),
+(4755,196,'assignment_4755',2),
+(4756,295,'assignment_4756',1),
+(4757,295,'assignment_4757',1),
+(4758,295,'assignment_4758',1),
+(4759,295,'assignment_4759',1),
+(4760,295,'assignment_4760',1),
+(4761,295,'assignment_4761',1),
+(4762,295,'assignment_4762',1),
+(4763,295,'assignment_4763',1),
+(4764,295,'assignment_4764',1),
+(4765,295,'assignment_4765',1),
+(4766,295,'assignment_4766',1),
+(4767,295,'assignment_4767',1),
+(4768,295,'assignment_4768',2),
+(4769,295,'assignment_4769',2),
+(4770,295,'assignment_4770',2),
+(4771,98,'assignment_4771',1),
+(4772,98,'assignment_4772',1),
+(4773,98,'assignment_4773',1),
+(4774,98,'assignment_4774',1),
+(4775,98,'assignment_4775',1),
+(4776,98,'assignment_4776',1),
+(4777,98,'assignment_4777',1),
+(4778,98,'assignment_4778',1),
+(4779,98,'assignment_4779',1),
+(4780,98,'assignment_4780',1),
+(4781,98,'assignment_4781',1),
+(4782,98,'assignment_4782',1),
+(4783,98,'assignment_4783',2),
+(4784,98,'assignment_4784',2),
+(4785,98,'assignment_4785',2),
+(4786,197,'assignment_4786',1),
+(4787,197,'assignment_4787',1),
+(4788,197,'assignment_4788',1),
+(4789,197,'assignment_4789',1),
+(4790,197,'assignment_4790',1),
+(4791,197,'assignment_4791',1),
+(4792,197,'assignment_4792',1),
+(4793,197,'assignment_4793',1),
+(4794,197,'assignment_4794',1),
+(4795,197,'assignment_4795',1),
+(4796,197,'assignment_4796',1),
+(4797,197,'assignment_4797',1),
+(4798,197,'assignment_4798',2),
+(4799,197,'assignment_4799',2),
+(4800,197,'assignment_4800',2),
+(4801,296,'assignment_4801',1),
+(4802,296,'assignment_4802',1),
+(4803,296,'assignment_4803',1),
+(4804,296,'assignment_4804',1),
+(4805,296,'assignment_4805',1),
+(4806,296,'assignment_4806',1),
+(4807,296,'assignment_4807',1),
+(4808,296,'assignment_4808',1),
+(4809,296,'assignment_4809',1),
+(4810,296,'assignment_4810',1),
+(4811,296,'assignment_4811',1),
+(4812,296,'assignment_4812',1),
+(4813,296,'assignment_4813',2),
+(4814,296,'assignment_4814',2),
+(4815,296,'assignment_4815',2),
+(4816,99,'assignment_4816',1),
+(4817,99,'assignment_4817',1),
+(4818,99,'assignment_4818',1),
+(4819,99,'assignment_4819',1),
+(4820,99,'assignment_4820',1),
+(4821,99,'assignment_4821',1),
+(4822,99,'assignment_4822',1),
+(4823,99,'assignment_4823',1),
+(4824,99,'assignment_4824',1),
+(4825,99,'assignment_4825',1),
+(4826,99,'assignment_4826',1),
+(4827,99,'assignment_4827',1),
+(4828,99,'assignment_4828',2),
+(4829,99,'assignment_4829',2),
+(4830,99,'assignment_4830',2),
+(4831,198,'assignment_4831',1),
+(4832,198,'assignment_4832',1),
+(4833,198,'assignment_4833',1),
+(4834,198,'assignment_4834',1),
+(4835,198,'assignment_4835',1),
+(4836,198,'assignment_4836',1),
+(4837,198,'assignment_4837',1),
+(4838,198,'assignment_4838',1),
+(4839,198,'assignment_4839',1),
+(4840,198,'assignment_4840',1),
+(4841,198,'assignment_4841',1),
+(4842,198,'assignment_4842',1),
+(4843,198,'assignment_4843',2),
+(4844,198,'assignment_4844',2),
+(4845,198,'assignment_4845',2),
+(4846,297,'assignment_4846',1),
+(4847,297,'assignment_4847',1),
+(4848,297,'assignment_4848',1),
+(4849,297,'assignment_4849',1),
+(4850,297,'assignment_4850',1),
+(4851,297,'assignment_4851',1),
+(4852,297,'assignment_4852',1),
+(4853,297,'assignment_4853',1),
+(4854,297,'assignment_4854',1),
+(4855,297,'assignment_4855',1),
+(4856,297,'assignment_4856',1),
+(4857,297,'assignment_4857',1),
+(4858,297,'assignment_4858',2),
+(4859,297,'assignment_4859',2),
+(4860,297,'assignment_4860',2);
