@@ -1,18 +1,34 @@
 #!/bin/bash
 
-file_name="fetched_combined.sql"
+# remember to set your user and pw
+
+file_name=".temp_inserts.sql"
+user=""
+pw=""
+
+echo $db
 echo "" > "$file_name"
 
 function get_url() {
         echo "https://raw.githubusercontent.com/you277/saturn/refs/heads/main/data/$1"
 }
 
-function fetch() {
+function write() {
         echo "getting $1"
         url=$(get_url $1)
-        curl -s -w "" "$url" >> "$file_name"
+        curl -s -X GET "$url" > "$file_name"
         echo "got $1"
+        echo "writing $1"
+        mysql -u "$user" -p"$pw" -h 10.8.37.226 -D "${user}_db" < "$file_name"
+        echo "wrote to $1"
+        echo ""
 }
+
+# clear
+
+fetch ONESTOPSHOP/cleartables.sql
+
+# data population
 
 fetch types.sql
 fetch rooms.sql
@@ -22,17 +38,16 @@ fetch classes.sql
 fetch assignments.sql
 fetch schedules.sql
 fetch students.sql
-
-fetch grades/1.sql
-fetch grades/2.sql
-fetch grades/3.sql
-fetch grades/4.sql
-fetch grades/5.sql
-fetch grades/6.sql
-fetch grades/7.sql
-fetch grades/8.sql
-
 fetch teachers_depts.sql
 
-echo "OK"
+write grades/1.sql
+write grades/2.sql
+write grades/3.sql
+write grades/4.sql
+write grades/5.sql
+write grades/6.sql
+write grades/7.sql
+write grades/8.sql
 
+rm "$file_name"
+echo "OK"
