@@ -7,12 +7,13 @@ const fs = require("fs")
 const numCourses = 99
 const numRooms = 720
 const periods = 10
-const numTeachers = 129
+const numTeachers = 324
 const gradeSplit = 100000
 
 let classInserts = []
 let studentInserts = []
-let scheduleInserts = []
+let teacherScheduleInserts = []
+let studentScheduleInserts = []
 let assignmentInserts = []
 let gradeInserts = []
 
@@ -42,7 +43,7 @@ for (let i = 0; i < numTeachers; i++) {
         period = Math.ceil(Math.random()*periods)
     }
     taken[`${roomId}-${period}`] = true
-    classInserts.push(`INSERT INTO classes (id,room_id,course_id) VALUES (${classId},${roomId},${courseId});`)
+    classInserts.push(`(${classId},${roomId},${courseId})`)
     classesByPeriod[period - 1].push(classId)
 
     if (!courseClasses[courseId]) {
@@ -50,13 +51,13 @@ for (let i = 0; i < numTeachers; i++) {
     }
     courseClasses[courseId].push(classId)
 
-    scheduleInserts.push(`INSERT INTO schedules (id,pd${period}) VALUES (${teacherId},${classId});`)
+    teacherScheduleInserts.push(`INSERT INTO schedules (id,pd${period}) VALUES (${teacherId},${classId});`)
 }
 
 function addAssignment(classId, assignmentType) {
     curAssignmentId++
     let name = `assignment_${curAssignmentId}`
-    assignmentInserts.push(`INSERT INTO assignments (id,class_id,name,type) VALUES (${curAssignmentId},${classId},'${name}',${assignmentType});`)
+    assignmentInserts.push(`(${curAssignmentId},${classId},'${name}',${assignmentType})`)
     let list = assignments[classId]
     if (!list) {
         list = []
@@ -81,35 +82,42 @@ for (let courseId of Object.keys(courseClasses)) {
 // 5000 students
 for (let studentId = 1; studentId <= 5000; studentId++) {
     let scheduleId = numTeachers + studentId
-    let keys = []
     let classIds = []
     for (let i = 0; i < 10; i++) {
         let classes = classesByPeriod[i]
         let classId = classes[Math.floor(Math.random()*classes.length)]
         classIds.push(classId)
-        keys.push(`pd${i + 1}`)
 
         if (assignments[classId]) {
             for (let assignmentId of assignments[classId]) {
                 let grade = 75 + Math.round(Math.random()*25)
-                gradeInserts.push(`INSERT INTO grades (assignment_id,student_id,grade) VALUES (${assignmentId},${studentId},${grade});`)
+                gradeInserts.push(`(${assignmentId},${studentId},${grade})`)
             }
         }
     }
-    studentInserts.push(`INSERT INTO students (id,first_name,last_name,schedule_id) VALUES (${studentId},'John${studentId}','Doe${studentId}',${scheduleId});`)
-    scheduleInserts.push(`INSERT INTO schedules (id,${keys.join(",")}) VALUES (${scheduleId},${classIds.join(",")});`)
+    studentInserts.push(`(${studentId},'John${studentId}','Doe${studentId}',${scheduleId})`)
+    studentScheduleInserts.push(`(${scheduleId},${classIds.join(",")})`)
 }
 
-fs.writeFileSync("data/classes.sql", classInserts.join("\n"))
-fs.writeFileSync("data/assignments.sql", assignmentInserts.join("\n"))
-fs.writeFileSync("data/schedules.sql", scheduleInserts.join("\n"))
-fs.writeFileSync("data/students.sql", studentInserts.join("\n"))
+function s(header, values) {
+    return `${header}\n${values.join(",\n")};`
+}
+
+fs.writeFileSync("data/classes.sql", s("INSERT INTO classes (id,room_id,course_id) VALUES", classInserts))
+fs.writeFileSync("data/assignments.sql", s("INSERT INTO assignments (id,class_id,name,type) VALUES", assignmentInserts))
+
+let teacherScheduleResult = teacherScheduleInserts.join("\n")
+let studentHeader = `INSERT INTO schedules (id,pd1,pd2,pd3,pd4,pd5,pd6,pd7,pd8,pd9,pd10) VALUES`
+let studentSchedulesResult = s(studentHeader, studentScheduleInserts)
+fs.writeFileSync("data/schedules.sql", teacherScheduleResult + "\n" + studentSchedulesResult)
+fs.writeFileSync("data/students.sql", s("INSERT INTO students (id,first_name,last_name,schedule_id) VALUES", studentInserts))
 
 
 let i = 1
 while (true) {
     let joins = gradeInserts.splice(0, gradeSplit)
     if (joins.length == 0) break
-    fs.writeFileSync(`data/grades/${i}.sql`, joins.join("\n"))
+    let res = s("INSERT INTO grades (assignment_id,student_id,grade) VALUES", joins)
+    fs.writeFileSync(`data/grades/${i}.sql`, res)
     i++
 }
