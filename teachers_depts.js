@@ -3,6 +3,10 @@
 */
 // run this on the staff page
 
+const deptMap = {
+	"Health/PE": "Health & PE"
+}
+
 function parseName(full) {
 	let segments = []
 	for (let s of full.split(" ")) {
@@ -19,7 +23,16 @@ function trim(str) {
 	return str.match(/^\s*(.+)\s*$/)[1]
 }
 
-let killTheseOnes = ["Administration - Supervisors"]
+let killTheseOnes = [
+	"Administration - Supervisors",
+	"Guidance Counselors",
+	"Support Staff",
+	"College Office Staff list",
+	"Brooklyn Tech Principal",
+	"Special Education",
+	"COSA (Coordinator of Student Activities)",
+	"Health and Safety"
+]
 
 let seen = {}
 let teacherNames = []
@@ -40,14 +53,21 @@ for (let category of document.getElementsByClassName("staff-category")) {
 		let title = wrapper.getElementsByTagName("dd")[0]
 		if (!title) continue
 		console.log(categoryName, categoryName == "Teacher")
-		if (categoryName == "Teachers") {
+		
+		teacherNames.push(trim(nameTag.textContent))
+		people.push({
+			nameStr: trim(nameTag.textContent),
+			category: trim(categoryName)
+		})
+		
+		/* if (categoryName == "Teachers") {
 			teacherNames.push(trim(nameTag.textContent))
 		} else {
 			people.push({
 				nameStr: trim(nameTag.textContent),
 				category: trim(categoryName)
 			})
-		}
+		} */
 	}
 }
 
@@ -57,6 +77,7 @@ let departmentInserts = []
 let inserted = []
 
 let teacherId = 1
+let existing = []
 
 for (let i of Object.keys(people)) {
 	let teacher = people[i]
@@ -69,6 +90,9 @@ for (let i of Object.keys(people)) {
 		inserted.push(teacher.nameStr)
 		let departmentId = departments.indexOf(teacher.category)
 		let [firstName, lastName] = parseName(teacher.nameStr)
+		let nameIdx = `${firstName}-${lastName}`
+		if (existing.includes(nameIdx)) continue
+		existing.push(nameIdx)
 		teacherInserts.push(`INSERT INTO teachers (id,department_id,first_name,last_name,schedule_id) VALUES (${teacherId},${departmentId + 1},'${firstName}','${lastName}',${teacherId});`)
 		teacherId += 1
 	}
@@ -78,13 +102,7 @@ for (let i of Object.keys(departments)) {
 	departmentInserts.push(`INSERT INTO departments (id,name) VALUES (${Number(i)+1},'${departments[i]}');`)
 }
 
-// let scheduleInserts = []
-// for (let i in inserted) {
-// 	scheduleInserts.push(`INSERT INTO schedules (id) VALUES (${Number(i)+1});`)
-// }
-
 console.log([
-    // scheduleInserts.join("\n"),
     departmentInserts.join("\n"),
     teacherInserts.join("\n")
 ].join("\n"))
