@@ -3,10 +3,6 @@
 */
 // run this on the staff page
 
-const deptMap = {
-	"Health/PE": "Health & PE"
-}
-
 function parseName(full) {
 	let segments = []
 	for (let s of full.split(" ")) {
@@ -52,7 +48,6 @@ for (let category of document.getElementsByClassName("staff-category")) {
 		let nameTag = wrapper.getElementsByTagName("dt")[0]
 		let title = wrapper.getElementsByTagName("dd")[0]
 		if (!title) continue
-		console.log(categoryName, categoryName == "Teacher")
 		
 		teacherNames.push(trim(nameTag.textContent))
 		people.push({
@@ -93,16 +88,16 @@ for (let i of Object.keys(people)) {
 		let nameIdx = `${firstName}-${lastName}`
 		if (existing.includes(nameIdx)) continue
 		existing.push(nameIdx)
-		teacherInserts.push(`INSERT INTO teachers (id,department_id,first_name,last_name,schedule_id) VALUES (${teacherId},${departmentId + 1},'${firstName}','${lastName}',${teacherId});`)
+		teacherInserts.push(`(${teacherId},${departmentId + 1},'${firstName}','${lastName}',${teacherId})`)
 		teacherId += 1
 	}
 }
 
 for (let i of Object.keys(departments)) {
-	departmentInserts.push(`INSERT INTO departments (id,name) VALUES (${Number(i)+1},'${departments[i]}');`)
+	departmentInserts.push(`(${Number(i)+1},'${departments[i]}')`)
 }
 
-console.log([
-    departmentInserts.join("\n"),
-    teacherInserts.join("\n")
-].join("\n"))
+let teachersResult = `INSERT INTO teachers (id,department_id,first_name,last_name,schedule_id) VALUES\n${teacherInserts.join(",\n")};`
+let deptResult = `INSERT INTO departments (id,name) VALUES\n${departmentInserts.join(",\n")};`
+
+console.log(deptResult + "\n" + teachersResult)
