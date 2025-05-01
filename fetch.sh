@@ -8,6 +8,15 @@ file_name=".temp_inserts.sql"
 user=""
 pw=""
 
+if [ -z $user ]; then
+        echo "remember to provide user name"
+        exit 1
+fi
+if [ -z $pw ]; then
+        echo "remember to provide pw"
+        exit 2
+fi
+
 echo $db
 echo "" > "$file_name"
 
