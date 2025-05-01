@@ -37,7 +37,7 @@ function write() {
 
 # clear
 
-fetch ONESTOPSHOP/cleartables.sql
+write ONESTOPSHOP/cleartables.sql
 
 # data population
 
