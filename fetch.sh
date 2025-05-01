@@ -41,15 +41,15 @@ fetch ONESTOPSHOP/cleartables.sql
 
 # data population
 
-fetch types.sql
-fetch rooms.sql
-fetch courses.sql
+write types.sql
+write rooms.sql
+write courses.sql
 
-fetch classes.sql
-fetch assignments.sql
-fetch schedules.sql
-fetch students.sql
-fetch teachers_depts.sql
+write classes.sql
+write assignments.sql
+write schedules.sql
+write students.sql
+write teachers_depts.sql
 
 # grades insertion may just stop for some reason so edit to write whatever you still need to insert based on outputted log file
 
