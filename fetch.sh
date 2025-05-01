@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# nohup ./fetch.sh > "sql_yay.log" &
+
 # remember to set your user and pw
 
 file_name=".temp_inserts.sql"
@@ -39,6 +41,8 @@ fetch assignments.sql
 fetch schedules.sql
 fetch students.sql
 fetch teachers_depts.sql
+
+# grades insertion may just stop for some reason so edit to write whatever you still need to insert based on outputted log file
 
 write grades/1.sql
 write grades/2.sql
