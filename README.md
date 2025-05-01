@@ -1,3 +1,5 @@
+## All You Zombies
+
 **2217 Time Zone V (EST) 7 Nov. 1970--NTC-- "Pop's Place":** I was polishing a brandy snifter when the Unmarried Mother came in. I noted the time---10:17 P. M. zone five, or eastern time, November 7th, 1970\. Temporal agents always notice time and date; we must.
 
 The Unmarried Mother was a man twenty--five years old, no taller than I am, childish features and a touchy temper. I didn't like his looks---I never had---but he was a lad I was here to recruit, he was my boy. I gave him my best barkeep's smile.
